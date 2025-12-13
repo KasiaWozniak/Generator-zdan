@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Subject</title>
+    <style>
+        /* Add styles for layout */
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .form-section {
+            width: 100%;
+            text-align: center;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        button {
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        function showForm(type) {
+            document.getElementById('noun-phrase-number-choice').style.display = type === 'noun-phrase' ? 'block' : 'none';
+            document.getElementById('pronoun-number-choice').style.display = type === 'pronoun' ? 'block' : 'none';
+            document.getElementById('pronoun-form-singular').style.display = 'none';
+            document.getElementById('pronoun-form-plural').style.display = 'none';
+            document.getElementById('noun-phrase-form-singular').style.display = 'none';
+            document.getElementById('noun-phrase-form-plural').style.display = 'none';
+        }
+
+        function showPronounForm(number) {
+            if (number === 'singular') {
+                document.getElementById('pronoun-form-singular').style.display = 'block';
+                document.getElementById('pronoun-form-plural').style.display = 'none';
+            } else {
+                document.getElementById('pronoun-form-singular').style.display = 'none';
+                document.getElementById('pronoun-form-plural').style.display = 'block';
+            }
+        }
+
+        function showNounPhraseForm(number) {
+            if (number === 'singular') {
+                document.getElementById('noun-phrase-form-singular').style.display = 'block';
+                document.getElementById('noun-phrase-form-plural').style.display = 'none';
+            } else {
+                document.getElementById('noun-phrase-form-singular').style.display = 'none';
+                document.getElementById('noun-phrase-form-plural').style.display = 'block';
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>English sentence generator</h1>
+    <h2>Choose a subject</h2>
+
+    <div class="container">
+        <!-- Form selection buttons -->
+        <div class="form-section">
+            <button style="margin-top: 0px" onclick="showForm('pronoun')">Pronoun</button>
+            <button style="margin-top: 0px" onclick="showForm('noun-phrase')">Noun Phrase</button>
+
+            <!-- Pronoun Number Choice -->
+            <div id="pronoun-number-choice" style="display:none;">
+                <h2>Select Number</h2>
+                <button onclick="showPronounForm('singular')">Singular</button>
+                <button onclick="showPronounForm('plural')">Plural</button>
+            </div>
+
+            <!-- Pronoun Form Singular -->
+            <form id="pronoun-form-singular" action="#" method="POST" style="display:none;">
+                <input type="hidden" name="noun_phrase" value="false">
+                <input type="hidden" name="number" value="singular">
+                <h2>Singular Options</h2>
+                <select name="pronoun_or_article">
+                    <option value="I">I</option>
+                    <option value="you">You</option>
+                    <option value="he">He</option>
+                    <option value="she">She</option>
+                    <option value="it">It</option>
+                    <option value="this">This</option>
+                    <option value="that">That</option>
+                </select>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+
+            <!-- Pronoun Form Plural -->
+            <form id="pronoun-form-plural" action="#" method="POST" style="display:none;">
+                <input type="hidden" name="noun_phrase" value="false">
+                <input type="hidden" name="number" value="plural">
+                <h2>Plural Options</h2>
+                <select name="pronoun_or_article">
+                    <option value="we">We</option>
+                    <option value="you">You</option>
+                    <option value="they">They</option>
+                    <option value="these">These</option>
+                    <option value="those">Those</option>
+                </select>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+
+
+            <!-- Noun Phrase Number Choice -->
+            <div id="noun-phrase-number-choice" style="display:none;">
+                <h2>Select Number</h2>
+                <button onclick="showNounPhraseForm('singular')">Singular</button>
+                <button onclick="showNounPhraseForm('plural')">Plural</button>
+            </div>
+
+            <!-- Noun Phrase Form Singular -->
+            <form id="noun-phrase-form-singular" action="#" method="POST" style="display:none;">
+                <input type="hidden" name="noun_phrase" value="true">
+                <input type="hidden" name="number" value="singular">
+                <h2>Singular Options</h2>
+                <select name="pronoun_or_article">
+                    <option value="my">My</option>
+                    <option value="your">Your</option>
+                    <option value="his">His</option>
+                    <option value="her">Her</option>
+                    <option value="its">Its</option>
+                    <option value="our">Our</option>
+                    <option value="their">Their</option>
+                    <option value="this">This</option>
+                    <option value="that">That</option>
+                    <option value="indefinite_article">Indefinite Article</option>
+                    <option value="the">Definite Article</option>
+                </select>
+
+                <h3>With Adjective?</h3>
+                <label for="with-adjective">Yes</label>
+                <input type="radio" name="adjective" id="with-adjective" value="true" onclick="handleNounPhraseAdjective()">
+                <label for="without-adjective">No</label>
+                <input type="radio" name="adjective" id="without-adjective" value="false" onclick="handleNounPhraseAdjective()">
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+
+            <!-- Noun Phrase Form Plural -->
+            <form id="noun-phrase-form-plural" action="#" method="POST" style="display:none;">
+                <input type="hidden" name="noun_phrase" value="true">
+                <input type="hidden" name="number" value="plural">
+                <h2>Plural Options</h2>
+                <select name="pronoun_or_article">
+                    <option value="my">My</option>
+                    <option value="your">Your</option>
+                    <option value="his">His</option>
+                    <option value="her">Her</option>
+                    <option value="its">Its</option>
+                    <option value="our">Our</option>
+                    <option value="their">Their</option>
+                    <option value="these">These</option>
+                    <option value="those">Those</option>
+                    <option value="the">Definite Article</option>
+                    <option value="">Without Any Pronoun or Article</option>
+                </select>
+
+                <h3>With Adjective?</h3>
+                <label for="with-adjective">Yes</label>
+                <input type="radio" name="adjective" id="with-adjective" value="true" onclick="handleNounPhraseAdjective()">
+                <label for="without-adjective">No</label>
+                <input type="radio" name="adjective" id="without-adjective" value="false" onclick="handleNounPhraseAdjective()">
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+
+    </div>
+</body>
+</html>

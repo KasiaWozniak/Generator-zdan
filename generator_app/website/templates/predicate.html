@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Predicate</title>
+    <style>
+        /* Add styles for layout */
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        h2 {
+            text-align: center;
+        }
+        .options-section {
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Choose a predicate</h2>
+    <div class="container">
+        <div class="options-section">
+            <form id="tense-form" action="#" method="POST">
+                    <h3>Choose the tense</h3>
+                    <select name="tense">
+                        <option value="present_simple">Present Simple</option>
+                        <option value="present_continuous">Present Continuous</option>
+                        <option value="present_perfect">Present Perfect</option>
+                        <option value="present_perfect_continuous">Present Perfect Continuous</option>
+                        <option value="past_simple">Past Simple</option>
+                        <option value="past_continuous">Past Continuous</option>
+                        <option value="past_perfect">Past Perfect</option>
+                        <option value="past_perfect_continuous">Past Perfect Continuous</option>
+                        <option value="future_simple">Future Simple</option>
+                        <option value="future_continuous">Future Continuous</option>
+                        <option value="future_perfect">Future Perfect</option>
+                        <option value="future_perfect_continuous">Future Perfect Continuous</option>
+                    </select>
+
+                    <h3>Choose the mood</h3>
+                    <select name="mood">
+                        <option value="positive">Positive</option>
+                        <option value="negative">Negative</option>
+                    </select>
+
+                    <h3>Is it question?</h3>
+                    <label for="is-question">Yes</label>
+                    <input type="radio" name="question" id="is-question" value="true">
+                    <label for="is-not-question">No</label>
+                    <input type="radio" name="question" id="is-not-question" value="false">
+
+                <br>
+                <button style="margin-top: 20px" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

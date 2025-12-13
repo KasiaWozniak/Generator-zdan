@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Generated sentence</title>
+    <style>
+        div {
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3>Your generated sentence:</h3>
+        {{sentence}}
+        <br>
+        <button style="margin-top: 20px;">
+            <a href="{{ url_for('views.index') }}" style="text-decoration: none; color: black">Generate another sentence</a>
+        </button>
+    </div>
+
+</body>
+</html>

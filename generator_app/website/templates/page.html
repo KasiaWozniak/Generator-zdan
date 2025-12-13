@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sentence generator</title>
+    <style>
+        /* Add styles for layout */
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .form-section {
+            width: 60%;
+        }
+        .options-section {
+            width: 30%;
+        }
+        .section {
+            width: 30%;
+            padding: 10px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+        h3 {
+            font-size: 18px;
+        }
+    </style>
+    <script>
+        function showForm(type) {
+            document.getElementById('noun-phrase-number-choice').style.display = type === 'noun-phrase' ? 'block' : 'none';
+            document.getElementById('pronoun-number-choice').style.display = type === 'pronoun' ? 'block' : 'none';
+            document.getElementById('pronoun-form-singular').style.display = 'none';
+            document.getElementById('pronoun-form-plural').style.display = 'none';
+            document.getElementById('noun-phrase-form-singular').style.display = 'none';
+            document.getElementById('noun-phrase-form-plural').style.display = 'none';
+        }
+
+        function showPronounForm(number) {
+            if (number === 'singular') {
+                document.getElementById('pronoun-form-singular').style.display = 'block';
+                document.getElementById('pronoun-form-plural').style.display = 'none';
+            } else {
+                document.getElementById('pronoun-form-singular').style.display = 'none';
+                document.getElementById('pronoun-form-plural').style.display = 'block';
+            }
+        }
+
+        function showNounPhraseForm(number) {
+            if (number === 'singular') {
+                document.getElementById('noun-phrase-form-singular').style.display = 'block';
+                document.getElementById('noun-phrase-form-plural').style.display = 'none';
+            } else {
+                document.getElementById('noun-phrase-form-singular').style.display = 'none';
+                document.getElementById('noun-phrase-form-plural').style.display = 'block';
+            }
+        }
+
+
+        // Show complement form based on type
+        function showComplementForm(type) {
+            document.getElementById('complement-noun-phrase-number-choice').style.display = type === 'noun-phrase' ? 'block' : 'none';
+            document.getElementById('complement-pronoun-number-choice').style.display = type === 'pronoun' ? 'block' : 'none';
+            document.getElementById('complement-pronoun-form-singular').style.display = 'none';
+            document.getElementById('complement-pronoun-form-plural').style.display = 'none';
+            document.getElementById('complement-noun-phrase-form-singular').style.display = 'none';
+            document.getElementById('complement-noun-phrase-form-plural').style.display = 'none';
+        }
+
+        // Show pronoun complement options based on number
+        function showComplementPronounForm(number) {
+            document.getElementById('complement-pronoun-form-singular').style.display = number === 'singular' ? 'block' : 'none';
+            document.getElementById('complement-pronoun-form-plural').style.display = number === 'plural' ? 'block' : 'none';
+        }
+
+        // Show noun phrase complement options based on number
+        function showComplementNounPhraseForm(number) {
+            document.getElementById('complement-noun-phrase-form-singular').style.display = number === 'singular' ? 'block' : 'none';
+            document.getElementById('complement-noun-phrase-form-plural').style.display = number === 'plural' ? 'block' : 'none';
+        }
+    </script>
+</head>
+<body>
+<h1 style="text-align: center;">English sentence generator</h1>
+    <form action="#" method="POST">
+        <div class="container">
+            <!-- Section for "Choose a subject" -->
+            <div class="section form-section">
+                <h2>Choose a subject</h2>
+                <button type="button" onclick="showForm('pronoun')">Pronoun</button>
+                <button type="button" onclick="showForm('noun-phrase')">Noun Phrase</button>
+
+                <!-- Pronoun Number Choice -->
+                <div id="pronoun-number-choice" style="display:none;">
+                    <h3>Select Number</h3>
+                    <button type="button" onclick="showPronounForm('singular')">Singular</button>
+                    <button type="button" onclick="showPronounForm('plural')">Plural</button>
+                </div>
+
+                <!-- Pronoun Form Singular -->
+                <div id="pronoun-form-singular" style="display:none;">
+                    <input type="hidden" name="noun_phrase" value="false">
+                    <input type="hidden" name="number" value="singular">
+                    <h3>Singular Options</h3>
+                    <select name="pronoun_or_article">
+                        <option value="I">I</option>
+                        <option value="you">You</option>
+                        <option value="he">He</option>
+                        <option value="she">She</option>
+                        <option value="it">It</option>
+                        <option value="this">This</option>
+                        <option value="that">That</option>
+                    </select>
+                </div>
+
+                <!-- Pronoun Form Plural -->
+                <div id="pronoun-form-plural" style="display:none;">
+                    <input type="hidden" name="noun_phrase" value="false">
+                    <input type="hidden" name="number" value="plural">
+                    <h3>Plural Options</h3>
+                    <select name="pronoun_or_article">
+                        <option value="we">We</option>
+                        <option value="you">You</option>
+                        <option value="they">They</option>
+                        <option value="these">These</option>
+                        <option value="those">Those</option>
+                    </select>
+                </div>
+
+                <!-- Noun Phrase Number Choice -->
+                <div id="noun-phrase-number-choice" style="display:none;">
+                    <h3>Select Number</h3>
+                    <button type="button" onclick="showNounPhraseForm('singular')">Singular</button>
+                    <button type="button" onclick="showNounPhraseForm('plural')">Plural</button>
+                </div>
+
+                <!-- Noun Phrase Form Singular -->
+                <div id="noun-phrase-form-singular" style="display:none;">
+                    <input type="hidden" name="noun_phrase" value="true">
+                    <input type="hidden" name="number" value="singular">
+                    <h3>Singular Options</h3>
+                    <select name="pronoun_or_article">
+                        <option value="my">My</option>
+                        <option value="your">Your</option>
+                        <option value="his">His</option>
+                        <option value="her">Her</option>
+                        <option value="its">Its</option>
+                        <option value="our">Our</option>
+                        <option value="their">Their</option>
+                        <option value="this">This</option>
+                        <option value="that">That</option>
+                        <option value="indefinite_article">Indefinite Article</option>
+                        <option value="the">Definite Article</option>
+                    </select>
+
+                    <h3>With Adjective?</h3>
+                    <label for="with-adjective">Yes</label>
+                    <input type="radio" name="adjective" id="with-adjective" value="true" onclick="handleNounPhraseAdjective()">
+                    <label for="without-adjective">No</label>
+                    <input type="radio" name="adjective" id="without-adjective" value="false" onclick="handleNounPhraseAdjective()">
+                </div>
+
+                <!-- Noun Phrase Form Plural -->
+                <div id="noun-phrase-form-plural" style="display:none;">
+                    <input type="hidden" name="noun_phrase" value="true">
+                    <input type="hidden" name="number" value="plural">
+                    <h3>Plural Options</h3>
+                    <select name="pronoun_or_article">
+                        <option value="my">My</option>
+                        <option value="your">Your</option>
+                        <option value="his">His</option>
+                        <option value="her">Her</option>
+                        <option value="its">Its</option>
+                        <option value="our">Our</option>
+                        <option value="their">Their</option>
+                        <option value="these">These</option>
+                        <option value="those">Those</option>
+                        <option value="the">Definite Article</option>
+                        <option value="">Without Any Pronoun or Article</option>
+                    </select>
+
+                    <h3>With Adjective?</h3>
+                    <label for="with-adjective">Yes</label>
+                    <input type="radio" name="adjective" id="with-adjective" value="true" onclick="handleNounPhraseAdjective()">
+                    <label for="without-adjective">No</label>
+                    <input type="radio" name="adjective" id="without-adjective" value="false" onclick="handleNounPhraseAdjective()">
+                </div>
+            </div>
+
+            <!-- Section for "Choose the grammar" -->
+            <div class="section options-section">
+                <h2>Choose the grammar</h2>
+                <h3>Choose the tense</h3>
+                <select name="tense">
+                    <option value="present_simple">Present Simple</option>
+                    <option value="present_continuous">Present Continuous</option>
+                    <option value="present_perfect">Present Perfect</option>
+                    <option value="present_perfect_continuous">Present Perfect Continuous</option>
+                    <option value="past_simple">Past Simple</option>
+                    <option value="past_continuous">Past Continuous</option>
+                    <option value="past_perfect">Past Perfect</option>
+                    <option value="past_perfect_continuous">Past Perfect Continuous</option>
+                    <option value="future_simple">Future Simple</option>
+                    <option value="future_continuous">Future Continuous</option>
+                    <option value="future_perfect">Future Perfect</option>
+                    <option value="future_perfect_continuous">Future Perfect Continuous</option>
+                </select>
+
+                <h3>Choose the mood</h3>
+                <select name="mood">
+                    <option value="positive">Positive</option>
+                    <option value="negative">Negative</option>
+                </select>
+            </div>
+
+            <!-- Section for "Choose a complement" -->
+            <div class="form-section">
+                <h2>Choose a complement</h2>
+                <button type="button" onclick="showComplementForm('pronoun')">Pronoun</button>
+                <button type="button" onclick="showComplementForm('noun-phrase')">Noun Phrase</button>
+
+                <!-- Pronoun Number Choice -->
+                <div id="complement-pronoun-number-choice" style="display:none;">
+                    <h3>Select Number</h3>
+                    <button type="button" onclick="showComplementPronounForm('singular')">Singular</button>
+                    <button type="button" onclick="showComplementPronounForm('plural')">Plural</button>
+                </div>
+
+                <!-- Pronoun Form Singular -->
+                <div id="complement-pronoun-form-singular" style="display:none;">
+                    <h3>Singular Pronoun Options</h3>
+                    <select name="complement_pronoun_or_article_singular">
+                        <option value="me">Me</option>
+                        <option value="you">You</option>
+                        <option value="him">Him</option>
+                        <option value="her">Her</option>
+                        <option value="it">It</option>
+                        <option value="this">This</option>
+                        <option value="that">That</option>
+                    </select>
+                </div>
+
+                <!-- Pronoun Form Plural -->
+                <div id="complement-pronoun-form-plural" style="display:none;">
+                    <h3>Plural Pronoun Options</h3>
+                    <select name="complement_pronoun_or_article_plural">
+                        <option value="us">Us</option>
+                        <option value="you">You</option>
+                        <option value="them">Them</option>
+                        <option value="these">These</option>
+                        <option value="those">Those</option>
+                    </select>
+                </div>
+
+                <!-- Noun Phrase Number Choice -->
+                <div id="complement-noun-phrase-number-choice" style="display:none;">
+                    <h3>Select Number</h3>
+                    <button type="button" onclick="showComplementNounPhraseForm('singular')">Singular</button>
+                    <button type="button" onclick="showComplementNounPhraseForm('plural')">Plural</button>
+                </div>
+
+                <!-- Noun Phrase Form Singular -->
+                <div id="complement-noun-phrase-form-singular" style="display:none;">
+                    <h3>Singular Noun Phrase Options</h3>
+                    <select name="complement_noun_phrase_singular">
+                        <option value="my">My</option>
+                        <option value="your">Your</option>
+                        <option value="his">His</option>
+                        <option value="her">Her</option>
+                        <option value="its">Its</option>
+                        <option value="our">Our</option>
+                        <option value="their">Their</option>
+                        <option value="this">This</option>
+                        <option value="that">That</option>
+                        <option value="indefinite_article">Indefinite Article</option>
+                        <option value="the">Definite Article</option>
+                    </select>
+                    <h3>With Adjective?</h3>
+                    <label for="complement-with-adjective-singular">Yes</label>
+                    <input type="radio" name="complement_adjective_singular" id="complement-with-adjective-singular" value="true">
+                    <label for="complement-without-adjective-singular">No</label>
+                    <input type="radio" name="complement_adjective_singular" id="complement-without-adjective-singular" value="false">
+                </div>
+
+                <!-- Noun Phrase Form Plural -->
+                <div id="complement-noun-phrase-form-plural" style="display:none;">
+                    <h3>Plural Noun Phrase Options</h3>
+                    <select name="complement_noun_phrase_plural">
+                        <option value="my">My</option>
+                        <option value="your">Your</option>
+                        <option value="his">His</option>
+                        <option value="her">Her</option>
+                        <option value="its">Its</option>
+                        <option value="our">Our</option>
+                        <option value="their">Their</option>
+                        <option value="these">These</option>
+                        <option value="those">Those</option>
+                        <option value="the">Definite Article</option>
+                        <option value="">Without Any Pronoun or Article</option>
+                    </select>
+                    <h3>With Adjective?</h3>
+                    <label for="complement-with-adjective-plural">Yes</label>
+                    <input type="radio" name="complement_adjective_plural" id="complement-with-adjective-plural" value="true">
+                    <label for="complement-without-adjective-plural">No</label>
+                    <input type="radio" name="complement_adjective_plural" id="complement-without-adjective-plural" value="false">
+                </div>
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div>
+            <button id="submit-button" type="submit" >Submit</button>
+        </div>
+    </form>
+</body>
+</html>
