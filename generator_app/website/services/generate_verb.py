@@ -1,6 +1,5 @@
 from generator_app.website.services.choose_random_word import random_verb, random_verb_2, random_verb_3
 
-
 def generate_verb(subject, tense, number, mood, question, pronoun, noun, complement):
     verb = random_verb()
 
