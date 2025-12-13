@@ -52,27 +52,28 @@
     </script>
 </head>
 <body>
-    <h1>English sentence generator</h1>
-    <h2>Choose a subject</h2>
+    <h1>Generator zdań w języku angielskim</h1>
+    <h2>Wybierz podmiot</h2>
 
     <div class="container">
         <!-- Form selection buttons -->
         <div class="form-section">
-            <button style="margin-top: 0px" onclick="showForm('pronoun')">Pronoun</button>
-            <button style="margin-top: 0px" onclick="showForm('noun-phrase')">Noun Phrase</button>
+            <h2>Wybierz formę podmiotu</h2>
+            <button style="margin-top: 0px" onclick="showForm('pronoun')">Zaimek</button>
+            <button style="margin-top: 0px" onclick="showForm('noun-phrase')">Fraza rzeczownikowa</button>
 
             <!-- Pronoun Number Choice -->
             <div id="pronoun-number-choice" style="display:none;">
-                <h2>Select Number</h2>
-                <button onclick="showPronounForm('singular')">Singular</button>
-                <button onclick="showPronounForm('plural')">Plural</button>
+                <h2>Wybierz liczbę podmiotu</h2>
+                <button onclick="showPronounForm('singular')">Liczba pojedyncza</button>
+                <button onclick="showPronounForm('plural')">Liczba mnoga</button>
             </div>
 
             <!-- Pronoun Form Singular -->
             <form id="pronoun-form-singular" action="#" method="POST" style="display:none;">
                 <input type="hidden" name="noun_phrase" value="false">
                 <input type="hidden" name="number" value="singular">
-                <h2>Singular Options</h2>
+                <h2>Opcje liczby pojedynczej</h2>
                 <select name="pronoun_or_article">
                     <option value="I">I</option>
                     <option value="you">You</option>
@@ -83,14 +84,14 @@
                     <option value="that">That</option>
                 </select>
                 <br>
-                <button type="submit">Submit</button>
+                <button type="submit">Zatwierdź</button>
             </form>
 
             <!-- Pronoun Form Plural -->
             <form id="pronoun-form-plural" action="#" method="POST" style="display:none;">
                 <input type="hidden" name="noun_phrase" value="false">
                 <input type="hidden" name="number" value="plural">
-                <h2>Plural Options</h2>
+                <h2>Opcje liczby mnogiej</h2>
                 <select name="pronoun_or_article">
                     <option value="we">We</option>
                     <option value="you">You</option>
@@ -99,22 +100,22 @@
                     <option value="those">Those</option>
                 </select>
                 <br>
-                <button type="submit">Submit</button>
+                <button type="submit">Zatwierdź</button>
             </form>
 
 
             <!-- Noun Phrase Number Choice -->
             <div id="noun-phrase-number-choice" style="display:none;">
-                <h2>Select Number</h2>
-                <button onclick="showNounPhraseForm('singular')">Singular</button>
-                <button onclick="showNounPhraseForm('plural')">Plural</button>
+                <h2>Wybierz liczbę podmiotu</h2>
+                <button onclick="showNounPhraseForm('singular')">Pojedyncza</button>
+                <button onclick="showNounPhraseForm('plural')">Mnoga</button>
             </div>
 
             <!-- Noun Phrase Form Singular -->
             <form id="noun-phrase-form-singular" action="#" method="POST" style="display:none;">
                 <input type="hidden" name="noun_phrase" value="true">
                 <input type="hidden" name="number" value="singular">
-                <h2>Singular Options</h2>
+                <h2>Opcje liczby pojedynczej</h2>
                 <select name="pronoun_or_article">
                     <option value="my">My</option>
                     <option value="your">Your</option>
@@ -129,20 +130,20 @@
                     <option value="the">Definite Article</option>
                 </select>
 
-                <h3>With Adjective?</h3>
+                <h3>Czy podmiot ma być z przymiotnikiem?</h3>
                 <label for="with-adjective">Yes</label>
                 <input type="radio" name="adjective" id="with-adjective" value="true" onclick="handleNounPhraseAdjective()">
                 <label for="without-adjective">No</label>
                 <input type="radio" name="adjective" id="without-adjective" value="false" onclick="handleNounPhraseAdjective()">
                 <br>
-                <button type="submit">Submit</button>
+                <button type="submit">Zatwierdź</button>
             </form>
 
             <!-- Noun Phrase Form Plural -->
             <form id="noun-phrase-form-plural" action="#" method="POST" style="display:none;">
                 <input type="hidden" name="noun_phrase" value="true">
                 <input type="hidden" name="number" value="plural">
-                <h2>Plural Options</h2>
+                <h2>Opcje liczby mnogiej</h2>
                 <select name="pronoun_or_article">
                     <option value="my">My</option>
                     <option value="your">Your</option>
@@ -157,13 +158,13 @@
                     <option value="">Without Any Pronoun or Article</option>
                 </select>
 
-                <h3>With Adjective?</h3>
+                <h3>Czy podmiot ma być z przymiotnikiem?</h3>
                 <label for="with-adjective">Yes</label>
                 <input type="radio" name="adjective" id="with-adjective" value="true" onclick="handleNounPhraseAdjective()">
                 <label for="without-adjective">No</label>
                 <input type="radio" name="adjective" id="without-adjective" value="false" onclick="handleNounPhraseAdjective()">
                 <br>
-                <button type="submit">Submit</button>
+                <button type="submit">Zatwierdź</button>
             </form>
         </div>
 
