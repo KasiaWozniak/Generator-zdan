@@ -1,27 +1,68 @@
+import json
+import os
 import random
+from typing import Dict, List, Any
+
+# Cache do przechowywania załadowanych baz wiedzy, aby nie czytać pliku przy każdym żądaniu
+_KB_CACHE: Dict[str, Dict[str, Dict[str, List[str]]]] = {}
 
 
-def random_word(type):
+def _kb_path_for_level(level: str) -> str:
+    # Zakładamy, że pliki są w folderze semantic poziom wyżej, zgodnie z Twoją strukturą
+    # Dostosuj ścieżkę "../semantic" jeśli struktura folderów jest inna
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    return os.path.join("..\semantic", f"{level}_knowledge_base.json")
+
+
+def load_knowledge(level: str) -> Dict[str, Any]:
+    """
+    Ładuje plik JSON dla danego poziomu.
+    Struktura: { subject: { verb: [objects...] } }
+    """
+    if level in _KB_CACHE:
+        return _KB_CACHE[level]
+
+    path = _kb_path_for_level(level)
+    if not os.path.exists(path):
+        # Fallback - próbujemy szukać lokalnie lub rzucamy błąd
+        if os.path.exists(f"{level}_knowledge_base.json"):
+            path = f"{level}_knowledge_base.json"
+        else:
+            raise FileNotFoundError(f"Brak pliku wiedzy dla poziomu: {level} ({path})")
+
     try:
-        with open(f'website/services/words/{type}.txt', 'r', encoding='utf-8') as plik:
-            noun = plik.readlines()
-        if noun:
-            losowa_linia = random.choice(noun).strip()
-            return f"{losowa_linia}"
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            _KB_CACHE[level] = data
+            return data
     except Exception as e:
-        return f"Wystąpił błąd: {e}"
+        raise ValueError(f"Błąd ładowania JSON: {e}")
 
 
-def random_noun():
-    return random_word("nouns")
+def get_all_subjects(level: str) -> List[str]:
+    """Zwraca listę wszystkich kluczy (podmiotów) dostępnych na danym poziomie."""
+    data = load_knowledge(level)
+    return list(data.keys())
 
 
-def random_verb():
-    return random_word("verbs")
+def verbs_for_subject(subject_key: str, level: str) -> List[str]:
+    """Zwraca listę czasowników dla danego klucza podmiotu."""
+    data = load_knowledge(level)
+    return list(data.get(subject_key, {}).keys())
 
 
-def random_adjective():
-    return random_word("adjectives")
+def random_verb(subject_key: str, level: str) -> str:
+    """Losuje czasownik pasujący do podmiotu."""
+    verbs = verbs_for_subject(subject_key, level)
+    if not verbs:
+        raise ValueError(f"Brak czasowników dla podmiotu '{subject_key}' na poziomie {level}")
+    return random.choice(verbs)
+
+
+def objects_for_subject_verb(subject_key: str, verb: str, level: str) -> List[str]:
+    """Zwraca listę dopełnień dla pary podmiot-czasownik."""
+    data = load_knowledge(level)
+    return data.get(subject_key, {}).get(verb, [])
 
 
 def form_of_verb(form: int, verb: str) -> str:
@@ -34,7 +75,7 @@ def form_of_verb(form: int, verb: str) -> str:
     v = verb.lower()
 
     irregular = {
-        "be": ("was", "been"), # TODO: jeśli "was" pojawi się po "we", "you", "they" lub rzeczowniku w liczbie mnogiej to zmienić na "were"
+        "be": ("was", "been"),
         "become": ("became", "become"),
         "begin": ("began", "begun"),
         "break": ("broke", "broken"),
@@ -174,7 +215,7 @@ def form_of_verb(form: int, verb: str) -> str:
         "gird": ("girt", "girt"),
         "mistake": ("mistook", "mistaken"),
         "overhear": ("overheard", "overheard"),
-        "sow": ("sowed", "sown, sowed"),
+        "sow": ("sowed", "sown"),
         "upset": ("upset", "upset"),
         "backslide": ("backslid", "backslidden"),
         "behold": ("beheld", "beheld"),
@@ -215,25 +256,21 @@ def form_of_verb(form: int, verb: str) -> str:
         return past_simple if form == 2 else past_participle
 
     vowels = set("aeiou")
+
     # zakończenie na 'e'
     if v.endswith("e"):
         return v + "d"
+
     # zakończenie na 'y' po spółgłosce -> 'ied'
     if v.endswith("y") and len(v) > 1 and v[-2] not in vowels:
         return v[:-1] + "ied"
+
     # podwajanie spółgłoski dla krótkich czasowników
     if (len(v) >= 3 and
-        v[-1] not in vowels and v[-1] not in ("w", "x", "y") and
-        v[-2] in vowels and
-        v[-3] not in vowels):
+            v[-1] not in vowels and v[-1] not in ("w", "x", "y") and
+            v[-2] in vowels and
+            v[-3] not in vowels):
         return v + v[-1] + "ed"
+
     # domyślny przypadek
     return v + "ed"
-
-
-def random_verb_2():
-    return form_of_verb(2, random_word("verbs"))
-
-
-def random_verb_3():
-    return form_of_verb(3, random_word("verbs"))

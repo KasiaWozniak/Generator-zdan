@@ -40,7 +40,7 @@ def get_generalized_text(tokens):
             root_token = t
             break
     # Jeśli nie znaleziono nazwy własnej, zwracamy połączone lematy (np. "the", "snail")
-    return root_token.text
+    return root_token.lemma_
 
 
 def extract_svo_relations(files):

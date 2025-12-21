@@ -1,63 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Predicate</title>
+    <title>Wybór Orzeczenia</title>
     <style>
-        /* Add styles for layout */
-        .container {
-            display: flex;
-            justify-content: space-between;
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; margin-top: 20px; padding-bottom: 50px; }
+        .home-icon { position: absolute; left: 15px; top: 15px; font-size: 30px; text-decoration: none; }
+
+        .section-container {
+            margin: 20px auto;
+            max-width: 900px;
+            padding: 10px;
+            display: none; /* Domyślnie ukryte */
+            opacity: 0;
+            transition: opacity 0.5s ease-in;
         }
-        h2 {
-            text-align: center;
+
+        .section-container.visible {
+            display: block;
+            opacity: 1;
         }
-        .options-section {
-            width: 100%;
-            text-align: center;
+
+        .btn {
+            background-color: #f8f9fa;
+            border: 2px solid #333;
+            color: #333;
+            padding: 10px;
+            font-size: 15px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 6px;
+            transition: all 0.2s;
+        }
+
+        .btn:hover { background-color: #e2e6ea; }
+
+        .btn.selected {
+            background-color: #333;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Specjalny grid dla czasów */
+        .grid-tenses {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 kolumny */
+            gap: 10px;
         }
     </style>
+    <script>
+        function selectTense(tenseValue, btn) {
+            // Ustaw wartość
+            document.getElementById('tense_input').value = tenseValue;
+
+            // Stylizacja
+            const buttons = document.getElementById('grid-tenses').getElementsByClassName('btn');
+            for (let b of buttons) b.classList.remove('selected');
+            btn.classList.add('selected');
+
+            // Pokaż kolejną sekcję
+            const nextSection = document.getElementById('step-2-mood');
+            nextSection.classList.add('visible');
+            nextSection.scrollIntoView({behavior: "smooth", block: "start"});
+        }
+
+        function submitSentenceType(type) {
+            const moodInput = document.getElementById('mood_input');
+            const questionInput = document.getElementById('question_input');
+            const form = document.getElementById('predicate-form');
+
+            if (type === 'affirmative') {
+                moodInput.value = 'positive';
+                questionInput.value = 'false';
+            } else if (type === 'negative') {
+                moodInput.value = 'negative';
+                questionInput.value = 'false';
+            } else if (type === 'interrogative') {
+                moodInput.value = 'positive';
+                questionInput.value = 'true';
+            }
+
+            form.submit();
+        }
+    </script>
 </head>
 <body>
-    <a href="{{ url_for('views.restart') }}" class="home" title="Strona główna" style="position:absolute; left:10px; top:10px; font-size:20px; text-decoration:none;">
-        🏠
-    </a>
-    <h2>Wybierz orzeczenie</h2>
-    <div class="container">
-        <div class="options-section">
-            <form id="tense-form" action="#" method="POST">
-                    <h3>Wybierz czas</h3>
-                    <select name="tense">
-                        <option value="present_simple">Present Simple</option>
-                        <option value="present_continuous">Present Continuous</option>
-                        <option value="present_perfect">Present Perfect</option>
-                        <option value="present_perfect_continuous">Present Perfect Continuous</option>
-                        <option value="past_simple">Past Simple</option>
-                        <option value="past_continuous">Past Continuous</option>
-                        <option value="past_perfect">Past Perfect</option>
-                        <option value="past_perfect_continuous">Past Perfect Continuous</option>
-                        <option value="future_simple">Future Simple</option>
-                        <option value="future_continuous">Future Continuous</option>
-                        <option value="future_perfect">Future Perfect</option>
-                        <option value="future_perfect_continuous">Future Perfect Continuous</option>
-                    </select>
+    <a href="{{ url_for('views.restart') }}" class="home-icon" title="Restart">🏠</a>
 
-                    <h3>Wybierz tryb</h3>
-                    <select name="mood">
-                        <option value="positive">Pozytywny</option>
-                        <option value="negative">Negatywny</option>
-                    </select>
+    <h1>Orzeczenie</h1>
 
-                    <h3>Czy jest to pytanie</h3>
-                    <label for="is-question">Tak</label>
-                    <input type="radio" name="question" id="is-question" value="true">
-                    <label for="is-not-question">Nie</label>
-                    <input type="radio" name="question" id="is-not-question" value="false">
+    <form id="predicate-form" action="{{ url_for('views.predicate', arguments=request.view_args['arguments']) }}" method="POST">
+        <input type="hidden" id="tense_input" name="tense" value="">
+        <input type="hidden" id="mood_input" name="mood" value="">
+        <input type="hidden" id="question_input" name="question" value="">
 
-                <br>
-                <button style="margin-top: 20px" type="submit">Zatwierdź</button>
-            </form>
+        <div class="section-container visible">
+            <h2>1. Wybierz czas</h2>
+            <div id="grid-tenses" class="grid-tenses">
+                <button type="button" class="btn" onclick="selectTense('present_simple', this)">Present Simple</button>
+                <button type="button" class="btn" onclick="selectTense('present_continuous', this)">Present Continuous</button>
+                <button type="button" class="btn" onclick="selectTense('present_perfect', this)">Present Perfect</button>
+
+                <button type="button" class="btn" onclick="selectTense('past_simple', this)">Past Simple</button>
+                <button type="button" class="btn" onclick="selectTense('past_continuous', this)">Past Continuous</button>
+                <button type="button" class="btn" onclick="selectTense('past_perfect', this)">Past Perfect</button>
+
+                <button type="button" class="btn" onclick="selectTense('future_simple', this)">Future Simple</button>
+                <button type="button" class="btn" onclick="selectTense('future_continuous', this)">Future Continuous</button>
+                <button type="button" class="btn" onclick="selectTense('future_perfect', this)">Future Perfect</button>
+            </div>
+            <div style="margin-top: 10px;">
+                <button type="button" class="btn" onclick="selectTense('present_perfect_continuous', this)">Pres. Perf. Cont.</button>
+                <button type="button" class="btn" onclick="selectTense('past_perfect_continuous', this)">Past Perf. Cont.</button>
+                <button type="button" class="btn" onclick="selectTense('future_perfect_continuous', this)">Fut. Perf. Cont.</button>
+            </div>
         </div>
-    </div>
+
+        <div id="step-2-mood" class="section-container">
+            <h2>2. Wybierz rodzaj zdania (Zatwierdź)</h2>
+            <button type="button" class="btn" style="width: 200px;" onclick="submitSentenceType('affirmative')">Twierdzące (+)</button>
+            <button type="button" class="btn" style="width: 200px;" onclick="submitSentenceType('negative')">Przeczące (-)</button>
+            <button type="button" class="btn" style="width: 200px;" onclick="submitSentenceType('interrogative')">Pytające (?)</button>
+        </div>
+
+    </form>
 </body>
 </html>

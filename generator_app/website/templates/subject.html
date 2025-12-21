@@ -1,177 +1,184 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Subject</title>
+    <title>Wybór Podmiotu</title>
     <style>
-        /* Add styles for layout */
-        .container {
-            display: flex;
-            justify-content: space-between;
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; margin-top: 20px; padding-bottom: 50px; }
+        .home-icon { position: absolute; left: 15px; top: 15px; font-size: 30px; text-decoration: none; }
+
+        /* Kontenery sekcji */
+        .section-container {
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 10px;
+            /* Domyślnie ukryte, chyba że mają klasę visible */
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease-in;
         }
-        .form-section {
-            width: 100%;
-            text-align: center;
+
+        .section-container.visible {
+            display: block;
+            opacity: 1;
         }
-        h1, h2 {
-            text-align: center;
+
+        /* Styl przycisków */
+        .btn {
+            background-color: #f8f9fa;
+            border: 2px solid #333;
+            color: #333;
+            padding: 15px 30px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 8px;
+            min-width: 200px;
+            transition: all 0.3s;
         }
-        button {
-            margin-top: 20px;
+
+        .btn:hover { background-color: #e2e6ea; transform: translateY(-2px); }
+
+        /* Styl wybranego przycisku (aktywnego) */
+        .btn.selected {
+            background-color: #333;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
+
+        h2 { border-bottom: 1px solid #ccc; padding-bottom: 10px; margin-bottom: 20px; color: #555; }
     </style>
     <script>
-        function showForm(type) {
-            document.getElementById('noun-phrase-number-choice').style.display = type === 'noun-phrase' ? 'block' : 'none';
-            document.getElementById('pronoun-number-choice').style.display = type === 'pronoun' ? 'block' : 'none';
-            document.getElementById('pronoun-form-singular').style.display = 'none';
-            document.getElementById('pronoun-form-plural').style.display = 'none';
-            document.getElementById('noun-phrase-form-singular').style.display = 'none';
-            document.getElementById('noun-phrase-form-plural').style.display = 'none';
-        }
+        // Funkcja obsługująca Krok 1 (Forma)
+        function handleStep1(type, btn) {
+            // 1. Zapisz wartość
+            document.getElementById('noun_phrase_input').value = type === 'noun_phrase' ? 'true' : 'false';
 
-        function showPronounForm(number) {
-            if (number === 'singular') {
-                document.getElementById('pronoun-form-singular').style.display = 'block';
-                document.getElementById('pronoun-form-plural').style.display = 'none';
+            // 2. Obsługa wizualna przycisków (podświetlenie)
+            resetButtons('step-1-btns');
+            btn.classList.add('selected');
+
+            // 3. Ukryj wszystkie sekcje pod spodem (reset widoku)
+            hideAllNextSteps();
+
+            // 4. Pokaż odpowiedni Krok 2
+            if (type === 'pronoun') {
+                document.getElementById('step-2-pronoun').classList.add('visible');
             } else {
-                document.getElementById('pronoun-form-singular').style.display = 'none';
-                document.getElementById('pronoun-form-plural').style.display = 'block';
+                document.getElementById('step-2-noun').classList.add('visible');
             }
         }
 
-        function showNounPhraseForm(number) {
-            if (number === 'singular') {
-                document.getElementById('noun-phrase-form-singular').style.display = 'block';
-                document.getElementById('noun-phrase-form-plural').style.display = 'none';
-            } else {
-                document.getElementById('noun-phrase-form-singular').style.display = 'none';
-                document.getElementById('noun-phrase-form-plural').style.display = 'block';
+        // Funkcja obsługująca Krok 2 (Liczba)
+        function handleStep2(number, btn, context) {
+            // 1. Zapisz wartość
+            document.getElementById('number_input').value = number;
+
+            // 2. Obsługa wizualna przycisków
+            // context to ID kontenera przycisków (np. 'btns-pronoun-number')
+            resetButtons(context);
+            btn.classList.add('selected');
+
+            // 3. Ukryj wszystkie sekcje Kroku 3
+            document.getElementById('step-3-pronoun-sg').classList.remove('visible');
+            document.getElementById('step-3-pronoun-pl').classList.remove('visible');
+            document.getElementById('step-3-noun-sg').classList.remove('visible');
+            document.getElementById('step-3-noun-pl').classList.remove('visible');
+
+            // 4. Pokaż odpowiedni Krok 3 na podstawie poprzednich wyborów
+            const isNounPhrase = document.getElementById('noun_phrase_input').value === 'true';
+
+            let targetId = '';
+            if (!isNounPhrase && number === 'singular') targetId = 'step-3-pronoun-sg';
+            if (!isNounPhrase && number === 'plural') targetId = 'step-3-pronoun-pl';
+            if (isNounPhrase && number === 'singular') targetId = 'step-3-noun-sg';
+            if (isNounPhrase && number === 'plural') targetId = 'step-3-noun-pl';
+
+            if (targetId) {
+                document.getElementById(targetId).classList.add('visible');
+                // Opcjonalnie: Scroll do nowej sekcji
+                document.getElementById(targetId).scrollIntoView({behavior: "smooth", block: "start"});
             }
+        }
+
+        // Helpery
+        function resetButtons(containerId) {
+            const container = document.getElementById(containerId);
+            const buttons = container.getElementsByClassName('btn');
+            for (let b of buttons) {
+                b.classList.remove('selected');
+            }
+        }
+
+        function hideAllNextSteps() {
+            // Ukryj wszystko od kroku 2 w dół
+            const sections = document.querySelectorAll('.sub-step');
+            sections.forEach(s => s.classList.remove('visible'));
         }
     </script>
 </head>
 <body>
-    <a href="{{ url_for('views.restart') }}" class="home" title="Strona główna" style="position:absolute; left:10px; top:10px; font-size:20px; text-decoration:none;">
-        🏠
-    </a>
-    <h1>Generator zdań w języku angielskim</h1>
-    <h2>Wybierz podmiot</h2>
+    <a href="{{ url_for('views.restart') }}" class="home-icon" title="Restart">🏠</a>
 
-    <div class="container">
-        <!-- Form selection buttons -->
-        <div class="form-section">
-            <h2>Wybierz formę podmiotu</h2>
-            <button style="margin-top: 0px" onclick="showForm('pronoun')">Zaimek</button>
-            <button style="margin-top: 0px" onclick="showForm('noun-phrase')">Fraza rzeczownikowa</button>
+    <h1>Wybór Podmiotu</h1>
 
-            <!-- Pronoun Number Choice -->
-            <div id="pronoun-number-choice" style="display:none;">
-                <h2>Wybierz liczbę podmiotu</h2>
-                <button onclick="showPronounForm('singular')">Liczba pojedyncza</button>
-                <button onclick="showPronounForm('plural')">Liczba mnoga</button>
+    <form action="{{ url_for('views.subject') }}" method="POST">
+        <input type="hidden" id="noun_phrase_input" name="noun_phrase" value="">
+        <input type="hidden" id="number_input" name="number" value="">
+
+        <div class="section-container visible">
+            <h2>1. Wybierz formę podmiotu</h2>
+            <div id="step-1-btns">
+                <button type="button" class="btn" onclick="handleStep1('pronoun', this)">Zaimek</button>
+                <button type="button" class="btn" onclick="handleStep1('noun_phrase', this)">Fraza Rzeczownikowa</button>
             </div>
-
-            <!-- Pronoun Form Singular -->
-            <form id="pronoun-form-singular" action="#" method="POST" style="display:none;">
-                <input type="hidden" name="noun_phrase" value="false">
-                <input type="hidden" name="number" value="singular">
-                <h2>Opcje liczby pojedynczej</h2>
-                <select name="pronoun_or_article">
-                    <option value="I">I</option>
-                    <option value="you">You</option>
-                    <option value="he">He</option>
-                    <option value="she">She</option>
-                    <option value="it">It</option>
-                    <option value="this">This</option>
-                    <option value="that">That</option>
-                </select>
-                <br>
-                <button type="submit">Zatwierdź</button>
-            </form>
-
-            <!-- Pronoun Form Plural -->
-            <form id="pronoun-form-plural" action="#" method="POST" style="display:none;">
-                <input type="hidden" name="noun_phrase" value="false">
-                <input type="hidden" name="number" value="plural">
-                <h2>Opcje liczby mnogiej</h2>
-                <select name="pronoun_or_article">
-                    <option value="we">We</option>
-                    <option value="you">You</option>
-                    <option value="they">They</option>
-                    <option value="these">These</option>
-                    <option value="those">Those</option>
-                </select>
-                <br>
-                <button type="submit">Zatwierdź</button>
-            </form>
-
-
-            <!-- Noun Phrase Number Choice -->
-            <div id="noun-phrase-number-choice" style="display:none;">
-                <h2>Wybierz liczbę podmiotu</h2>
-                <button onclick="showNounPhraseForm('singular')">Pojedyncza</button>
-                <button onclick="showNounPhraseForm('plural')">Mnoga</button>
-            </div>
-
-            <!-- Noun Phrase Form Singular -->
-            <form id="noun-phrase-form-singular" action="#" method="POST" style="display:none;">
-                <input type="hidden" name="noun_phrase" value="true">
-                <input type="hidden" name="number" value="singular">
-                <h2>Opcje liczby pojedynczej</h2>
-                <select name="pronoun_or_article">
-                    <option value="my">My</option>
-                    <option value="your">Your</option>
-                    <option value="his">His</option>
-                    <option value="her">Her</option>
-                    <option value="its">Its</option>
-                    <option value="our">Our</option>
-                    <option value="their">Their</option>
-                    <option value="this">This</option>
-                    <option value="that">That</option>
-                    <option value="indefinite_article">Indefinite Article</option>
-                    <option value="the">Definite Article</option>
-                </select>
-
-                <h3>Czy podmiot ma być z przymiotnikiem?</h3>
-                <label for="with-adjective">Yes</label>
-                <input type="radio" name="adjective" id="with-adjective" value="true" onclick="handleNounPhraseAdjective()">
-                <label for="without-adjective">No</label>
-                <input type="radio" name="adjective" id="without-adjective" value="false" onclick="handleNounPhraseAdjective()">
-                <br>
-                <button type="submit">Zatwierdź</button>
-            </form>
-
-            <!-- Noun Phrase Form Plural -->
-            <form id="noun-phrase-form-plural" action="#" method="POST" style="display:none;">
-                <input type="hidden" name="noun_phrase" value="true">
-                <input type="hidden" name="number" value="plural">
-                <h2>Opcje liczby mnogiej</h2>
-                <select name="pronoun_or_article">
-                    <option value="my">My</option>
-                    <option value="your">Your</option>
-                    <option value="his">His</option>
-                    <option value="her">Her</option>
-                    <option value="its">Its</option>
-                    <option value="our">Our</option>
-                    <option value="their">Their</option>
-                    <option value="these">These</option>
-                    <option value="those">Those</option>
-                    <option value="the">Definite Article</option>
-                    <option value="">Without Any Pronoun or Article</option>
-                </select>
-
-                <h3>Czy podmiot ma być z przymiotnikiem?</h3>
-                <label for="with-adjective">Yes</label>
-                <input type="radio" name="adjective" id="with-adjective" value="true" onclick="handleNounPhraseAdjective()">
-                <label for="without-adjective">No</label>
-                <input type="radio" name="adjective" id="without-adjective" value="false" onclick="handleNounPhraseAdjective()">
-                <br>
-                <button type="submit">Zatwierdź</button>
-            </form>
         </div>
 
+        <div id="step-2-pronoun" class="section-container sub-step">
+            <h2>2. Wybierz liczbę (Zaimek)</h2>
+            <div id="btns-pronoun-number">
+                <button type="button" class="btn" onclick="handleStep2('singular', this, 'btns-pronoun-number')">Liczba Pojedyncza</button>
+                <button type="button" class="btn" onclick="handleStep2('plural', this, 'btns-pronoun-number')">Liczba Mnoga</button>
+            </div>
+        </div>
 
-    </div>
+        <div id="step-2-noun" class="section-container sub-step">
+            <h2>2. Wybierz liczbę (Fraza)</h2>
+            <div id="btns-noun-number">
+                <button type="button" class="btn" onclick="handleStep2('singular', this, 'btns-noun-number')">Liczba Pojedyncza</button>
+                <button type="button" class="btn" onclick="handleStep2('plural', this, 'btns-noun-number')">Liczba Mnoga</button>
+            </div>
+        </div>
+
+        <div id="step-3-pronoun-sg" class="section-container sub-step">
+            <h2>3. Zatwierdź rodzaj zaimka</h2>
+            <button type="submit" class="btn" name="pronoun_or_article" value="personal">Osobowy (I, you...)</button>
+            <button type="submit" class="btn" name="pronoun_or_article" value="demonstrative">Wskazujący (this...)</button>
+            <button type="submit" class="btn" name="pronoun_or_article" value="possessive">Dzierżawczy (mine...)</button>
+            <button type="submit" class="btn" name="pronoun_or_article" value="indefinite">Nieokreślony (someone...)</button>
+        </div>
+
+        <div id="step-3-pronoun-pl" class="section-container sub-step">
+            <h2>3. Zatwierdź rodzaj zaimka</h2>
+            <button type="submit" class="btn" name="pronoun_or_article" value="personal">Osobowy (we, they...)</button>
+            <button type="submit" class="btn" name="pronoun_or_article" value="demonstrative">Wskazujący (these...)</button>
+            <button type="submit" class="btn" name="pronoun_or_article" value="possessive">Dzierżawczy (ours...)</button>
+        </div>
+
+        <div id="step-3-noun-sg" class="section-container sub-step">
+            <h2>3. Zatwierdź określenie</h2>
+            <button type="submit" class="btn" name="pronoun_or_article" value="possessive_det">Z okr. dzierżawczym (my...)</button>
+            <button type="submit" class="btn" name="pronoun_or_article" value="demonstrative_det">Z okr. wskazującym (this...)</button>
+            <button type="submit" class="btn" name="pronoun_or_article" value="article">Z rodzajnikiem (the...)</button>
+        </div>
+
+        <div id="step-3-noun-pl" class="section-container sub-step">
+            <h2>3. Zatwierdź określenie</h2>
+            <button type="submit" class="btn" name="pronoun_or_article" value="possessive_det">Z okr. dzierżawczym (my...)</button>
+            <button type="submit" class="btn" name="pronoun_or_article" value="demonstrative_det">Z okr. wskazującym (these...)</button>
+            <button type="submit" class="btn" name="pronoun_or_article" value="article">Z rodzajnikiem (the...)</button>
+        </div>
+
+    </form>
 </body>
 </html>

@@ -1,4885 +1,4645 @@
 {
-    "group": {
-        "have": [
-            "money"
-        ],
-        "happen": [
-            "be"
-        ]
-    },
-    "city": {
-        "want": [
-            "change",
-            "workers",
-            "reactors"
-        ],
-        "use": [
-            "city"
-        ],
-        "make": [
-            "change",
-            "announcement"
-        ],
-        "have": [
-            "worries",
-            "cousin",
-            "war"
-        ],
-        "need": [
-            "people",
-            "help",
-            "ideas"
-        ],
-        "get": [
-            "things",
-            "piece"
-        ],
-        "borrow": [
-            "lot"
-        ],
-        "pause": [
-            "observe"
-        ],
-        "say": [
-            "few"
-        ],
-        "hear": [
-            "song",
-            "noise"
-        ],
-        "fetch": [
-            "hammer"
-        ],
-        "nail": [
-            "board"
-        ],
-        "dump": [
-            "slops"
-        ],
-        "scrape": [
-            "pail"
-        ],
-        "catch": [
-            "him"
-        ],
-        "force": [
-            "medicine"
-        ],
-        "spy": [
-            "it"
-        ],
-        "like": [
-            "do",
-            "it"
-        ],
-        "seize": [
-            "string"
-        ],
-        "pass": [
-            "it"
-        ],
-        "tie": [
-            "hitches"
-        ],
-        "sit": [
-            "pipe"
-        ],
-        "light": [
-            "pipe"
-        ],
-        "drop": [
-            "fly"
-        ],
-        "roll": [
-            "fly"
-        ],
-        "carry": [
-            "it"
-        ],
-        "decide": [
-            "use"
-        ],
-        "know": [
-            "dump"
-        ],
-        "examine": [
-            "label"
-        ],
-        "put": [
-            "straw"
-        ],
-        "lift": [
-            "it"
-        ],
-        "slop": [
-            "him",
-            "me"
-        ],
-        "scramble": [
-            "post"
-        ],
-        "climb": [
-            "post"
-        ],
-        "set": [
-            "crate"
-        ],
-        "poke": [
-            "head"
-        ],
-        "scream": [
-            "person"
-        ],
-        "do": [
-            "that"
-        ],
-        "run": [
-            "piece"
-        ],
-        "lend": [
-            "piece"
-        ],
-        "work": [
-            "person"
-        ],
-        "manage": [
-            "person"
-        ],
-        "bring": [
-            "squashes"
-        ],
-        "pile": [
-            "them"
-        ],
-        "move": [
-            "indoors"
-        ]
-    },
-    "course": {
-        "use": [
-            "company"
-        ]
-    },
-    "student": {
-        "tell": [
-            "teacher"
-        ]
-    },
-    "company": {
-        "make": [
-            "deal",
-            "robot",
-            "slides"
-        ],
-        "have": [
-            "balloon",
-            "meanings",
-            "habit",
-            "cupboard",
-            "dislike",
-            "mind",
-            "event"
-        ],
-        "cost": [
-            "euros"
-        ],
-        "sell": [
-            "printers"
-        ],
-        "pick": [
-            "man",
-            "handful"
-        ],
-        "score": [
-            "goals"
-        ],
-        "leave": [
-            "wife"
-        ],
-        "pay": [
-            "money"
-        ],
-        "use": [
-            "chips"
-        ],
-        "try": [
-            "be"
-        ],
-        "set": [
-            "all"
-        ],
-        "say": [
-            "fifty",
-            "go",
-            "horse",
-            "has",
-            "talk",
-            "goodnight",
-            "aunt",
-            "little",
-            "nothing",
-            "moving"
-        ],
-        "read": [
-            "books",
-            "sentence"
-        ],
-        "ask": [
-            "him",
-            "gulping"
-        ],
-        "proceed": [
-            "squeeze"
-        ],
-        "round": [
-            "rim"
-        ],
-        "happen": [
-            "curled"
-        ],
-        "jump": [
-            "tailgate",
-            "men",
-            "telly"
-        ],
-        "switch": [
-            "telly"
-        ],
-        "manage": [
-            "get"
-        ],
-        "unscrew": [
-            "cap"
-        ],
-        "tip": [
-            "quarters"
-        ],
-        "keep": [
-            "her"
-        ],
-        "put": [
-            "leg",
-            "bomb",
-            "frog",
-            "hand",
-            "elbows",
-            "jeans"
-        ],
-        "stand": [
-            "say"
-        ],
-        "begin": [
-            "say",
-            "reciting",
-            "person",
-            "march"
-        ],
-        "go": [
-            "herself",
-            "person"
-        ],
-        "like": [
-            "city",
-            "her"
-        ],
-        "start": [
-            "scratching",
-            "go",
-            "eat",
-            "eating",
-            "person"
-        ],
-        "grab": [
-            "hold",
-            "gun",
-            "platter",
-            "jar",
-            "me"
-        ],
-        "rush": [
-            "me"
-        ],
-        "throw": [
-            "me",
-            "hammer",
-            "it"
-        ],
-        "lock": [
-            "door"
-        ],
-        "catch": [
-            "boy"
-        ],
-        "fling": [
-            "him"
-        ],
-        "yell": [
-            "hold",
-            "crowd"
-        ],
-        "lift": [
-            "girl"
-        ],
-        "pivot": [
-            "round"
-        ],
-        "spin": [
-            "round"
-        ],
-        "pause": [
-            "wipe"
-        ],
-        "see": [
-            "signs",
-            "path",
-            "it"
-        ],
-        "lunge": [
-            "platter"
-        ],
-        "get": [
-            "box"
-        ],
-        "open": [
-            "hand"
-        ],
-        "reach": [
-            "hold"
-        ],
-        "take": [
-            "slice",
-            "hold",
-            "bucket",
-            "this"
-        ],
-        "lower": [
-            "him",
-            "tailgate"
-        ],
-        "flick": [
-            "head"
-        ],
-        "sense": [
-            "it"
-        ],
-        "look": [
-            "it"
-        ],
-        "sit": [
-            "nothing"
-        ],
-        "cup": [
-            "face"
-        ],
-        "store": [
-            "knowledge"
-        ],
-        "wait": [
-            "reciting"
-        ],
-        "follow": [
-            "her"
-        ],
-        "find": [
-            "herself",
-            "box"
-        ],
-        "carry": [
-            "it"
-        ],
-        "pull": [
-            "rope"
-        ],
-        "hook": [
-            "handle"
-        ],
-        "rub": [
-            "palm"
-        ],
-        "perch": [
-            "herself"
-        ],
-        "be": [
-            "find"
-        ],
-        "want": [
-            "it"
-        ],
-        "ponder": [
-            "answers"
-        ],
-        "laugh": [
-            "path"
-        ],
-        "turn": [
-            "path"
-        ],
-        "run": [
-            "path"
-        ],
-        "shut": [
-            "herself"
-        ],
-        "give": [
-            "yell",
-            "hug"
-        ],
-        "eat": [
-            "bread"
-        ],
-        "leap": [
-            "her"
-        ],
-        "hug": [
-            "person",
-            "her"
-        ],
-        "stop": [
-            "nonsense",
-            "it"
-        ],
-        "bring": [
-            "trout"
-        ],
-        "watch": [
-            "egg"
-        ],
-        "notice": [
-            "web"
-        ],
-        "pry": [
-            "trough"
-        ],
-        "sting": [
-            "wasps"
-        ],
-        "lie": [
-            "person"
-        ],
-        "obey": [
-            "mother"
-        ],
-        "join": [
-            "men"
-        ],
-        "pour": [
-            "buttermilk"
-        ],
-        "kiss": [
-            "person"
-        ],
-        "hear": [
-            "nothing"
-        ]
-    },
-    "him": {
-        "feel": [
-            "robbed"
-        ],
-        "set": [
-            "pail"
-        ]
-    },
-    "university": {
-        "have": [
-            "rule"
-        ]
-    },
-    "leaders": {
-        "promise": [
-            "city"
-        ]
-    },
-    "people": {
-        "like": [
-            "city",
-            "start"
-        ],
-        "die": [
-            "homes"
-        ],
-        "leave": [
-            "island",
-            "homes"
-        ],
-        "see": [
-            "bear",
-            "them"
-        ],
-        "come": [
-            "hope",
-            "him"
-        ],
-        "feel": [
-            "hope",
-            "pain"
-        ],
-        "find": [
-            "footprints",
-            "funny"
-        ],
-        "eat": [
-            "insects"
-        ],
-        "get": [
-            "doctors"
-        ],
-        "create": [
-            "things"
-        ],
-        "build": [
-            "things"
-        ],
-        "drink": [
-            "it"
-        ],
-        "post": [
-            "photos"
-        ],
-        "remember": [
-            "person"
-        ],
-        "wish": [
-            "health"
-        ],
-        "say": [
-            "words"
-        ],
-        "acclaim": [
-            "me"
-        ],
-        "have": [
-            "imagination"
-        ],
-        "admire": [
-            "him"
-        ],
-        "make": [
-            "remarks"
-        ]
-    },
-    "country": {
-        "have": [
-            "unemployment"
-        ]
-    },
-    "they": {
-        "feel": [
-            "city",
-            "crickets"
-        ],
-        "call": [
-            "workers"
-        ],
-        "get": [
-            "shoving",
-            "own",
-            "help"
-        ],
-        "do": [
-            "nothing",
-            "what",
-            "it"
-        ],
-        "want": [
-            "what"
-        ],
-        "have": [
-            "interests",
-            "cold",
-            "poison"
-        ],
-        "leave": [
-            "pigpen",
-            "you"
-        ],
-        "eat": [
-            "baobabs",
-            "them",
-            "snow"
-        ],
-        "split": [
-            "it"
-        ],
-        "resemble": [
-            "which"
-        ],
-        "take": [
-            "room"
-        ],
-        "bring": [
-            "end"
-        ],
-        "recall": [
-            "what"
-        ],
-        "fill": [
-            "deal"
-        ],
-        "hunt": [
-            "guns"
-        ],
-        "hear": [
-            "thunder",
-            "sorts",
-            "hollering"
-        ],
-        "cry": [
-            "time"
-        ],
-        "save": [
-            "amount"
-        ],
-        "raise": [
-            "roses"
-        ],
-        "laugh": [
-            "them"
-        ],
-        "look": [
-            "them"
-        ],
-        "manage": [
-            "convince"
-        ],
-        "flick": [
-            "her"
-        ],
-        "fail": [
-            "notice"
-        ],
-        "seem": [
-            "work"
-        ],
-        "put": [
-            "what"
-        ],
-        "give": [
-            "name"
-        ],
-        "love": [
-            "laugh"
-        ],
-        "possess": [
-            "number"
-        ],
-        "squirm": [
-            "twisting"
-        ],
-        "believe": [
-            "story"
-        ],
-        "come": [
-            "greengrocer"
-        ],
-        "reach": [
-            "gate"
-        ],
-        "plan": [
-            "kill"
-        ],
-        "go": [
-            "raspberries"
-        ],
-        "pick": [
-            "raspberries"
-        ],
-        "begin": [
-            "tremble"
-        ],
-        "study": [
-            "ad"
-        ],
-        "walk": [
-            "road",
-            "hole"
-        ],
-        "break": [
-            "hole"
-        ],
-        "open": [
-            "crate",
-            "boxes"
-        ],
-        "try": [
-            "put"
-        ],
-        "jam": [
-            "him"
-        ],
-        "climb": [
-            "boxes"
-        ],
-        "pass": [
-            "person"
-        ],
-        "drop": [
-            "leaves"
-        ]
-    },
-    "war": {
-        "stop": [
-            "students"
-        ]
-    },
-    "students": {
-        "try": [
-            "study"
-        ]
-    },
-    "trial": {
-        "help": [
-            "company"
-        ],
-        "tell": [
-            "world"
-        ]
-    },
-    "who": {
-        "do": [
-            "things",
-            "it"
-        ],
-        "keep": [
-            "towns"
-        ],
-        "help": [
-            "peace"
-        ],
-        "run": [
-            "show"
-        ],
-        "score": [
-            "goals"
-        ],
-        "ask": [
-            "questions"
-        ],
-        "understand": [
-            "life"
-        ],
-        "have": [
-            "profession",
-            "need",
-            "pair",
-            "hair"
-        ],
-        "want": [
-            "help"
-        ],
-        "write": [
-            "books"
-        ],
-        "know": [
-            "spell",
-            "location",
-            "write"
-        ],
-        "tell": [
-            "lies",
-            "obey"
-        ],
-        "people": [
-            "surface"
-        ],
-        "sell": [
-            "pills"
-        ],
-        "meet": [
-            "me"
-        ],
-        "love": [
-            "prince"
-        ],
-        "refuse": [
-            "answer"
-        ],
-        "take": [
-            "it",
-            "line"
-        ],
-        "show": [
-            "interest"
-        ],
-        "mind": [
-            "business"
-        ],
-        "live": [
-            "lives"
-        ],
-        "use": [
-            "it"
-        ],
-        "trust": [
-            "you"
-        ],
-        "frighten": [
-            "life"
-        ],
-        "teach": [
-            "spider",
-            "you",
-            "class"
-        ],
-        "own": [
-            "it",
-            "company"
-        ],
-        "put": [
-            "creature",
-            "bomb"
-        ],
-        "borrow": [
-            "number"
-        ],
-        "inhabit": [
-            "underworld"
-        ],
-        "like": [
-            "eat"
-        ],
-        "see": [
-            "you"
-        ],
-        "address": [
-            "me"
-        ],
-        "save": [
-            "string"
-        ],
-        "manage": [
-            "build"
-        ],
-        "catch": [
-            "fish"
-        ],
-        "visit": [
-            "pigpen"
-        ]
-    },
-    "person": {
-        "develop": [
-            "machine"
-        ],
-        "say": [
-            "them",
-            "hammer",
-            "rules",
-            "what",
-            "goodbye",
-            "nothing"
-        ],
-        "make": [
-            "rules",
-            "swing"
-        ],
-        "want": [
-            "look",
-            "know",
-            "what",
-            "city",
-            "see"
-        ],
-        "play": [
-            "football"
-        ],
-        "work": [
-            "football"
-        ],
-        "love": [
-            "milk",
-            "person",
-            "football",
-            "barn"
-        ],
-        "leave": [
-            "field"
-        ],
-        "tell": [
-            "him",
-            "fans",
-            "herself",
-            "me",
-            "mother",
-            "her",
-            "person"
-        ],
-        "take": [
-            "pair",
-            "step",
-            "care",
-            "cap",
-            "notice",
-            "knife",
-            "bath",
-            "names",
-            "handkerchief",
-            "medal",
-            "it"
-        ],
-        "hurt": [
-            "her"
-        ],
-        "have": [
-            "keep",
-            "pair",
-            "beard",
-            "swing",
-            "lot",
-            "beauty",
-            "city"
-        ],
-        "let": [
-            "yell"
-        ],
-        "cut": [
-            "thing",
-            "motor"
-        ],
-        "cry": [
-            "mother",
-            "himself"
-        ],
-        "ask": [
-            "her",
-            "person",
-            "hen"
-        ],
-        "hand": [
-            "book"
-        ],
-        "spell": [
-            "it"
-        ],
-        "decide": [
-            "ask",
-            "give"
-        ],
-        "try": [
-            "keep",
-            "look",
-            "one",
-            "think",
-            "times"
-        ],
-        "possess": [
-            "none"
-        ],
-        "enter": [
-            "study"
-        ],
-        "set": [
-            "carton",
-            "company"
-        ],
-        "follow": [
-            "her"
-        ],
-        "shake": [
-            "head",
-            "heads"
-        ],
-        "continue": [
-            "gaze",
-            "speaker"
-        ],
-        "pause": [
-            "cram"
-        ],
-        "round": [
-            "head"
-        ],
-        "see": [
-            "giant",
-            "object"
-        ],
-        "send": [
-            "compliments"
-        ],
-        "wish": [
-            "tell"
-        ],
-        "go": [
-            "air",
-            "breakfast"
-        ],
-        "bellow": [
-            "air"
-        ],
-        "give": [
-            "chance",
-            "web",
-            "quarters",
-            "feeding",
-            "names",
-            "box",
-            "forkful"
-        ],
-        "squeal": [
-            "house"
-        ],
-        "pedal": [
-            "air"
-        ],
-        "meet": [
-            "gaze"
-        ],
-        "move": [
-            "glass"
-        ],
-        "teach": [
-            "her"
-        ],
-        "store": [
-            "them"
-        ],
-        "use": [
-            "wash"
-        ],
-        "nod": [
-            "nothing"
-        ],
-        "seem": [
-            "rouse"
-        ],
-        "hesitate": [
-            "moment"
-        ],
-        "keep": [
-            "practising",
-            "promise"
-        ],
-        "leap": [
-            "jug"
-        ],
-        "seize": [
-            "jug"
-        ],
-        "run": [
-            "go",
-            "bottle"
-        ],
-        "receive": [
-            "letter"
-        ],
-        "hug": [
-            "mother",
-            "her"
-        ],
-        "put": [
-            "pitcher",
-            "him"
-        ],
-        "stop": [
-            "walking"
-        ],
-        "find": [
-            "bottle"
-        ],
-        "fix": [
-            "yard"
-        ],
-        "amuse": [
-            "himself"
-        ],
-        "phone": [
-            "person"
-        ],
-        "get": [
-            "person",
-            "motor",
-            "bath"
-        ],
-        "pay": [
-            "attention"
-        ],
-        "hear": [
-            "commotion",
-            "trill",
-            "crickets",
-            "words",
-            "it"
-        ],
-        "dig": [
-            "hole"
-        ],
-        "plan": [
-            "take",
-            "sleep"
-        ],
-        "pull": [
-            "himself"
-        ],
-        "gnaw": [
-            "hole"
-        ],
-        "clear": [
-            "throat"
-        ],
-        "rush": [
-            "everything",
-            "snout"
-        ],
-        "eat": [
-            "everything",
-            "breakfast",
-            "grasshopper",
-            "doughnut"
-        ],
-        "lick": [
-            "trough"
-        ],
-        "lie": [
-            "resting",
-            "dreaming",
-            "eyes"
-        ],
-        "close": [
-            "eyes"
-        ],
-        "visit": [
-            "barn"
-        ],
-        "show": [
-            "nose"
-        ],
-        "spy": [
-            "them"
-        ],
-        "admire": [
-            "way"
-        ],
-        "adore": [
-            "city",
-            "her"
-        ],
-        "like": [
-            "sit"
-        ],
-        "laugh": [
-            "sway"
-        ],
-        "examine": [
-            "it"
-        ],
-        "land": [
-            "good"
-        ],
-        "supply": [
-            "you"
-        ],
-        "untie": [
-            "string"
-        ],
-        "hang": [
-            "head",
-            "it"
-        ],
-        "notice": [
-            "embarrassment"
-        ],
-        "trot": [
-            "himself"
-        ],
-        "throw": [
-            "himself"
-        ],
-        "start": [
-            "motor",
-            "race"
-        ],
-        "check": [
-            "himself"
-        ],
-        "shut": [
-            "eyes"
-        ],
-        "be": [
-            "city"
-        ],
-        "drag": [
-            "trough",
-            "himself"
-        ],
-        "kick": [
-            "dirt"
-        ],
-        "tear": [
-            "section"
-        ],
-        "prepare": [
-            "meals"
-        ],
-        "order": [
-            "person"
-        ],
-        "think": [
-            "kill"
-        ],
-        "stand": [
-            "swelling",
-            "eyes",
-            "ears"
-        ],
-        "read": [
-            "words"
-        ],
-        "seat": [
-            "herself"
-        ],
-        "sing": [
-            "lullaby"
-        ],
-        "lean": [
-            "eyes"
-        ],
-        "appetite": [
-            "good"
-        ],
-        "rest": [
-            "grasshopper"
-        ],
-        "lug": [
-            "pail"
-        ],
-        "scrub": [
-            "back"
-        ],
-        "wet": [
-            "hair"
-        ],
-        "part": [
-            "it"
-        ],
-        "brush": [
-            "it"
-        ],
-        "dress": [
-            "breakfast"
-        ],
-        "polish": [
-            "truck"
-        ],
-        "sit": [
-            "doughnut"
-        ],
-        "waste": [
-            "time"
-        ],
-        "poke": [
-            "head"
-        ],
-        "walk": [
-            "motor"
-        ],
-        "lower": [
-            "tailgate"
-        ],
-        "come": [
-            "walking"
-        ],
-        "study": [
-            "person"
-        ],
-        "return": [
-            "it"
-        ],
-        "dash": [
-            "it"
-        ],
-        "feel": [
-            "water"
-        ],
-        "begin": [
-            "cry",
-            "snipping",
-            "struggle"
-        ],
-        "nail": [
-            "boards"
-        ],
-        "stare": [
-            "look"
-        ],
-        "pour": [
-            "milk"
-        ],
-        "pitch": [
-            "straw"
-        ],
-        "pat": [
-            "him"
-        ],
-        "change": [
-            "mind"
-        ],
-        "blow": [
-            "nose"
-        ],
-        "bring": [
-            "buttermilk"
-        ],
-        "wipe": [
-            "eyes"
-        ],
-        "invite": [
-            "me"
-        ],
-        "open": [
-            "handbag"
-        ],
-        "push": [
-            "snout"
-        ],
-        "toss": [
-            "him"
-        ],
-        "do": [
-            "this"
-        ],
-        "bare": [
-            "teeth"
-        ],
-        "heave": [
-            "sigh"
-        ],
-        "creep": [
-            "himself"
-        ],
-        "bury": [
-            "himself"
-        ],
-        "cock": [
-            "ears"
-        ]
-    },
-    "workers": {
-        "use": [
-            "fences"
-        ]
-    },
-    "app": {
-        "find": [
-            "children",
-            "friends"
-        ]
-    },
-    "bakers": {
-        "join": [
-            "it"
-        ]
-    },
-    "baker": {
-        "make": [
-            "building",
-            "bagel"
-        ]
-    },
-    "lines": {
-        "get": [
-            "energy"
-        ]
-    },
-    "storms": {
-        "pull": [
-            "them"
-        ]
-    },
-    "plan": {
-        "bring": [
-            "money"
-        ],
-        "help": [
-            "grow"
-        ],
-        "sell": [
-            "products"
-        ]
-    },
-    "center": {
-        "have": [
-            "place"
-        ],
-        "make": [
-            "learning"
-        ],
-        "need": [
-            "lot"
-        ]
-    },
-    "children": {
-        "know": [
-            "more"
-        ],
-        "begin": [
-            "filing",
-            "company"
-        ],
-        "see": [
-            "side",
-            "twisting"
-        ],
-        "turn": [
-            "be"
-        ],
-        "go": [
-            "mothers"
-        ],
-        "tell": [
-            "mothers"
-        ],
-        "have": [
-            "take",
-            "time"
-        ],
-        "swim": [
-            "water"
-        ],
-        "play": [
-            "water"
-        ],
-        "splash": [
-            "water"
-        ],
-        "like": [
-            "that"
-        ],
-        "answer": [
-            "cheer"
-        ],
-        "grab": [
-            "other"
-        ]
-    },
-    "soldiers": {
-        "steal": [
-            "some"
-        ]
-    },
-    "rats": {
-        "wear": [
-            "bag"
-        ]
-    },
-    "you": {
-        "steam": [
-            "mealworm"
-        ],
-        "fry": [
-            "it"
-        ],
-        "tell": [
-            "him",
-            "them",
-            "glass"
-        ],
-        "pull": [
-            "baobabs"
-        ],
-        "seem": [
-            "be",
-            "falling",
-            "work"
-        ],
-        "love": [
-            "flower",
-            "that"
-        ],
-        "order": [
-            "people"
-        ],
-        "succeed": [
-            "udging"
-        ],
-        "regard": [
-            "me"
-        ],
-        "find": [
-            "that",
-            "one",
-            "diamond",
-            "job"
-        ],
-        "discover": [
-            "island"
-        ],
-        "get": [
-            "nerve",
-            "idea",
-            "feeling",
-            "multiplication"
-        ],
-        "take": [
-            "breath",
-            "them",
-            "bottle",
-            "patent",
-            "advice"
-        ],
-        "want": [
-            "to",
-            "friend",
-            "rid",
-            "sort",
-            "names",
-            "rest",
-            "get",
-            "company"
-        ],
-        "need": [
-            "walk"
-        ],
-        "have": [
-            "pound",
-            "call",
-            "goslings",
-            "choice",
-            "friend",
-            "hair",
-            "business",
-            "watch",
-            "need",
-            "any",
-            "it",
-            "house",
-            "anything",
-            "put",
-            "attack",
-            "nothing",
-            "stand",
-            "shelves"
-        ],
-        "tame": [
-            "me"
-        ],
-        "save": [
-            "minutes"
-        ],
-        "give": [
-            "permission",
-            "me",
-            "job"
-        ],
-        "flick": [
-            "it"
-        ],
-        "come": [
-            "asking",
-            "sailing"
-        ],
-        "fiddle": [
-            "numbers"
-        ],
-        "start": [
-            "it",
-            "splashing",
-            "messing"
-        ],
-        "do": [
-            "that",
-            "it"
-        ],
-        "promise": [
-            "return"
-        ],
-        "know": [
-            "web",
-            "table",
-            "that",
-            "it"
-        ],
-        "think": [
-            "what"
-        ],
-        "make": [
-            "fight",
-            "pounds"
-        ],
-        "shriek": [
-            "mother"
-        ],
-        "meet": [
-            "rhinoceros"
-        ],
-        "mean": [
-            "what"
-        ],
-        "teach": [
-            "yourself"
-        ],
-        "like": [
-            "that"
-        ],
-        "choose": [
-            "books"
-        ],
-        "see": [
-            "objects",
-            "that",
-            "live"
-        ],
-        "survive": [
-            "year"
-        ],
-        "keep": [
-            "knickers"
-        ],
-        "suppurate": [
-            "blister"
-        ],
-        "sneak": [
-            "slice"
-        ],
-        "steal": [
-            "slice"
-        ],
-        "eat": [
-            "less",
-            "it"
-        ],
-        "enjoy": [
-            "slice"
-        ],
-        "try": [
-            "it",
-            "getting"
-        ],
-        "throw": [
-            "key"
-        ],
-        "answer": [
-            "it"
-        ],
-        "chop": [
-            "tail"
-        ],
-        "address": [
-            "me"
-        ],
-        "say": [
-            "what",
-            "it"
-        ],
-        "squirm": [
-            "worm"
-        ],
-        "strike": [
-            "me"
-        ],
-        "will": [
-            "glass"
-        ],
-        "tip": [
-            "glass"
-        ],
-        "practise": [
-            "it"
-        ],
-        "be": [
-            "clusters",
-            "crackle"
-        ],
-        "put": [
-            "feet"
-        ],
-        "fill": [
-            "that"
-        ],
-        "light": [
-            "it"
-        ],
-        "pump": [
-            "it"
-        ],
-        "happen": [
-            "like"
-        ],
-        "leave": [
-            "school"
-        ],
-        "draw": [
-            "money"
-        ],
-        "mangle": [
-            "wurzel"
-        ],
-        "amuse": [
-            "yourselves"
-        ],
-        "stop": [
-            "worrying",
-            "arguing"
-        ],
-        "visit": [
-            "him"
-        ],
-        "enter": [
-            "barn"
-        ],
-        "poke": [
-            "it"
-        ],
-        "lack": [
-            "know-"
-        ],
-        "straddle": [
-            "knot"
-        ],
-        "go": [
-            "clipping"
-        ],
-        "bring": [
-            "clipping",
-            "one"
-        ],
-        "phone": [
-            "reporter"
-        ],
-        "lay": [
-            "eggs"
-        ],
-        "spin": [
-            "web"
-        ],
-        "catch": [
-            "couple"
-        ],
-        "look": [
-            "chains"
-        ]
-    },
-    "government": {
-        "ask": [
-            "stop"
-        ]
-    },
-    "show": {
-        "take": [
-            "place"
-        ],
-        "have": [
-            "winner"
-        ]
-    },
-    "competition": {
-        "have": [
-            "problems"
-        ]
-    },
-    "judges": {
-        "leave": [
-            "show"
-        ]
-    },
-    "he": {
-        "like": [
-            "boast",
-            "working"
-        ],
-        "decide": [
-            "build"
-        ],
-        "start": [
-            "composing",
-            "opening",
-            "act",
-            "company"
-        ],
-        "feel": [
-            "win"
-        ],
-        "want": [
-            "to",
-            "win",
-            "help",
-            "know",
-            "love"
-        ],
-        "see": [
-            "something",
-            "plane",
-            "it",
-            "nothing",
-            "person",
-            "poke"
-        ],
-        "ask": [
-            "me"
-        ],
-        "bury": [
-            "himself"
-        ],
-        "say": [
-            "flower",
-            "contents",
-            "what",
-            "nothing",
-            "name"
-        ],
-        "take": [
-            "look",
-            "herd",
-            "me",
-            "it",
-            "breaths",
-            "thing",
-            "clothes",
-            "courage",
-            "leave",
-            "advantage"
-        ],
-        "make": [
-            "comment",
-            "faces",
-            "mind",
-            "effort"
-        ],
-        "demand": [
-            "sheep"
-        ],
-        "tend": [
-            "flower"
-        ],
-        "continue": [
-            "conversation",
-            "confidences"
-        ],
-        "put": [
-            "hat",
-            "suit",
-            "knife",
-            "finger",
-            "planet",
-            "snout",
-            "lamp"
-        ],
-        "clean": [
-            "volcano"
-        ],
-        "water": [
-            "flower"
-        ],
-        "prepare": [
-            "place"
-        ],
-        "remember": [
-            "fondness",
-            "planet"
-        ],
-        "pluck": [
-            "courage"
-        ],
-        "consult": [
-            "almanac"
-        ],
-        "begin": [
-            "tremble",
-            "ripping",
-            "pushing",
-            "clap"
-        ],
-        "answer": [
-            "question",
-            "me"
-        ],
-        "have": [
-            "plenty",
-            "strip",
-            "one",
-            "ribbon",
-            "friends",
-            "questions",
-            "money",
-            "things",
-            "ask",
-            "idea",
-            "go",
-            "personality"
-        ],
-        "find": [
-            "newspaper",
-            "nothing",
-            "trinket"
-        ],
-        "light": [
-            "lamp"
-        ],
-        "bring": [
-            "one",
-            "frogs"
-        ],
-        "send": [
-            "flower"
-        ],
-        "salute": [
-            "lamplighter"
-        ],
-        "mop": [
-            "forehead"
-        ],
-        "love": [
-            "life",
-            "be",
-            "lamplighter",
-            "children"
-        ],
-        "cast": [
-            "look"
-        ],
-        "receive": [
-            "explorers"
-        ],
-        "note": [
-            "questions"
-        ],
-        "wander": [
-            "little"
-        ],
-        "use": [
-            "that",
-            "volcano"
-        ],
-        "save": [
-            "peaks"
-        ],
-        "interrupt": [
-            "me"
-        ],
-        "wear": [
-            "day",
-            "that",
-            "it"
-        ],
-        "add": [
-            "answer"
-        ],
-        "give": [
-            "time",
-            "smile"
-        ],
-        "watch": [
-            "bees",
-            "flower",
-            "swallows"
-        ],
-        "forget": [
-            "globe"
-        ],
-        "leave": [
-            "school",
-            "house",
-            "noodle"
-        ],
-        "tell": [
-            "person",
-            "it",
-            "stories"
-        ],
-        "sport": [
-            "ties"
-        ],
-        "discover": [
-            "penicillin"
-        ],
-        "adopt": [
-            "attitude"
-        ],
-        "mean": [
-            "keep"
-        ],
-        "be": [
-            "web",
-            "finger"
-        ],
-        "try": [
-            "get"
-        ],
-        "seem": [
-            "lost",
-            "gathering",
-            "saying",
-            "getting"
-        ],
-        "drop": [
-            "covers",
-            "it"
-        ],
-        "part": [
-            "which"
-        ],
-        "think": [
-            "spiders",
-            "hair"
-        ],
-        "stride": [
-            "son"
-        ],
-        "slap": [
-            "son"
-        ],
-        "lead": [
-            "her"
-        ],
-        "steal": [
-            "it"
-        ],
-        "eat": [
-            "it"
-        ],
-        "lever": [
-            "slice"
-        ],
-        "pick": [
-            "pail",
-            "knife",
-            "stick"
-        ],
-        "pause": [
-            "breaths"
-        ],
-        "keep": [
-            "pushing"
-        ],
-        "plummet": [
-            "floor"
-        ],
-        "sell": [
-            "car"
-        ],
-        "invite": [
-            "sister"
-        ],
-        "tip": [
-            "contents"
-        ],
-        "change": [
-            "plates"
-        ],
-        "respraye": [
-            "bodies"
-        ],
-        "need": [
-            "ax"
-        ],
-        "carry": [
-            "advertisement",
-            "carton",
-            "it"
-        ],
-        "wash": [
-            "hands"
-        ],
-        "dry": [
-            "them",
-            "himself"
-        ],
-        "do": [
-            "everything",
-            "what"
-        ],
-        "run": [
-            "commotion"
-        ],
-        "twist": [
-            "follow"
-        ],
-        "climb": [
-            "slops"
-        ],
-        "pour": [
-            "slops"
-        ],
-        "pull": [
-            "board",
-            "himself"
-        ],
-        "plan": [
-            "dig",
-            "stand",
-            "scratch"
-        ],
-        "throw": [
-            "swing",
-            "himself"
-        ],
-        "hear": [
-            "speech",
-            "voice"
-        ],
-        "detest": [
-            "flies"
-        ],
-        "gain": [
-            "lot"
-        ],
-        "lose": [
-            "balance"
-        ],
-        "stop": [
-            "paces"
-        ],
-        "murmur": [
-            "words"
-        ],
-        "shake": [
-            "hands",
-            "head"
-        ],
-        "notice": [
-            "web"
-        ],
-        "neglect": [
-            "work"
-        ],
-        "push": [
-            "straw"
-        ],
-        "lie": [
-            "waiting"
-        ],
-        "break": [
-            "everything"
-        ],
-        "lay": [
-            "hands"
-        ],
-        "realize": [
-            "friends"
-        ],
-        "win": [
-            "money"
-        ],
-        "crack": [
-            "jokes"
-        ],
-        "spread": [
-            "blanket"
-        ],
-        "tear": [
-            "word"
-        ],
-        "roll": [
-            "it"
-        ],
-        "hate": [
-            "person"
-        ],
-        "get": [
-            "hankering"
-        ],
-        "smoke": [
-            "ham"
-        ],
-        "manage": [
-            "reach"
-        ],
-        "tie": [
-            "medal"
-        ],
-        "dash": [
-            "water"
-        ],
-        "miss": [
-            "aim"
-        ],
-        "dance": [
-            "faces"
-        ],
-        "rub": [
-            "soap"
-        ],
-        "raise": [
-            "pail"
-        ],
-        "dump": [
-            "water"
-        ],
-        "place": [
-            "children",
-            "forepaws"
-        ],
-        "cross": [
-            "knees"
-        ],
-        "reach": [
-            "sac"
-        ],
-        "look": [
-            "time"
-        ],
-        "hold": [
-            "sac"
-        ],
-        "go": [
-            "drifts"
-        ],
-        "plow": [
-            "drifts"
-        ],
-        "fix": [
-            "himself"
-        ],
-        "store": [
-            "it"
-        ],
-        "await": [
-            "end"
-        ],
-        "turn": [
-            "flip"
-        ],
-        "plant": [
-            "feet"
-        ],
-        "know": [
-            "them"
-        ],
-        "sink": [
-            "eyes"
-        ],
-        "close": [
-            "eyes"
-        ],
-        "meet": [
-            "city"
-        ]
-    },
-    "businesses": {
-        "use": [
-            "printers"
-        ]
-    },
-    "museum": {
-        "help": [
-            "economy"
-        ]
-    },
-    "magazine": {
-        "show": [
-            "photo"
-        ]
-    },
-    "actor": {
-        "get": [
-            "title"
-        ]
-    },
-    "player": {
-        "replace": [
-            "him"
-        ]
-    },
-    "intestine": {
-        "get": [
-            "water"
-        ]
-    },
-    "we": {
-        "have": [
-            "be",
-            "appendix",
-            "spider",
-            "ganders",
-            "pig"
-        ],
-        "save": [
-            "that"
-        ],
-        "start": [
-            "walking"
-        ],
-        "drink": [
-            "water"
-        ],
-        "sing": [
-            "it"
-        ],
-        "learn": [
-            "spell"
-        ],
-        "know": [
-            "nothing"
-        ],
-        "take": [
-            "things"
-        ],
-        "make": [
-            "experiments"
-        ],
-        "need": [
-            "what"
-        ],
-        "present": [
-            "pig"
-        ],
-        "like": [
-            "you"
-        ]
-    },
-    "fan": {
-        "ask": [
-            "person"
-        ]
-    },
-    "mining": {
-        "use": [
-            "mercury"
-        ]
-    },
-    "babies": {
-        "have": [
-            "problems"
-        ]
-    },
-    "king": {
-        "want": [
-            "make"
-        ],
-        "answer": [
-            "him"
-        ],
-        "hasten": [
-            "assure"
-        ],
-        "make": [
-            "answer",
-            "gesture"
-        ]
-    },
-    "land": {
-        "have": [
-            "corn"
-        ]
-    },
-    "video": {
-        "show": [
-            "wedding"
-        ]
-    },
-    "police": {
-        "take": [
-            "her"
-        ],
-        "hurt": [
-            "them"
-        ]
-    },
-    "robot": {
-        "have": [
-            "arms"
-        ],
-        "turn": [
-            "burgers"
-        ],
-        "make": [
-            "fries"
-        ],
-        "do": [
-            "tasks"
-        ]
-    },
-    "computer": {
-        "control": [
-            "robot"
-        ]
-    },
-    "nobody": {
-        "want": [
-            "more",
-            "do"
-        ],
-        "teach": [
-            "her"
-        ],
-        "leave": [
-            "hall"
-        ],
-        "notice": [
-            "city"
-        ],
-        "forget": [
-            "year"
-        ]
-    },
-    "somebody": {
-        "do": [
-            "work"
-        ],
-        "destroy": [
-            "it"
-        ],
-        "try": [
-            "it"
-        ],
-        "teach": [
-            "you"
-        ]
-    },
-    "something": {
-        "bother": [
-            "nose"
-        ],
-        "have": [
-            "done",
-            "push"
-        ]
-    },
-    "countries": {
-        "say": [
-            "things"
-        ]
-    },
-    "drawing": {
-        "frighten": [
-            "them"
-        ],
-        "go": [
-            "resemblance"
-        ]
-    },
-    "ups": {
-        "discourage": [
-            "me"
-        ],
-        "read": [
-            "that"
-        ]
-    },
-    "man": {
-        "seem": [
-            "straying"
-        ],
-        "direct": [
-            "him"
-        ],
-        "raise": [
-            "hat"
-        ],
-        "tell": [
-            "me"
-        ],
-        "feel": [
-            "kind"
-        ]
-    },
-    "fellow": {
-        "greet": [
-            "it"
-        ]
-    },
-    "which": {
-        "irritate": [
-            "me"
-        ],
-        "last": [
-            "time"
-        ],
-        "disturb": [
-            "me"
-        ],
-        "take": [
-            "planet"
-        ],
-        "have": [
-            "people",
-            "be"
-        ],
-        "contain": [
-            "pages"
-        ],
-        "display": [
-            "muscles"
-        ]
-    },
-    "one": {
-        "have": [
-            "time",
-            "them"
-        ],
-        "recognise": [
-            "it"
-        ],
-        "love": [
-            "sunset",
-            "flower"
-        ],
-        "require": [
-            "explorer"
-        ],
-        "wish": [
-            "play"
-        ],
-        "say": [
-            "anything",
-            "whatever"
-        ],
-        "see": [
-            "sorts"
-        ],
-        "tame": [
-            "that"
-        ],
-        "leave": [
-            "table"
-        ],
-        "get": [
-            "feeling"
-        ],
-        "decide": [
-            "regale"
-        ],
-        "put": [
-            "it"
-        ],
-        "tell": [
-            "one"
-        ]
-    },
-    "astronomer": {
-        "discover": [
-            "one"
-        ],
-        "give": [
-            "demonstration"
-        ]
-    },
-    "dictator": {
-        "make": [
-            "law"
-        ]
-    },
-    "everybody": {
-        "accept": [
-            "report"
-        ],
-        "go": [
-            "cheer"
-        ]
-    },
-    "brothers": {
-        "have": [
-            "he"
-        ]
-    },
-    "that": {
-        "cost": [
-            "nothing",
-            "20,000"
-        ],
-        "mean": [
-            "catastrophe",
-            "opposite"
-        ],
-        "have": [
-            "buckle",
-            "thorns",
-            "stripe",
-            "anything",
-            "mirror",
-            "children",
-            "bug"
-        ],
-        "lie": [
-            "stratagems"
-        ],
-        "make": [
-            "million",
-            "roots"
-        ],
-        "set": [
-            "men"
-        ],
-        "carry": [
-            "them"
-        ],
-        "take": [
-            "seconds"
-        ],
-        "know": [
-            "laugh"
-        ],
-        "rattle": [
-            "panes"
-        ],
-        "prevent": [
-            "her"
-        ],
-        "keep": [
-            "growing",
-            "me"
-        ],
-        "seem": [
-            "lift"
-        ],
-        "love": [
-            "literature"
-        ],
-        "show": [
-            "intelligence"
-        ],
-        "swallow": [
-            "build"
-        ],
-        "save": [
-            "life"
-        ],
-        "catch": [
-            "insects",
-            "attention"
-        ],
-        "hold": [
-            "insects"
-        ],
-        "prove": [
-            "nothing"
-        ],
-        "call": [
-            "himself"
-        ],
-        "fasten": [
-            "sac"
-        ]
-    },
-    "anybody": {
-        "want": [
-            "sheep"
-        ],
-        "take": [
-            "it"
-        ],
-        "catch": [
-            "eating"
-        ],
-        "have": [
-            "word"
-        ]
-    },
-    "another": {
-        "have": [
-            "resemblance"
-        ]
-    },
-    "sheep": {
-        "eat": [
-            "anything",
-            "flower",
-            "bushes"
-        ],
-        "get": [
-            "globe",
-            "know"
-        ],
-        "know": [
-            "one"
-        ],
-        "loathe": [
-            "them"
-        ],
-        "walk": [
-            "person"
-        ],
-        "stop": [
-            "person"
-        ],
-        "say": [
-            "you",
-            "what"
-        ],
-        "hear": [
-            "crickets"
-        ],
-        "gnaw": [
-            "them"
-        ]
-    },
-    "idea": {
-        "make": [
-            "laugh"
-        ]
-    },
-    "seed": {
-        "begin": [
-            "push"
-        ]
-    },
-    "prince": {
-        "describe": [
-            "it"
-        ],
-        "make": [
-            "reply"
-        ],
-        "disturb": [
-            "thoughts"
-        ],
-        "pull": [
-            "shoots"
-        ],
-        "ask": [
-            "himself"
-        ],
-        "look": [
-            "robe",
-            "them"
-        ],
-        "obstruct": [
-            "robe"
-        ],
-        "remind": [
-            "him"
-        ],
-        "say": [
-            "myself",
-            "thorns"
-        ],
-        "have": [
-            "wish",
-            "ideas"
-        ],
-        "hesitate": [
-            "moment"
-        ],
-        "clap": [
-            "hands"
-        ],
-        "watch": [
-            "him"
-        ],
-        "sit": [
-            "eyes"
-        ],
-        "raise": [
-            "eyes"
-        ],
-        "take": [
-            "conversation"
-        ],
-        "cross": [
-            "desert"
-        ],
-        "climb": [
-            "mountain"
-        ],
-        "come": [
-            "that"
-        ],
-        "tame": [
-            "fox"
-        ],
-        "shut": [
-            "flower"
-        ]
-    },
-    "twilight": {
-        "fall": [
-            "end"
-        ]
-    },
-    "it": {
-        "eat": [
-            "bushes"
-        ],
-        "make": [
-            "words"
-        ],
-        "tire": [
-            "me"
-        ],
-        "plunge": [
-            "prince"
-        ],
-        "happen": [
-            "that"
-        ],
-        "become": [
-            "time"
-        ],
-        "hide": [
-            "well"
-        ],
-        "cast": [
-            "enchantment"
-        ],
-        "seem": [
-            "rain",
-            "him",
-            "eyes",
-            "girl"
-        ],
-        "cost": [
-            "nothing"
-        ],
-        "start": [
-            "falling",
-            "rattling"
-        ],
-        "join": [
-            "wheel"
-        ],
-        "turn": [
-            "cable"
-        ],
-        "give": [
-            "look"
-        ],
-        "have": [
-            "be",
-            "go"
-        ],
-        "look": [
-            "bow"
-        ],
-        "grow": [
-            "eyes"
-        ],
-        "feel": [
-            "eyes"
-        ],
-        "cover": [
-            "chest"
-        ],
-        "do": [
-            "something",
-            "glass"
-        ],
-        "stagger": [
-            "me"
-        ],
-        "add": [
-            "pay"
-        ],
-        "depend": [
-            "it"
-        ],
-        "begin": [
-            "come"
-        ],
-        "mean": [
-            "have",
-            "what"
-        ],
-        "take": [
-            "men"
-        ],
-        "cut": [
-            "that"
-        ],
-        "leave": [
-            "place"
-        ],
-        "worry": [
-            "me"
-        ],
-        "stick": [
-            "hairs"
-        ],
-        "dry": [
-            "crust"
-        ],
-        "form": [
-            "crust"
-        ],
-        "come": [
-            "time"
-        ],
-        "say": [
-            "what"
-        ]
-    },
-    "shrub": {
-        "stop": [
-            "growing"
-        ],
-        "begin": [
-            "get"
-        ]
-    },
-    "she": {
-        "wish": [
-            "appear"
-        ],
-        "show": [
-            "herself",
-            "thorns"
-        ],
-        "add": [
-            "5",
-            "instant"
-        ],
-        "begin": [
-            "hankering",
-            "torment",
-            "mull",
-            "run",
-            "cut",
-            "company"
-        ],
-        "go": [
-            "you",
-            "think",
-            "sleep",
-            "horror",
-            "others",
-            "door"
-        ],
-        "interrupt": [
-            "herself"
-        ],
-        "cough": [
-            "times"
-        ],
-        "force": [
-            "cough"
-        ],
-        "make": [
-            "answer",
-            "guess",
-            "sound",
-            "decision",
-            "it",
-            "company"
-        ],
-        "have": [
-            "tell",
-            "tables",
-            "legs",
-            "chop",
-            "pig",
-            "strength",
-            "be",
-            "sense",
-            "this",
-            "talk",
-            "do",
-            "thorns",
-            "something",
-            "shut",
-            "stoop",
-            "nothing",
-            "come",
-            "time",
-            "one",
-            "sit",
-            "line",
-            "nest",
-            "cold",
-            "put",
-            "heart"
-        ],
-        "say": [
-            "herself",
-            "cup",
-            "hopping",
-            "more",
-            "nothing"
-        ],
-        "want": [
-            "tell",
-            "to",
-            "something",
-            "whatever",
-            "stay",
-            "what"
-        ],
-        "introduce": [
-            "herself"
-        ],
-        "read": [
-            "book"
-        ],
-        "start": [
-            "wandering",
-            "weaving"
-        ],
-        "ask": [
-            "herself",
-            "question",
-            "advice"
-        ],
-        "decide": [
-            "tell",
-            "interfere"
-        ],
-        "keep": [
-            "shouting",
-            "that",
-            "worries",
-            "box",
-            "person",
-            "knickers",
-            "level"
-        ],
-        "bring": [
-            "which"
-        ],
-        "hook": [
-            "hat"
-        ],
-        "tell": [
-            "herself",
-            "us",
-            "me"
-        ],
-        "manage": [
-            "hold",
-            "slide",
-            "it"
-        ],
-        "put": [
-            "tray",
-            "mugs",
-            "victim",
-            "bebecause"
-        ],
-        "sit": [
-            "eating"
-        ],
-        "get": [
-            "door",
-            "job"
-        ],
-        "lock": [
-            "door"
-        ],
-        "fill": [
-            "bottle"
-        ],
-        "give": [
-            "shake",
-            "order"
-        ],
-        "think": [
-            "what"
-        ],
-        "let": [
-            "scream",
-            "me",
-            "thread"
-        ],
-        "drop": [
-            "plate"
-        ],
-        "enter": [
-            "school",
-            "house"
-        ],
-        "be": [
-            "gift"
-        ],
-        "possess": [
-            "gift"
-        ],
-        "pick": [
-            "him",
-            "pencil"
-        ],
-        "work": [
-            "sum"
-        ],
-        "recite": [
-            "limerick"
-        ],
-        "sport": [
-            "stockings"
-        ],
-        "wear": [
-            "brogues",
-            "boots"
-        ],
-        "reach": [
-            "hand",
-            "it",
-            "glass"
-        ],
-        "pour": [
-            "glass"
-        ],
-        "set": [
-            "fire"
-        ],
-        "scorch": [
-            "knickers"
-        ],
-        "behave": [
-            "herself"
-        ],
-        "do": [
-            "that",
-            "what",
-            "it"
-        ],
-        "seek": [
-            "company"
-        ],
-        "call": [
-            "him",
-            "her"
-        ],
-        "stand": [
-            "waiting"
-        ],
-        "choose": [
-            "chair"
-        ],
-        "lower": [
-            "herself",
-            "it"
-        ],
-        "clasp": [
-            "hands"
-        ],
-        "leap": [
-            "bottom"
-        ],
-        "grab": [
-            "bottom"
-        ],
-        "lunge": [
-            "hold"
-        ],
-        "become": [
-            "round"
-        ],
-        "scream": [
-            "company"
-        ],
-        "march": [
-            "company"
-        ],
-        "spot": [
-            "whopper"
-        ],
-        "swoop": [
-            "it"
-        ],
-        "catch": [
-            "him",
-            "it"
-        ],
-        "discover": [
-            "pencilbox"
-        ],
-        "open": [
-            "lid",
-            "gate",
-            "them",
-            "eyes"
-        ],
-        "carry": [
-            "weapon",
-            "bucket",
-            "line"
-        ],
-        "dash": [
-            "one"
-        ],
-        "find": [
-            "one"
-        ],
-        "hold": [
-            "him",
-            "box",
-            "bottle",
-            "it"
-        ],
-        "pull": [
-            "lid"
-        ],
-        "tip": [
-            "newt"
-        ],
-        "join": [
-            "others"
-        ],
-        "take": [
-            "hold",
-            "margarine",
-            "position",
-            "slice",
-            "doll"
-        ],
-        "blow": [
-            "chap",
-            "nose"
-        ],
-        "extend": [
-            "hand"
-        ],
-        "lift": [
-            "him",
-            "boy",
-            "lid",
-            "head",
-            "pig"
-        ],
-        "release": [
-            "him"
-        ],
-        "pride": [
-            "herself"
-        ],
-        "hate": [
-            "her"
-        ],
-        "bellow": [
-            "it"
-        ],
-        "send": [
-            "creature",
-            "company"
-        ],
-        "duck": [
-            "it"
-        ],
-        "need": [
-            "What",
-            "that"
-        ],
-        "order": [
-            "sound"
-        ],
-        "concentrate": [
-            "whole"
-        ],
-        "feel": [
-            "pushing",
-            "gathering"
-        ],
-        "stir": [
-            "herself"
-        ],
-        "lead": [
-            "way"
-        ],
-        "hear": [
-            "splash",
-            "conversation"
-        ],
-        "seem": [
-            "be"
-        ],
-        "stop": [
-            "her"
-        ],
-        "balance": [
-            "that"
-        ],
-        "place": [
-            "mug",
-            "stool"
-        ],
-        "cup": [
-            "mug"
-        ],
-        "use": [
-            "make",
-            "do",
-            "thread"
-        ],
-        "fall": [
-            "sleep"
-        ],
-        "flip": [
-            "back"
-        ],
-        "continue": [
-            "sit"
-        ],
-        "turn": [
-            "writing"
-        ],
-        "walk": [
-            "writing"
-        ],
-        "wipe": [
-            "writing"
-        ],
-        "pause": [
-            "go"
-        ],
-        "see": [
-            "person",
-            "company"
-        ],
-        "approach": [
-            "chair"
-        ],
-        "kiss": [
-            "mother",
-            "father",
-            "daughter"
-        ],
-        "warm": [
-            "milk"
-        ],
-        "tie": [
-            "bib"
-        ],
-        "watch": [
-            "person"
-        ],
-        "shout": [
-            "him"
-        ],
-        "witness": [
-            "event"
-        ],
-        "speak": [
-            "embarrassment"
-        ],
-        "bestir": [
-            "herself"
-        ],
-        "save": [
-            "life"
-        ],
-        "rip": [
-            "few"
-        ],
-        "attach": [
-            "thread"
-        ],
-        "throw": [
-            "right",
-            "left"
-        ],
-        "dodge": [
-            "right"
-        ],
-        "eat": [
-            "him",
-            "it"
-        ],
-        "spend": [
-            "life"
-        ],
-        "pay": [
-            "attention"
-        ],
-        "rub": [
-            "him"
-        ],
-        "climb": [
-            "side"
-        ],
-        "hide": [
-            "herself"
-        ],
-        "shake": [
-            "head"
-        ],
-        "finish": [
-            "sentence"
-        ],
-        "summon": [
-            "strength"
-        ],
-        "wave": [
-            "one"
-        ]
-    },
-    "horror": {
-        "remark": [
-            "prince"
-        ]
-    },
-    "my": {
-        "ask": [
-            "question"
-        ]
-    },
-    "stars": {
-        "obey": [
-            "you"
-        ],
-        "begin": [
-            "come"
-        ]
-    },
-    "tippler": {
-        "bring": [
-            "speech"
-        ],
-        "shut": [
-            "himself"
-        ]
-    },
-    "two": {
-        "make": [
-            "eight"
-        ],
-        "start": [
-            "wandering"
-        ],
-        "walk": [
-            "company"
-        ],
-        "stay": [
-            "housekeeping",
-            "sitting"
-        ],
-        "set": [
-            "walk",
-            "housekeeping"
-        ]
-    },
-    "six": {
-        "make": [
-            "one"
-        ]
-    },
-    "what": {
-        "repeat": [
-            "prince"
-        ],
-        "ask": [
-            "prince"
-        ],
-        "give": [
-            "beauty"
-        ],
-        "seem": [
-            "be"
-        ]
-    },
-    "businessman": {
-        "raise": [
-            "head"
-        ],
-        "open": [
-            "mouth"
-        ]
-    },
-    "work": {
-        "have": [
-            "meaning"
-        ]
-    },
-    "planet": {
-        "make": [
-            "turn"
-        ]
-    },
-    "day": {
-        "last": [
-            "minute"
-        ]
-    },
-    "geographer": {
-        "order": [
-            "inquiry"
-        ],
-        "sharpen": [
-            "pencil"
-        ]
-    },
-    "mountain": {
-        "change": [
-            "position"
-        ]
-    },
-    "ocean": {
-        "empty": [
-            "itself"
-        ]
-    },
-    "wind": {
-        "blow": [
-            "them"
-        ],
-        "shake": [
-            "them"
-        ],
-        "take": [
-            "us"
-        ]
-    },
-    "morning": {
-        "answer": [
-            "echo"
-        ]
-    },
-    "men": {
-        "hunt": [
-            "me"
-        ],
-        "be": [
-            "friends"
-        ],
-        "have": [
-            "stars",
-            "friends"
-        ],
-        "pick": [
-            "crate"
-        ],
-        "shove": [
-            "person"
-        ]
-    },
-    "steps": {
-        "send": [
-            "me"
-        ]
-    },
-    "fields": {
-        "have": [
-            "nothing"
-        ]
-    },
-    "train": {
-        "shake": [
-            "cabin"
-        ]
-    },
-    "darkness": {
-        "fall": [
-            "come"
-        ]
-    },
-    "legend": {
-        "tell": [
-            "us"
-        ]
-    },
-    "time": {
-        "soothe": [
-            "sorrows"
-        ]
-    },
-    "child": {
-        "have": [
-            "qualities"
-        ]
-    },
-    "teachers": {
-        "suffer": [
-            "deal"
-        ]
-    },
-    "grasshoppers": {
-        "have": [
-            "hearingorgans"
-        ]
-    },
-    "daughter": {
-        "have": [
-            "organs"
-        ]
-    },
-    "cicada": {
-        "spend": [
-            "years"
-        ]
-    },
-    "parents": {
-        "treat": [
-            "children"
-        ],
-        "call": [
-            "her"
-        ],
-        "tell": [
-            "her"
-        ],
-        "adore": [
-            "it"
-        ],
-        "exist": [
-            "be"
-        ],
-        "take": [
-            "you"
-        ]
-    },
-    "walk": {
-        "take": [
-            "minutes"
-        ]
-    },
-    "this": {
-        "allow": [
-            "minutes"
-        ],
-        "infuriate": [
-            "father"
-        ]
-    },
-    ":o": {
-        "cross": [
-            "floor"
-        ]
-    },
-    "mother": {
-        "take": [
-            "you"
-        ],
-        "grab": [
-            "poker"
-        ],
-        "tell": [
-            "him"
-        ],
-        "dial": [
-            "number"
-        ],
-        "find": [
-            "her"
-        ],
-        "wash": [
-            "them"
-        ],
-        "dust": [
-            "room"
-        ]
-    },
-    "t": {
-        "mooch": [
-            "telly"
-        ],
-        "watch": [
-            "telly"
-        ]
-    },
-    "bedroom": {
-        "become": [
-            "afternoons"
-        ],
-        "read": [
-            "afternoons"
-        ]
-    },
-    "books": {
-        "transport": [
-            "her"
-        ],
-        "introduce": [
-            "her"
-        ]
-    },
-    "answer": {
-        "hit": [
-            "me"
-        ]
-    },
-    "son": {
-        "ask": [
-            "him",
-            "goggling"
-        ],
-        "leave": [
-            "room"
-        ]
-    },
-    "car": {
-        "do": [
-            "thousand"
-        ],
-        "get": [
-            "treatment"
-        ]
-    },
-    "flesh": {
-        "appear": [
-            "be"
-        ]
-    },
-    "anger": {
-        "go": [
-            "decision"
-        ]
-    },
-    "wife": {
-        "do": [
-            "get"
-        ],
-        "tell": [
-            "him"
-        ],
-        "be": [
-            "signals"
-        ],
-        "recognize": [
-            "signs"
-        ]
-    },
-    "her": {
-        "get": [
-            "pleasure"
-        ],
-        "grab": [
-            "girl"
-        ],
-        "throw": [
-            "her"
-        ]
-    },
-    "father": {
-        "keep": [
-            "going",
-            "box"
-        ],
-        "say": [
-            "what",
-            "tearing"
-        ],
-        "take": [
-            "club"
-        ],
-        "have": [
-            "crop",
-            "day",
-            "have"
-        ],
-        "make": [
-            "money"
-        ]
-    },
-    "crying": {
-        "get": [
-            "anyone"
-        ]
-    },
-    "husband": {
-        "wipe": [
-            "lips"
-        ]
-    },
-    "brother": {
-        "seize": [
-            "lamp"
-        ],
-        "give": [
-            "wave"
-        ]
-    },
-    "four": {
-        "creep": [
-            "knife"
-        ]
-    },
-    "others": {
-        "follow": [
-            "her"
-        ]
-    },
-    "affair": {
-        "cool": [
-            "parents"
-        ]
-    },
-    "check": {
-        "blind": [
-            "onlooker"
-        ]
-    },
-    "boy": {
-        "write": [
-            "amounts"
-        ],
-        "pick": [
-            "knife"
-        ],
-        "begin": [
-            "eat",
-            "cut"
-        ],
-        "cut": [
-            "slice",
-            "himself"
-        ],
-        "keep": [
-            "going"
-        ],
-        "start": [
-            "eat",
-            "eating"
-        ],
-        "let": [
-            "belch"
-        ],
-        "spin": [
-            "head"
-        ],
-        "shriek": [
-            "head"
-        ],
-        "shoot": [
-            "somersault"
-        ],
-        "turn": [
-            "somersault"
-        ]
-    },
-    "afternoons": {
-        "leave": [
-            "her"
-        ]
-    },
-    "latest": {
-        "deserve": [
-            "punishment"
-        ]
-    },
-    "bottle": {
-        "stand": [
-            "place"
-        ]
-    },
-    "massage": {
-        "take": [
-            "place"
-        ]
-    },
-    "thought": {
-        "go": [
-            "see"
-        ],
-        "come": [
-            "tremble"
-        ]
-    },
-    "gawd": {
-        "yell": [
-            "father"
-        ]
-    },
-    "goodness": {
-        "know": [
-            "him"
-        ]
-    },
-    "us": {
-        "leave": [
-            "sums",
-            "her"
-        ],
-        "get": [
-            "it"
-        ],
-        "handle": [
-            "them"
-        ],
-        "have": [
-            "cup",
-            "it"
-        ],
-        "try": [
-            "be"
-        ],
-        "see": [
-            "it"
-        ],
-        "scratch": [
-            "him"
-        ],
-        "build": [
-            "house"
-        ]
-    },
-    "any": {
-        "happen": [
-            "learnt"
-        ],
-        "have": [
-            "dusted"
-        ]
-    },
-    "dining": {
-        "find": [
-            "mouse"
-        ]
-    },
-    "rest": {
-        "cry": [
-            "waiter"
-        ],
-        "wave": [
-            "it"
-        ],
-        "buy": [
-            "paraffin"
-        ]
-    },
-    "teacher": {
-        "call": [
-            "you"
-        ],
-        "keep": [
-            "eye"
-        ]
-    },
-    "whole": {
-        "blush": [
-            "scarlet"
-        ]
-    },
-    "face": {
-        "turn": [
-            "swell"
-        ]
-    },
-    "body": {
-        "seem": [
-            "swell"
-        ]
-    },
-    "word": {
-        "shout": [
-            "person"
-        ]
-    },
-    "hopes": {
-        "begin": [
-            "expand"
-        ]
-    },
-    "woman": {
-        "say": [
-            "looking"
-        ],
-        "seem": [
-            "lost"
-        ]
-    },
-    "those": {
-        "like": [
-            "her"
-        ]
-    },
-    "tales": {
-        "begin": [
-            "filter"
-        ]
-    },
-    "ones": {
-        "keep": [
-            "silence"
-        ]
-    },
-    "fistful": {
-        "go": [
-            "crumbs"
-        ],
-        "spray": [
-            "crumbs"
-        ]
-    },
-    "door": {
-        "get": [
-            "thousands"
-        ]
-    },
-    "label": {
-        "say": [
-            "raise"
-        ]
-    },
-    "nothing": {
-        "make": [
-            "difference"
-        ],
-        "have": [
-            "nothing"
-        ],
-        "seem": [
-            "happening"
-        ]
-    },
-    "thrower": {
-        "whisk": [
-            "it"
-        ]
-    },
-    "hair": {
-        "grow": [
-            "it"
-        ]
-    },
-    "pigtail": {
-        "have": [
-            "bow"
-        ]
-    },
-    "m": {
-        "like": [
-            "them"
-        ]
-    },
-    "mummy": {
-        "think": [
-            "what"
-        ]
-    },
-    "cook": {
-        "see": [
-            "you"
-        ],
-        "place": [
-            "cake"
-        ]
-    },
-    "pieces": {
-        "fly": [
-            "it"
-        ]
-    },
-    "class": {
-        "have": [
-            "day"
-        ]
-    },
-    "germ": {
-        "hit": [
-            "her"
-        ]
-    },
-    "secrecy": {
-        "observe": [
-            "herself"
-        ]
-    },
-    "mothers": {
-        "tell": [
-            "you"
-        ]
-    },
-    "me": {
-        "tell": [
-            "something"
-        ],
-        "sign": [
-            "paper"
-        ],
-        "bath": [
-            "myself"
-        ],
-        "wrap": [
-            "fly"
-        ],
-        "help": [
-            "you"
-        ],
-        "live": [
-            "me"
-        ]
-    },
-    "prefects": {
-        "chase": [
-            "you"
-        ]
-    },
-    "kind": {
-        "seem": [
-            "gathering"
-        ]
-    },
-    "waves": {
-        "seem": [
-            "flashing"
-        ]
-    },
-    "glass": {
-        "begin": [
-            "lean"
-        ]
-    },
-    "splash": {
-        "make": [
-            "patch"
-        ]
-    },
-    "butcher": {
-        "hang": [
-            "greengrocer"
-        ]
-    },
-    "words": {
-        "go": [
-            "them"
-        ],
-        "give": [
-            "courage"
-        ]
-    },
-    "eyes": {
-        "get": [
-            "person"
-        ],
-        "become": [
-            "pushing"
-        ],
-        "meet": [
-            "eyes"
-        ],
-        "have": [
-            "look"
-        ]
-    },
-    "whatever": {
-        "happen": [
-            "it"
-        ]
-    },
-    "berries": {
-        "be": [
-            "scarlet"
-        ]
-    },
-    "tree": {
-        "stand": [
-            "overshadowing"
-        ],
-        "hear": [
-            "song"
-        ]
-    },
-    "branches": {
-        "seem": [
-            "enfolding"
-        ],
-        "hide": [
-            "it"
-        ]
-    },
-    "poet": {
-        "write": [
-            "lines"
-        ]
-    },
-    "well": {
-        "have": [
-            "roof"
-        ]
-    },
-    "rope": {
-        "go": [
-            "splash"
-        ]
-    },
-    "powder": {
-        "come": [
-            "palm"
-        ]
-    },
-    "house": {
-        "clean": [
-            "lot"
-        ]
-    },
-    "mind": {
-        "seem": [
-            "be"
-        ]
-    },
-    "aunt": {
-        "kill": [
-            "him"
-        ],
-        "tell": [
-            "me"
-        ],
-        "produce": [
-            "piece"
-        ]
-    },
-    "snippet": {
-        "seem": [
-            "taking"
-        ]
-    },
-    "electricity": {
-        "begin": [
-            "flow"
-        ]
-    },
-    "millions": {
-        "begin": [
-            "pushing"
-        ]
-    },
-    "cigar": {
-        "start": [
-            "roll"
-        ]
-    },
-    "end": {
-        "lift": [
-            "inch"
-        ]
-    },
-    "lot": {
-        "have": [
-            "pieces"
-        ],
-        "mutter": [
-            "rat"
-        ]
-    },
-    "chalk": {
-        "continue": [
-            "write"
-        ],
-        "stop": [
-            "writing"
-        ]
-    },
-    "snow": {
-        "shut": [
-            "series"
-        ],
-        "give": [
-            "series"
-        ]
-    },
-    "everything": {
-        "seem": [
-            "be"
-        ]
-    },
-    "evening": {
-        "begin": [
-            "develop",
-            "falling"
-        ]
-    },
-    "neither": {
-        "say": [
-            "word"
-        ]
-    },
-    "weakling": {
-        "make": [
-            "trouble"
-        ]
-    },
-    "pig": {
-        "have": [
-            "appetite",
-            "friends"
-        ],
-        "mutter": [
-            "city"
-        ]
-    },
-    "bus": {
-        "reach": [
-            "school"
-        ]
-    },
-    "farmers": {
-        "call": [
-            "what"
-        ]
-    },
-    "fun": {
-        "raise": [
-            "pig"
-        ]
-    },
-    "animals": {
-        "spend": [
-            "most"
-        ],
-        "trust": [
-            "her"
-        ],
-        "lift": [
-            "heads"
-        ],
-        "treat": [
-            "her"
-        ],
-        "sniff": [
-            "smell"
-        ]
-    },
-    "barn": {
-        "have": [
-            "stalls"
-        ]
-    },
-    "board": {
-        "give": [
-            "way"
-        ]
-    },
-    "anyone": {
-        "notice": [
-            "him"
-        ]
-    },
-    "goose": {
-        "hear": [
-            "racket"
-        ],
-        "start": [
-            "hollering"
-        ],
-        "take": [
-            "command"
-        ],
-        "begin": [
-            "give"
-        ],
-        "turn": [
-            "nest"
-        ],
-        "raise": [
-            "herself"
-        ],
-        "poke": [
-            "eggs"
-        ],
-        "know": [
-            "day",
-            "that"
-        ],
-        "push": [
-            "egg"
-        ],
-        "lead": [
-            "goslings"
-        ],
-        "tell": [
-            "person"
-        ],
-        "do": [
-            "what"
-        ]
-    },
-    "spaniel": {
-        "hear": [
-            "commotion"
-        ]
-    },
-    "horses": {
-        "prick": [
-            "ears"
-        ],
-        "detest": [
-            "them"
-        ]
-    },
-    "animal": {
-        "stir": [
-            "head"
-        ],
-        "lift": [
-            "head"
-        ],
-        "continue": [
-            "speaker"
-        ]
-    },
-    "plans": {
-        "go": [
-            "something"
-        ]
-    },
-    "milk": {
-        "stick": [
-            "skins"
-        ]
-    },
-    "trough": {
-        "have": [
-            "inch"
-        ]
-    },
-    "tunnel": {
-        "enable": [
-            "him"
-        ]
-    },
-    "teeth": {
-        "scrape": [
-            "racket"
-        ],
-        "make": [
-            "racket"
-        ]
-    },
-    "spider": {
-        "have": [
-            "pick"
-        ],
-        "happen": [
-            "think"
-        ],
-        "wait": [
-            "|"
-        ],
-        "learn": [
-            "spin"
-        ],
-        "know": [
-            "spin"
-        ],
-        "stand": [
-            "spinnerets",
-            "balloon"
-        ],
-        "point": [
-            "spinnerets"
-        ],
-        "let": [
-            "go",
-            "cloud"
-        ],
-        "crawl": [
-            "balloon"
-        ],
-        "make": [
-            "balloon"
-        ],
-        "take": [
-            "time"
-        ]
-    },
-    "bugs": {
-        "multiply": [
-            "everything"
-        ],
-        "get": [
-            "everything"
-        ],
-        "wipe": [
-            "everything"
-        ]
-    },
-    "breeze": {
-        "bring": [
-            "smell"
-        ]
-    },
-    "phoebe": {
-        "teeter": [
-            "tail"
-        ],
-        "wag": [
-            "tail"
-        ]
-    },
-    "ball": {
-        "have": [
-            "worm"
-        ]
-    },
-    "eggs": {
-        "hatch": [
-            "that"
-        ]
-    },
-    "gosling": {
-        "poke": [
-            "head"
-        ],
-        "stick": [
-            "head"
-        ]
-    },
-    "gander": {
-        "open": [
-            "wings"
-        ],
-        "beat": [
-            "air"
-        ],
-        "discover": [
-            "hole"
-        ],
-        "lead": [
-            "family"
-        ],
-        "eat": [
-            "apples"
-        ]
-    },
-    "rat": {
-        "have": [
-            "feast",
-            "access",
-            "morals"
-        ],
-        "roll": [
-            "it"
-        ],
-        "poke": [
-            "head"
-        ],
-        "visit": [
-            "dump"
-        ],
-        "enter": [
-            "barn"
-        ],
-        "begin": [
-            "climb"
-        ],
-        "mumble": [
-            "something"
-        ],
-        "crawl": [
-            "everything"
-        ],
-        "eat": [
-            "everything"
-        ]
-    },
-    "cows": {
-        "hate": [
-            "them"
-        ],
-        "stir": [
-            "chains"
-        ],
-        "rattle": [
-            "chains"
-        ]
-    },
-    "egg": {
-        "be": [
-            "person"
-        ]
-    },
-    "leg": {
-        "have": [
-            "sections"
-        ]
-    },
-    "legs": {
-        "have": [
-            "sections"
-        ],
-        "encircle": [
-            "sac"
-        ],
-        "embrace": [
-            "sac"
-        ]
-    },
-    "web": {
-        "begin": [
-            "sway"
-        ],
-        "glisten": [
-            "pattern"
-        ],
-        "make": [
-            "pattern"
-        ]
-    },
-    "pen": {
-        "attract": [
-            "flies"
-        ]
-    },
-    "bird": {
-        "sing": [
-            "whippoorwill"
-        ]
-    },
-    "crisis": {
-        "groan": [
-            "person"
-        ]
-    },
-    "smell": {
-        "drive": [
-            "him"
-        ]
-    },
-    "goslings": {
-        "whistle": [
-            "song"
-        ],
-        "parade": [
-            "mother"
-        ],
-        "round": [
-            "mother"
-        ]
-    },
-    "niece": {
-        "call": [
-            "him"
-        ]
-    },
-    "blackberries": {
-        "get": [
-            "put"
-        ]
-    },
-    "corn": {
-        "need": [
-            "hoeing"
-        ]
-    },
-    "tubes": {
-        "go": [
-            "thread"
-        ]
-    },
-    "tail": {
-        "have": [
-            "curl"
-        ]
-    },
-    "cousin": {
-        "dare": [
-            "tackle"
-        ],
-        "wrap": [
-            "it"
-        ],
-        "keep": [
-            "slipping",
-            "fish"
-        ],
-        "build": [
-            "web"
-        ]
-    },
-    "fish": {
-        "lose": [
-            "fight"
-        ]
-    },
-    "frogs": {
-        "praise": [
-            "world"
-        ]
-    },
-    "curiosity": {
-        "begin": [
-            "get"
-        ]
-    },
-    "crickets": {
-        "spread": [
-            "rumor"
-        ]
-    },
-    "geese": {
-        "hear": [
-            "it"
-        ],
-        "see": [
-            "company"
-        ],
-        "give": [
-            "welcome"
-        ],
-        "gnaw": [
-            "them"
-        ],
-        "hang": [
-            "com"
-        ]
-    },
-    "sadness": {
-        "come": [
-            "crickets"
-        ]
-    },
-    "creature": {
-        "plan": [
-            "person"
-        ]
-    },
-    "grandmother": {
-        "use": [
-            "bathe"
-        ]
-    },
-    "buttermilk": {
-        "run": [
-            "mouth"
-        ]
-    },
-    "seven": {
-        "begin": [
-            "teasing"
-        ]
-    },
-    "crystals": {
-        "gnaw": [
-            "cones"
-        ]
-    },
-    "fair": {
-        "have": [
-            "food"
-        ]
-    },
-    "crate": {
-        "contain": [
-            "rat"
-        ]
-    },
-    "foot": {
-        "touch": [
-            "city"
-        ]
-    },
-    "truck": {
-        "begin": [
-            "move"
-        ]
-    },
-    "money": {
-        "have": [
-            "last"
-        ]
-    },
-    "crowds": {
-        "gather": [
-            "watch"
-        ]
-    },
-    "thing": {
-        "tire": [
-            "me"
-        ]
-    },
-    "shadows": {
-        "darken": [
-            "building"
-        ]
-    },
-    "nose": {
-        "detect": [
-            "smells"
-        ]
-    },
-    "fireworks": {
-        "begin": [
-            "going"
-        ]
-    },
-    "rooster": {
-        "crow": [
-            "chains"
-        ]
-    },
-    "automobiles": {
-        "go": [
-            "whispering"
-        ]
-    },
-    "building": {
-        "explain": [
-            "person"
-        ]
-    },
-    "strand": {
-        "hold": [
-            "dozens"
-        ]
-    },
-    "light": {
-        "strike": [
-            "it"
-        ]
-    },
-    "grownups": {
-        "join": [
-            "hands"
-        ]
-    },
-    "bur": {
-        "eat": [
-            "breakfast"
-        ]
-    },
-    "management": {
-        "take": [
-            "pleasure"
-        ]
-    },
-    "crowd": {
-        "begin": [
-            "cheer"
-        ],
-        "love": [
-            "it"
-        ]
-    },
-    "pain": {
-        "revive": [
-            "person"
-        ]
-    },
-    "judge": {
-        "shake": [
-            "hands"
-        ]
-    },
-    "photographer": {
-        "take": [
-            "picture"
-        ]
-    },
-    "water": {
-        "splash": [
-            "aim"
-        ]
-    },
-    "trousers": {
-        "make": [
-            "spot"
-        ]
-    },
-    "sobs": {
-        "rack": [
-            "body"
-        ]
-    },
-    "maples": {
-        "turn": [
-            "colors"
-        ]
-    },
-    "apples": {
-        "lay": [
-            "them"
-        ],
-        "sniff": [
-            "them"
-        ]
-    },
-    "foxes": {
-        "come": [
-            "them"
-        ]
-    },
-    "boys": {
-        "hang": [
-            "store"
-        ]
-    },
-    "lamb": {
-        "follow": [
-            "her"
-        ]
-    },
-    "spiders": {
-        "wave": [
-            "forelegs"
-        ],
-        "feel": [
-            "updraft"
-        ]
-    },
-    "silk": {
-        "form": [
-            "balloon"
-        ]
-    },
-    "none": {
-        "take": [
-            "place"
-        ]
-    }
+  "group": {
+    "have": [
+      "money"
+    ],
+    "need": [
+      "member"
+    ]
+  },
+  "city": {
+    "want": [
+      "change",
+      "reactor",
+      "worker"
+    ],
+    "use": [
+      "city"
+    ],
+    "make": [
+      "change",
+      "announcement"
+    ],
+    "have": [
+      "cousin",
+      "war",
+      "worry"
+    ],
+    "need": [
+      "idea",
+      "help",
+      "person"
+    ],
+    "get": [
+      "piece",
+      "thing"
+    ],
+    "borrow": [
+      "money"
+    ],
+    "pause": [
+      "observe"
+    ],
+    "say": [
+      "few"
+    ],
+    "hear": [
+      "song",
+      "noise"
+    ],
+    "fetch": [
+      "hammer"
+    ],
+    "nail": [
+      "board"
+    ],
+    "dump": [
+      "slop"
+    ],
+    "scrape": [
+      "pail"
+    ],
+    "catch": [
+      "person"
+    ],
+    "force": [
+      "medicine"
+    ],
+    "spy": [
+      "it"
+    ],
+    "like": [
+      "do",
+      "it"
+    ],
+    "seize": [
+      "string"
+    ],
+    "pass": [
+      "it"
+    ],
+    "tie": [
+      "hitch"
+    ],
+    "sit": [
+      "pipe"
+    ],
+    "light": [
+      "pipe"
+    ],
+    "drop": [
+      "fly"
+    ],
+    "roll": [
+      "fly"
+    ],
+    "carry": [
+      "it"
+    ],
+    "decide": [
+      "use"
+    ],
+    "know": [
+      "dump"
+    ],
+    "examine": [
+      "label"
+    ],
+    "put": [
+      "straw"
+    ],
+    "lift": [
+      "it"
+    ],
+    "slop": [
+      "person"
+    ],
+    "scramble": [
+      "post"
+    ],
+    "climb": [
+      "post"
+    ],
+    "set": [
+      "crate"
+    ],
+    "poke": [
+      "head"
+    ],
+    "scream": [
+      "person"
+    ],
+    "do": [
+      "it"
+    ],
+    "run": [
+      "piece"
+    ],
+    "lend": [
+      "piece"
+    ],
+    "work": [
+      "person"
+    ],
+    "manage": [
+      "person"
+    ],
+    "bring": [
+      "squash"
+    ],
+    "pile": [
+      "person"
+    ],
+    "move": [
+      "indoors"
+    ]
+  },
+  "person": {
+    "get": [
+      "hanker",
+      "card",
+      "doctor",
+      "person",
+      "bath",
+      "motor",
+      "idea",
+      "feeling",
+      "nerve",
+      "figure",
+      "multiplication",
+      "compact",
+      "job",
+      "door",
+      "pleasure",
+      "it"
+    ],
+    "feel": [
+      "milk",
+      "win",
+      "rob",
+      "rubbing",
+      "hope",
+      "pain",
+      "water",
+      "push",
+      "gathering",
+      "drop"
+    ],
+    "try": [
+      "get",
+      "follow",
+      "door",
+      "look",
+      "read",
+      "time",
+      "think",
+      "keep",
+      "one",
+      "it",
+      "support",
+      "be"
+    ],
+    "thank": [
+      "teammate",
+      "company",
+      "person"
+    ],
+    "change": [
+      "plate",
+      "world",
+      "mind"
+    ],
+    "like": [
+      "wear",
+      "teamwork",
+      "be",
+      "boast",
+      "work",
+      "it",
+      "city",
+      "start",
+      "sit",
+      "person",
+      "place"
+    ],
+    "need": [
+      "part",
+      "ax",
+      "walk",
+      "it",
+      "what"
+    ],
+    "decide": [
+      "change",
+      "build",
+      "go",
+      "ask",
+      "give",
+      "interfere",
+      "tell",
+      "put"
+    ],
+    "start": [
+      "count",
+      "climb",
+      "company",
+      "motor",
+      "compose",
+      "open",
+      "act",
+      "race",
+      "mess",
+      "splash",
+      "it",
+      "weave",
+      "wander",
+      "walk"
+    ],
+    "win": [
+      "person",
+      "money"
+    ],
+    "want": [
+      "to",
+      "help",
+      "friend",
+      "know",
+      "love",
+      "win",
+      "see",
+      "city",
+      "look",
+      "what",
+      "get",
+      "sort",
+      "company",
+      "cake",
+      "name",
+      "rid",
+      "rest",
+      "tell",
+      "whatever",
+      "it",
+      "stay",
+      "do",
+      "more",
+      "sheep"
+    ],
+    "love": [
+      "child",
+      "life",
+      "be",
+      "team",
+      "lamplighter",
+      "person",
+      "football",
+      "milk",
+      "barn",
+      "flower",
+      "it",
+      "weave",
+      "stroke"
+    ],
+    "promise": [
+      "try",
+      "return"
+    ],
+    "give": [
+      "jump",
+      "time",
+      "smile",
+      "dime",
+      "money",
+      "forkful",
+      "web",
+      "name",
+      "chance",
+      "feeding",
+      "quarter",
+      "box",
+      "permission",
+      "person",
+      "job",
+      "shake",
+      "order",
+      "yank"
+    ],
+    "tell": [
+      "person",
+      "story",
+      "woman",
+      "it",
+      "mother",
+      "fan",
+      "glass"
+    ],
+    "answer": [
+      "person",
+      "question",
+      "it"
+    ],
+    "bend": [
+      "head"
+    ],
+    "see": [
+      "person",
+      "plane",
+      "it",
+      "poke",
+      "bear",
+      "giant",
+      "object",
+      "live",
+      "company"
+    ],
+    "ask": [
+      "person",
+      "question",
+      "hen",
+      "advice"
+    ],
+    "toss": [
+      "head",
+      "curl",
+      "person"
+    ],
+    "bury": [
+      "person"
+    ],
+    "say": [
+      "watch",
+      "name",
+      "flower",
+      "descent",
+      "content",
+      "it",
+      "what",
+      "word",
+      "rule",
+      "goodbye",
+      "hammer",
+      "person",
+      "hop",
+      "more",
+      "cup"
+    ],
+    "take": [
+      "breath",
+      "person",
+      "bundle",
+      "clothe",
+      "tail",
+      "herd",
+      "advantage",
+      "cover",
+      "drink",
+      "look",
+      "thing",
+      "courage",
+      "leave",
+      "step",
+      "it",
+      "pair",
+      "care",
+      "knife",
+      "name",
+      "notice",
+      "medal",
+      "handkerchief",
+      "cap",
+      "bath",
+      "advice",
+      "bottle",
+      "patent",
+      "margarine",
+      "hold",
+      "one",
+      "doll",
+      "slice",
+      "position",
+      "grip"
+    ],
+    "make": [
+      "noise",
+      "mind",
+      "answer",
+      "effort",
+      "face",
+      "comment",
+      "remark",
+      "swing",
+      "rule",
+      "pound",
+      "fight",
+      "decision",
+      "company",
+      "guess",
+      "speech",
+      "attachment",
+      "sound",
+      "it",
+      "experiment"
+    ],
+    "neglect": [
+      "work",
+      "bush"
+    ],
+    "demand": [
+      "sheep"
+    ],
+    "add": [
+      "answer",
+      "figure",
+      "instant"
+    ],
+    "tend": [
+      "flower"
+    ],
+    "continue": [
+      "person",
+      "conversation",
+      "confidence",
+      "speaker",
+      "gaze",
+      "sit"
+    ],
+    "put": [
+      "head",
+      "snout",
+      "arm",
+      "knife",
+      "planet",
+      "foot",
+      "hat",
+      "lamp",
+      "suit",
+      "finger",
+      "person",
+      "pitcher",
+      "mug",
+      "bebecause",
+      "victim",
+      "tray",
+      "it"
+    ],
+    "clean": [
+      "volcano"
+    ],
+    "possess": [
+      "volcano",
+      "none",
+      "gift"
+    ],
+    "have": [
+      "plan",
+      "personality",
+      "ribbon",
+      "idea",
+      "strip",
+      "smudge",
+      "make",
+      "ask",
+      "volcano",
+      "thing",
+      "go",
+      "friend",
+      "money",
+      "question",
+      "tunnel",
+      "one",
+      "air",
+      "mountain",
+      "plenty",
+      "imagination",
+      "pair",
+      "lot",
+      "beauty",
+      "swing",
+      "beard",
+      "city",
+      "keep",
+      "confidence",
+      "call",
+      "attack",
+      "house",
+      "work",
+      "gosling",
+      "it",
+      "shelf",
+      "put",
+      "choice",
+      "business",
+      "watch",
+      "any",
+      "hair",
+      "pound",
+      "need",
+      "stand",
+      "be",
+      "parent",
+      "sense",
+      "strength",
+      "talk",
+      "nest",
+      "leg",
+      "stay",
+      "power",
+      "time",
+      "web",
+      "cold",
+      "straw",
+      "thorn",
+      "chin",
+      "come",
+      "shut",
+      "tell",
+      "face",
+      "sit",
+      "heart",
+      "pig",
+      "line",
+      "table",
+      "stoop",
+      "do",
+      "chop",
+      "muscle",
+      "get",
+      "gander",
+      "appendix",
+      "cup",
+      "spider",
+      "word"
+    ],
+    "water": [
+      "flower"
+    ],
+    "prepare": [
+      "place",
+      "meal"
+    ],
+    "stand": [
+      "look",
+      "globe",
+      "ear",
+      "eye",
+      "swell",
+      "wait"
+    ],
+    "find": [
+      "person",
+      "newspaper",
+      "strip",
+      "trinket",
+      "bit",
+      "it",
+      "funny",
+      "footprint",
+      "bottle",
+      "job",
+      "diamond",
+      "one",
+      "house",
+      "loaf"
+    ],
+    "tolerate": [
+      "disobedience"
+    ],
+    "remember": [
+      "fondness",
+      "planet",
+      "sunset",
+      "person"
+    ],
+    "pluck": [
+      "courage"
+    ],
+    "consult": [
+      "almanac"
+    ],
+    "begin": [
+      "person",
+      "rip",
+      "cry",
+      "clap",
+      "tremble",
+      "push",
+      "squeal",
+      "snip",
+      "struggle",
+      "search",
+      "cut",
+      "company",
+      "hanker",
+      "mull",
+      "concentrate",
+      "torment",
+      "run"
+    ],
+    "light": [
+      "lamp",
+      "it"
+    ],
+    "bring": [
+      "person",
+      "frog",
+      "one",
+      "buttermilk",
+      "clipping",
+      "which",
+      "it"
+    ],
+    "send": [
+      "flower",
+      "compliment",
+      "creature",
+      "company"
+    ],
+    "salute": [
+      "lamplighter"
+    ],
+    "mop": [
+      "forehead"
+    ],
+    "breathe": [
+      "sigh",
+      "air"
+    ],
+    "cast": [
+      "look",
+      "fragrance"
+    ],
+    "receive": [
+      "explorer",
+      "letter"
+    ],
+    "note": [
+      "question"
+    ],
+    "wander": [
+      "little"
+    ],
+    "twine": [
+      "person"
+    ],
+    "use": [
+      "volcano",
+      "it",
+      "wash",
+      "do",
+      "thread",
+      "make"
+    ],
+    "save": [
+      "it",
+      "peak",
+      "minute",
+      "life"
+    ],
+    "laugh": [
+      "rope",
+      "sway",
+      "laugh"
+    ],
+    "touch": [
+      "rope",
+      "spinneret"
+    ],
+    "set": [
+      "pulley",
+      "pail",
+      "walk",
+      "carton",
+      "company",
+      "fire"
+    ],
+    "interrupt": [
+      "person"
+    ],
+    "wear": [
+      "it",
+      "clothe",
+      "day",
+      "up",
+      "boot",
+      "brogue"
+    ],
+    "look": [
+      "fool",
+      "time",
+      "jump",
+      "arm",
+      "chain",
+      "person"
+    ],
+    "hesitate": [
+      "little",
+      "moment"
+    ],
+    "watch": [
+      "swallow",
+      "bee",
+      "flower",
+      "chance",
+      "person",
+      "animal",
+      "bus",
+      "telly"
+    ],
+    "forget": [
+      "globe",
+      "year"
+    ],
+    "leave": [
+      "house",
+      "noodle",
+      "school",
+      "picture",
+      "island",
+      "home",
+      "field",
+      "enough",
+      "line",
+      "sum",
+      "person",
+      "hall"
+    ],
+    "sport": [
+      "tie",
+      "stocking"
+    ],
+    "discover": [
+      "penicillin",
+      "island",
+      "pencilbox"
+    ],
+    "adopt": [
+      "attitude"
+    ],
+    "mean": [
+      "keep",
+      "star",
+      "what"
+    ],
+    "be": [
+      "web",
+      "finger",
+      "city",
+      "cluster",
+      "crackle",
+      "gift"
+    ],
+    "seem": [
+      "say",
+      "get",
+      "lose",
+      "gather",
+      "stiffen",
+      "rouse",
+      "fall",
+      "work",
+      "be",
+      "shrink",
+      "understand",
+      "learn",
+      "know"
+    ],
+    "drop": [
+      "cover",
+      "prayer",
+      "it",
+      "person",
+      "plate"
+    ],
+    "sit": [
+      "hand",
+      "doughnut",
+      "animal",
+      "eat"
+    ],
+    "rub": [
+      "hand",
+      "soap",
+      "person"
+    ],
+    "address": [
+      "son",
+      "person"
+    ],
+    "fish": [
+      "bit"
+    ],
+    "study": [
+      "it",
+      "person"
+    ],
+    "part": [
+      "which",
+      "it"
+    ],
+    "think": [
+      "hair",
+      "spider",
+      "kill",
+      "what"
+    ],
+    "stride": [
+      "son"
+    ],
+    "slap": [
+      "son"
+    ],
+    "grab": [
+      "it",
+      "hair",
+      "bottom",
+      "fly",
+      "girl"
+    ],
+    "hold": [
+      "sac",
+      "it",
+      "nose",
+      "person",
+      "bottle",
+      "box"
+    ],
+    "sell": [
+      "car"
+    ],
+    "lead": [
+      "person",
+      "way"
+    ],
+    "cross": [
+      "sound",
+      "knee",
+      "bedroom"
+    ],
+    "turn": [
+      "sound",
+      "flip",
+      "writing"
+    ],
+    "steal": [
+      "it",
+      "cake",
+      "slice"
+    ],
+    "eat": [
+      "meal",
+      "it",
+      "insect",
+      "grasshopper",
+      "doughnut",
+      "breakfast",
+      "less",
+      "person",
+      "bug"
+    ],
+    "lever": [
+      "slice"
+    ],
+    "finish": [
+      "slice",
+      "one",
+      "fix",
+      "sentence"
+    ],
+    "pick": [
+      "knife",
+      "pail",
+      "stick",
+      "pencil",
+      "person",
+      "cigar"
+    ],
+    "cut": [
+      "slice",
+      "motor",
+      "thing"
+    ],
+    "pause": [
+      "breath",
+      "cram",
+      "go"
+    ],
+    "keep": [
+      "push",
+      "backside",
+      "walk",
+      "practise",
+      "promise",
+      "knicker",
+      "person",
+      "shout",
+      "eye",
+      "it",
+      "level",
+      "box",
+      "worry"
+    ],
+    "shake": [
+      "head",
+      "hand"
+    ],
+    "happen": [
+      "be",
+      "like"
+    ],
+    "twist": [
+      "air",
+      "follow"
+    ],
+    "squirm": [
+      "air",
+      "worm"
+    ],
+    "kick": [
+      "air",
+      "dirt"
+    ],
+    "v": [
+      "floor"
+    ],
+    "plummet": [
+      "floor"
+    ],
+    "hit": [
+      "floor"
+    ],
+    "know": [
+      "person",
+      "handle",
+      "use",
+      "web",
+      "it",
+      "table"
+    ],
+    "invite": [
+      "sister",
+      "person"
+    ],
+    "tip": [
+      "content",
+      "glass",
+      "newt"
+    ],
+    "ring": [
+      "bell"
+    ],
+    "respraye": [
+      "body"
+    ],
+    "carry": [
+      "carton",
+      "it",
+      "advertisement",
+      "weapon",
+      "bucket",
+      "line"
+    ],
+    "wash": [
+      "hand"
+    ],
+    "dry": [
+      "person"
+    ],
+    "do": [
+      "it",
+      "what",
+      "work"
+    ],
+    "walk": [
+      "drink",
+      "climb",
+      "see",
+      "motor",
+      "writing",
+      "bell",
+      "do"
+    ],
+    "sniff": [
+      "air",
+      "smell",
+      "see",
+      "apple"
+    ],
+    "shut": [
+      "eye",
+      "person"
+    ],
+    "twirl": [
+      "jump"
+    ],
+    "run": [
+      "step",
+      "commotion",
+      "bottle",
+      "go"
+    ],
+    "stop": [
+      "pace",
+      "jump",
+      "walk",
+      "argue",
+      "worry",
+      "person"
+    ],
+    "lift": [
+      "nose",
+      "head",
+      "pig",
+      "boy",
+      "person",
+      "lid",
+      "it"
+    ],
+    "climb": [
+      "rope",
+      "slop",
+      "ladder",
+      "inch",
+      "attachment",
+      "side"
+    ],
+    "pour": [
+      "bucket",
+      "slop",
+      "milk",
+      "glass"
+    ],
+    "pull": [
+      "board",
+      "straw",
+      "person",
+      "baobab",
+      "lid",
+      "it"
+    ],
+    "plan": [
+      "dig",
+      "city",
+      "scratch",
+      "stand",
+      "sleep",
+      "take"
+    ],
+    "mention": [
+      "it"
+    ],
+    "throw": [
+      "swing",
+      "person",
+      "key",
+      "jet",
+      "right",
+      "left",
+      "masse"
+    ],
+    "search": [
+      "pen"
+    ],
+    "examine": [
+      "ledge",
+      "it"
+    ],
+    "hate": [
+      "person",
+      "break"
+    ],
+    "hear": [
+      "speech",
+      "voice",
+      "cricket",
+      "commotion",
+      "trill",
+      "word",
+      "it",
+      "splash",
+      "conversation",
+      "song",
+      "gasp"
+    ],
+    "detest": [
+      "fly"
+    ],
+    "spend": [
+      "hour",
+      "life"
+    ],
+    "enjoy": [
+      "company",
+      "slice"
+    ],
+    "gain": [
+      "lot"
+    ],
+    "glance": [
+      "happen"
+    ],
+    "creep": [
+      "egg",
+      "person"
+    ],
+    "push": [
+      "straw",
+      "egg",
+      "snout"
+    ],
+    "close": [
+      "eye",
+      "carton"
+    ],
+    "chew": [
+      "it"
+    ],
+    "swallow": [
+      "it"
+    ],
+    "scoop": [
+      "frog"
+    ],
+    "lose": [
+      "balance"
+    ],
+    "brush": [
+      "hand",
+      "it"
+    ],
+    "utter": [
+      "prayer"
+    ],
+    "murmur": [
+      "word"
+    ],
+    "notice": [
+      "web",
+      "embarrassment",
+      "city",
+      "person",
+      "it"
+    ],
+    "lie": [
+      "wait",
+      "dream",
+      "rest",
+      "eye"
+    ],
+    "break": [
+      "it"
+    ],
+    "lay": [
+      "hand",
+      "apple",
+      "egg",
+      "cigar"
+    ],
+    "blink": [
+      "lash"
+    ],
+    "worry": [
+      "some"
+    ],
+    "realize": [
+      "friend"
+    ],
+    "open": [
+      "mouth",
+      "handbag",
+      "gate",
+      "drawer",
+      "compact",
+      "eye",
+      "lid",
+      "person",
+      "bag",
+      "it"
+    ],
+    "scamper": [
+      "straw"
+    ],
+    "crawl": [
+      "straw"
+    ],
+    "crack": [
+      "joke"
+    ],
+    "spread": [
+      "blanket",
+      "it"
+    ],
+    "buy": [
+      "ticket"
+    ],
+    "tear": [
+      "word",
+      "section"
+    ],
+    "roll": [
+      "it"
+    ],
+    "smoke": [
+      "ham"
+    ],
+    "manage": [
+      "reach",
+      "slide",
+      "hold",
+      "it"
+    ],
+    "bit": [
+      "it"
+    ],
+    "hand": [
+      "bill",
+      "book",
+      "it"
+    ],
+    "tie": [
+      "medal",
+      "bib"
+    ],
+    "dash": [
+      "water",
+      "it",
+      "one"
+    ],
+    "miss": [
+      "aim"
+    ],
+    "dance": [
+      "face"
+    ],
+    "raise": [
+      "pail",
+      "pig",
+      "it"
+    ],
+    "dump": [
+      "water"
+    ],
+    "race": [
+      "pen"
+    ],
+    "round": [
+      "pen",
+      "head"
+    ],
+    "straighten": [
+      "whisker"
+    ],
+    "place": [
+      "forepaws",
+      "child",
+      "stool",
+      "mug",
+      "it"
+    ],
+    "reach": [
+      "sac",
+      "hand",
+      "glass",
+      "it"
+    ],
+    "go": [
+      "drift",
+      "breakfast",
+      "air",
+      "clipping",
+      "fix",
+      "drawer",
+      "sleep",
+      "other",
+      "door",
+      "person",
+      "horror",
+      "think",
+      "it",
+      "cheer",
+      "matron"
+    ],
+    "plow": [
+      "drift"
+    ],
+    "fix": [
+      "person",
+      "yard"
+    ],
+    "line": [
+      "it"
+    ],
+    "store": [
+      "it",
+      "person"
+    ],
+    "pat": [
+      "stomach",
+      "person"
+    ],
+    "await": [
+      "end"
+    ],
+    "plant": [
+      "foot"
+    ],
+    "sink": [
+      "eye"
+    ],
+    "meet": [
+      "city",
+      "gaze",
+      "rhinoceros"
+    ],
+    "die": [
+      "home"
+    ],
+    "come": [
+      "hope",
+      "person",
+      "walk",
+      "sail",
+      "ask"
+    ],
+    "create": [
+      "thing"
+    ],
+    "build": [
+      "thing",
+      "house"
+    ],
+    "drink": [
+      "it",
+      "water"
+    ],
+    "post": [
+      "photo"
+    ],
+    "wish": [
+      "health",
+      "tell",
+      "appear"
+    ],
+    "acclaim": [
+      "person"
+    ],
+    "admire": [
+      "person",
+      "way",
+      "girl",
+      "company",
+      "web"
+    ],
+    "develop": [
+      "machine"
+    ],
+    "play": [
+      "football"
+    ],
+    "work": [
+      "football",
+      "sum"
+    ],
+    "hurt": [
+      "person"
+    ],
+    "let": [
+      "yell",
+      "person",
+      "thread",
+      "scream",
+      "dragline"
+    ],
+    "cry": [
+      "mother",
+      "person"
+    ],
+    "spell": [
+      "it"
+    ],
+    "enter": [
+      "study",
+      "barn",
+      "house",
+      "school"
+    ],
+    "follow": [
+      "person"
+    ],
+    "bellow": [
+      "air",
+      "it"
+    ],
+    "squeal": [
+      "house"
+    ],
+    "pedal": [
+      "air"
+    ],
+    "move": [
+      "glass",
+      "inch"
+    ],
+    "teach": [
+      "person",
+      "lot"
+    ],
+    "nod": [
+      "it"
+    ],
+    "leap": [
+      "jug",
+      "bottom"
+    ],
+    "seize": [
+      "jug"
+    ],
+    "hug": [
+      "mother",
+      "person"
+    ],
+    "amuse": [
+      "person"
+    ],
+    "phone": [
+      "person",
+      "reporter"
+    ],
+    "pay": [
+      "attention"
+    ],
+    "dig": [
+      "hole",
+      "stuff"
+    ],
+    "gnaw": [
+      "hole"
+    ],
+    "clear": [
+      "throat",
+      "thing"
+    ],
+    "rush": [
+      "it",
+      "snout"
+    ],
+    "lick": [
+      "trough"
+    ],
+    "visit": [
+      "barn",
+      "person"
+    ],
+    "show": [
+      "nose",
+      "person",
+      "thorn"
+    ],
+    "spy": [
+      "person"
+    ],
+    "adore": [
+      "city",
+      "person"
+    ],
+    "land": [
+      "good"
+    ],
+    "supply": [
+      "person"
+    ],
+    "untie": [
+      "string"
+    ],
+    "hang": [
+      "head",
+      "it"
+    ],
+    "trot": [
+      "person"
+    ],
+    "check": [
+      "person"
+    ],
+    "drag": [
+      "trough",
+      "person"
+    ],
+    "order": [
+      "person",
+      "sound"
+    ],
+    "read": [
+      "word",
+      "it",
+      "book"
+    ],
+    "seat": [
+      "person"
+    ],
+    "sing": [
+      "lullaby",
+      "it"
+    ],
+    "lean": [
+      "eye"
+    ],
+    "appetite": [
+      "good"
+    ],
+    "rest": [
+      "grasshopper"
+    ],
+    "lug": [
+      "pail"
+    ],
+    "scrub": [
+      "back"
+    ],
+    "wet": [
+      "hair"
+    ],
+    "dress": [
+      "breakfast"
+    ],
+    "polish": [
+      "truck"
+    ],
+    "waste": [
+      "time"
+    ],
+    "poke": [
+      "head",
+      "it"
+    ],
+    "lower": [
+      "tailgate",
+      "person",
+      "it"
+    ],
+    "return": [
+      "it"
+    ],
+    "nail": [
+      "board"
+    ],
+    "stare": [
+      "look"
+    ],
+    "pitch": [
+      "straw"
+    ],
+    "blow": [
+      "nose",
+      "chap"
+    ],
+    "wipe": [
+      "eye",
+      "mouth",
+      "writing"
+    ],
+    "bare": [
+      "tooth"
+    ],
+    "heave": [
+      "sigh"
+    ],
+    "cock": [
+      "ear"
+    ],
+    "steam": [
+      "mealworm"
+    ],
+    "fry": [
+      "it"
+    ],
+    "confuse": [
+      "it"
+    ],
+    "succeed": [
+      "udge"
+    ],
+    "regard": [
+      "person"
+    ],
+    "tame": [
+      "person"
+    ],
+    "flick": [
+      "it"
+    ],
+    "fiddle": [
+      "number"
+    ],
+    "shriek": [
+      "mother"
+    ],
+    "choose": [
+      "book",
+      "colour",
+      "chair"
+    ],
+    "survive": [
+      "year"
+    ],
+    "suppurate": [
+      "blister"
+    ],
+    "sneak": [
+      "slice"
+    ],
+    "chop": [
+      "tail"
+    ],
+    "strike": [
+      "person"
+    ],
+    "will": [
+      "glass"
+    ],
+    "practise": [
+      "it"
+    ],
+    "fill": [
+      "it",
+      "bottle"
+    ],
+    "pump": [
+      "it"
+    ],
+    "draw": [
+      "money"
+    ],
+    "mangle": [
+      "wurzel"
+    ],
+    "lack": [
+      "knowledge",
+      "thing"
+    ],
+    "straddle": [
+      "knot"
+    ],
+    "spin": [
+      "web"
+    ],
+    "catch": [
+      "couple",
+      "fly",
+      "it",
+      "person",
+      "sight",
+      "eat"
+    ],
+    "kill": [
+      "girl"
+    ],
+    "adjust": [
+      "petal"
+    ],
+    "cough": [
+      "time"
+    ],
+    "force": [
+      "cough"
+    ],
+    "introduce": [
+      "person"
+    ],
+    "travel": [
+      "ail"
+    ],
+    "resent": [
+      "tell"
+    ],
+    "hook": [
+      "hat"
+    ],
+    "time": [
+      "operation"
+    ],
+    "lock": [
+      "door"
+    ],
+    "replace": [
+      "bottle"
+    ],
+    "insist": [
+      "good"
+    ],
+    "call": [
+      "person"
+    ],
+    "recite": [
+      "limerick"
+    ],
+    "help": [
+      "person"
+    ],
+    "scorch": [
+      "knicker"
+    ],
+    "behave": [
+      "person"
+    ],
+    "seek": [
+      "company"
+    ],
+    "refuse": [
+      "let"
+    ],
+    "display": [
+      "sign"
+    ],
+    "loathe": [
+      "class"
+    ],
+    "clasp": [
+      "hand"
+    ],
+    "plait": [
+      "person"
+    ],
+    "point": [
+      "finger"
+    ],
+    "lunge": [
+      "hold"
+    ],
+    "become": [
+      "round"
+    ],
+    "treat": [
+      "mother"
+    ],
+    "scream": [
+      "company"
+    ],
+    "march": [
+      "company"
+    ],
+    "long": [
+      "do",
+      "company"
+    ],
+    "spot": [
+      "whopper"
+    ],
+    "swoop": [
+      "masse",
+      "it"
+    ],
+    "join": [
+      "other"
+    ],
+    "extend": [
+      "hand"
+    ],
+    "release": [
+      "person"
+    ],
+    "pride": [
+      "person"
+    ],
+    "duck": [
+      "it"
+    ],
+    "shout": [
+      "person",
+      "word"
+    ],
+    "concentrate": [
+      "whole"
+    ],
+    "stir": [
+      "person"
+    ],
+    "appear": [
+      "be"
+    ],
+    "balance": [
+      "it"
+    ],
+    "cup": [
+      "mug"
+    ],
+    "arrange": [
+      "have"
+    ],
+    "settle": [
+      "person"
+    ],
+    "fall": [
+      "sleep"
+    ],
+    "flip": [
+      "back"
+    ],
+    "head": [
+      "it"
+    ],
+    "fly": [
+      "drive"
+    ],
+    "approach": [
+      "chair"
+    ],
+    "kiss": [
+      "mother",
+      "father",
+      "daughter"
+    ],
+    "fit": [
+      "nipple"
+    ],
+    "warm": [
+      "milk"
+    ],
+    "feed": [
+      "person"
+    ],
+    "wrap": [
+      "fish",
+      "it"
+    ],
+    "bite": [
+      "fly"
+    ],
+    "suck": [
+      "blood"
+    ],
+    "witness": [
+      "event"
+    ],
+    "speak": [
+      "embarrassment"
+    ],
+    "bestir": [
+      "person"
+    ],
+    "descend": [
+      "cut"
+    ],
+    "rip": [
+      "few"
+    ],
+    "attach": [
+      "thread"
+    ],
+    "repeat": [
+      "it"
+    ],
+    "dodge": [
+      "right"
+    ],
+    "sail": [
+      "dragline"
+    ],
+    "hide": [
+      "person"
+    ],
+    "summon": [
+      "strength"
+    ],
+    "wave": [
+      "one"
+    ],
+    "fasten": [
+      "line"
+    ],
+    "learn": [
+      "spell"
+    ],
+    "handle": [
+      "person"
+    ],
+    "scratch": [
+      "person"
+    ],
+    "present": [
+      "pig"
+    ],
+    "destroy": [
+      "it"
+    ],
+    "accept": [
+      "report"
+    ],
+    "spill": [
+      "food"
+    ],
+    "rejoice": [
+      "find"
+    ],
+    "fetch": [
+      "matron"
+    ]
+  },
+  "course": {
+    "use": [
+      "company"
+    ]
+  },
+  "student": {
+    "tell": [
+      "teacher"
+    ],
+    "try": [
+      "study"
+    ]
+  },
+  "company": {
+    "make": [
+      "slide",
+      "deal",
+      "robot"
+    ],
+    "have": [
+      "dislike",
+      "mind",
+      "habit",
+      "cupboard",
+      "balloon",
+      "meaning",
+      "event"
+    ],
+    "cost": [
+      "euro"
+    ],
+    "sell": [
+      "printer"
+    ],
+    "pick": [
+      "man",
+      "handful"
+    ],
+    "score": [
+      "goal"
+    ],
+    "leave": [
+      "wife"
+    ],
+    "pay": [
+      "money"
+    ],
+    "use": [
+      "chip"
+    ],
+    "try": [
+      "be"
+    ],
+    "set": [
+      "all"
+    ],
+    "say": [
+      "little",
+      "go",
+      "fifty",
+      "aunt",
+      "talk",
+      "horse",
+      "goodnight",
+      "have",
+      "it",
+      "move"
+    ],
+    "read": [
+      "book",
+      "sentence"
+    ],
+    "ask": [
+      "person",
+      "gulp"
+    ],
+    "proceed": [
+      "squeeze"
+    ],
+    "round": [
+      "rim"
+    ],
+    "happen": [
+      "curl"
+    ],
+    "jump": [
+      "telly",
+      "tailgate",
+      "man"
+    ],
+    "switch": [
+      "telly"
+    ],
+    "manage": [
+      "get"
+    ],
+    "unscrew": [
+      "cap"
+    ],
+    "tip": [
+      "quarter"
+    ],
+    "keep": [
+      "person"
+    ],
+    "put": [
+      "frog",
+      "elbow",
+      "hand",
+      "jean",
+      "leg",
+      "bomb"
+    ],
+    "stand": [
+      "say"
+    ],
+    "begin": [
+      "person",
+      "recite",
+      "say",
+      "march"
+    ],
+    "go": [
+      "person"
+    ],
+    "like": [
+      "city",
+      "person"
+    ],
+    "start": [
+      "person",
+      "go",
+      "scratch",
+      "eat"
+    ],
+    "grab": [
+      "person",
+      "platter",
+      "hold",
+      "jar",
+      "gun"
+    ],
+    "rush": [
+      "person"
+    ],
+    "throw": [
+      "person",
+      "it",
+      "hammer"
+    ],
+    "lock": [
+      "door"
+    ],
+    "catch": [
+      "boy"
+    ],
+    "fling": [
+      "person"
+    ],
+    "yell": [
+      "crowd",
+      "hold"
+    ],
+    "lift": [
+      "girl"
+    ],
+    "pivot": [
+      "round"
+    ],
+    "spin": [
+      "round"
+    ],
+    "pause": [
+      "wipe"
+    ],
+    "see": [
+      "path",
+      "sign",
+      "it"
+    ],
+    "lunge": [
+      "platter"
+    ],
+    "get": [
+      "box"
+    ],
+    "open": [
+      "hand"
+    ],
+    "reach": [
+      "hold"
+    ],
+    "take": [
+      "bucket",
+      "it",
+      "slice",
+      "hold"
+    ],
+    "lower": [
+      "tailgate",
+      "person"
+    ],
+    "flick": [
+      "head"
+    ],
+    "sense": [
+      "it"
+    ],
+    "look": [
+      "it"
+    ],
+    "sit": [
+      "it"
+    ],
+    "cup": [
+      "face"
+    ],
+    "store": [
+      "knowledge"
+    ],
+    "wait": [
+      "recite"
+    ],
+    "follow": [
+      "person"
+    ],
+    "find": [
+      "person",
+      "box"
+    ],
+    "carry": [
+      "it"
+    ],
+    "pull": [
+      "rope"
+    ],
+    "hook": [
+      "handle"
+    ],
+    "rub": [
+      "palm"
+    ],
+    "perch": [
+      "person"
+    ],
+    "be": [
+      "find"
+    ],
+    "want": [
+      "it"
+    ],
+    "ponder": [
+      "answer"
+    ],
+    "laugh": [
+      "path"
+    ],
+    "turn": [
+      "path"
+    ],
+    "run": [
+      "path"
+    ],
+    "shut": [
+      "person"
+    ],
+    "give": [
+      "yell",
+      "hug"
+    ],
+    "eat": [
+      "bread"
+    ],
+    "leap": [
+      "person"
+    ],
+    "hug": [
+      "person"
+    ],
+    "stop": [
+      "nonsense",
+      "it"
+    ],
+    "bring": [
+      "trout"
+    ],
+    "watch": [
+      "egg"
+    ],
+    "notice": [
+      "web"
+    ],
+    "pry": [
+      "trough"
+    ],
+    "sting": [
+      "wasp"
+    ],
+    "lie": [
+      "person"
+    ],
+    "obey": [
+      "mother"
+    ],
+    "join": [
+      "man"
+    ],
+    "pour": [
+      "buttermilk"
+    ],
+    "kiss": [
+      "person"
+    ],
+    "hear": [
+      "it"
+    ]
+  },
+  "university": {
+    "have": [
+      "rule"
+    ]
+  },
+  "leader": {
+    "promise": [
+      "city"
+    ]
+  },
+  "country": {
+    "have": [
+      "unemployment"
+    ],
+    "say": [
+      "thing"
+    ]
+  },
+  "war": {
+    "stop": [
+      "student"
+    ]
+  },
+  "trial": {
+    "help": [
+      "company"
+    ],
+    "tell": [
+      "world"
+    ]
+  },
+  "it": {
+    "include": [
+      "person"
+    ],
+    "allow": [
+      "minute"
+    ],
+    "infuriate": [
+      "father"
+    ],
+    "sew": [
+      "dye"
+    ],
+    "form": [
+      "part",
+      "crust"
+    ],
+    "send": [
+      "storm"
+    ],
+    "show": [
+      "thing",
+      "intelligence"
+    ],
+    "take": [
+      "person",
+      "man",
+      "doll",
+      "year",
+      "teacher",
+      "place",
+      "time",
+      "work",
+      "second"
+    ],
+    "stop": [
+      "sell"
+    ],
+    "move": [
+      "rest"
+    ],
+    "have": [
+      "roof",
+      "sort",
+      "chip",
+      "horn",
+      "pupil",
+      "go",
+      "tea",
+      "be",
+      "sugar",
+      "do",
+      "push",
+      "it",
+      "child",
+      "stripe",
+      "mirror",
+      "buckle",
+      "bug",
+      "thorn"
+    ],
+    "eat": [
+      "bush"
+    ],
+    "make": [
+      "word",
+      "difference",
+      "million",
+      "root"
+    ],
+    "tire": [
+      "person"
+    ],
+    "plunge": [
+      "prince"
+    ],
+    "happen": [
+      "it"
+    ],
+    "mean": [
+      "what",
+      "have",
+      "establish",
+      "catastrophe",
+      "opposite"
+    ],
+    "become": [
+      "time"
+    ],
+    "hide": [
+      "well"
+    ],
+    "cast": [
+      "enchantment"
+    ],
+    "seem": [
+      "girl",
+      "person",
+      "rain",
+      "eye",
+      "happen",
+      "lift",
+      "be"
+    ],
+    "cost": [
+      "it"
+    ],
+    "start": [
+      "fall",
+      "rattle"
+    ],
+    "join": [
+      "wheel"
+    ],
+    "turn": [
+      "cable",
+      "person"
+    ],
+    "give": [
+      "look",
+      "suggestion"
+    ],
+    "look": [
+      "bow"
+    ],
+    "concentrate": [
+      "mind"
+    ],
+    "grow": [
+      "eye"
+    ],
+    "feel": [
+      "eye"
+    ],
+    "tilt": [
+      "fraction"
+    ],
+    "cover": [
+      "house",
+      "chest"
+    ],
+    "land": [
+      "it"
+    ],
+    "pick": [
+      "it"
+    ],
+    "put": [
+      "it"
+    ],
+    "do": [
+      "it",
+      "glass"
+    ],
+    "save": [
+      "lot",
+      "life"
+    ],
+    "stagger": [
+      "person"
+    ],
+    "add": [
+      "pay"
+    ],
+    "depend": [
+      "it"
+    ],
+    "begin": [
+      "come"
+    ],
+    "relieve": [
+      "mind"
+    ],
+    "itch": [
+      "person"
+    ],
+    "cut": [
+      "it"
+    ],
+    "say": [
+      "person",
+      "what"
+    ],
+    "leave": [
+      "place"
+    ],
+    "worry": [
+      "person"
+    ],
+    "stick": [
+      "hair"
+    ],
+    "dry": [
+      "crust"
+    ],
+    "come": [
+      "time"
+    ],
+    "bother": [
+      "nose"
+    ],
+    "lie": [
+      "stratagem"
+    ],
+    "set": [
+      "man"
+    ],
+    "carry": [
+      "person"
+    ],
+    "know": [
+      "laugh"
+    ],
+    "rattle": [
+      "pane"
+    ],
+    "prevent": [
+      "person"
+    ],
+    "keep": [
+      "person",
+      "grow"
+    ],
+    "love": [
+      "literature"
+    ],
+    "spell": [
+      "difficulty"
+    ],
+    "swallow": [
+      "build"
+    ],
+    "catch": [
+      "attention",
+      "insect"
+    ],
+    "hold": [
+      "insect"
+    ],
+    "prove": [
+      "it"
+    ],
+    "call": [
+      "person"
+    ],
+    "fasten": [
+      "sac"
+    ],
+    "like": [
+      "person"
+    ]
+  },
+  "who": {
+    "do": [
+      "thing",
+      "it"
+    ],
+    "keep": [
+      "town"
+    ],
+    "help": [
+      "peace"
+    ],
+    "run": [
+      "show"
+    ],
+    "score": [
+      "goal"
+    ],
+    "ask": [
+      "question"
+    ],
+    "understand": [
+      "life"
+    ],
+    "have": [
+      "hair",
+      "profession",
+      "need",
+      "pair"
+    ],
+    "want": [
+      "live",
+      "help"
+    ],
+    "write": [
+      "book"
+    ],
+    "know": [
+      "write",
+      "spell",
+      "location"
+    ],
+    "tell": [
+      "lie",
+      "obey"
+    ],
+    "person": [
+      "surface"
+    ],
+    "sell": [
+      "pill"
+    ],
+    "meet": [
+      "person"
+    ],
+    "love": [
+      "prince"
+    ],
+    "refuse": [
+      "answer"
+    ],
+    "take": [
+      "line",
+      "it"
+    ],
+    "show": [
+      "interest"
+    ],
+    "mind": [
+      "business"
+    ],
+    "live": [
+      "life"
+    ],
+    "use": [
+      "it"
+    ],
+    "trust": [
+      "person"
+    ],
+    "frighten": [
+      "life"
+    ],
+    "teach": [
+      "class",
+      "spider",
+      "person"
+    ],
+    "own": [
+      "it",
+      "company"
+    ],
+    "put": [
+      "bomb",
+      "creature"
+    ],
+    "borrow": [
+      "number"
+    ],
+    "inhabit": [
+      "underworld"
+    ],
+    "like": [
+      "eat"
+    ],
+    "knock": [
+      "glass"
+    ],
+    "see": [
+      "person"
+    ],
+    "address": [
+      "person"
+    ],
+    "save": [
+      "string",
+      "life"
+    ],
+    "manage": [
+      "build"
+    ],
+    "catch": [
+      "fish"
+    ],
+    "visit": [
+      "pigpen"
+    ],
+    "care": [
+      "it"
+    ],
+    "bite": [
+      "tail"
+    ],
+    "get": [
+      "person"
+    ]
+  },
+  "expert": {
+    "use": [
+      "technology"
+    ]
+  },
+  "worker": {
+    "use": [
+      "fence"
+    ],
+    "try": [
+      "keep"
+    ],
+    "start": [
+      "job"
+    ]
+  },
+  "app": {
+    "find": [
+      "child",
+      "friend"
+    ]
+  },
+  "parent": {
+    "make": [
+      "profile"
+    ],
+    "treat": [
+      "child"
+    ],
+    "call": [
+      "person"
+    ],
+    "tell": [
+      "person"
+    ],
+    "adore": [
+      "it"
+    ],
+    "exist": [
+      "be"
+    ],
+    "take": [
+      "person"
+    ]
+  },
+  "baker": {
+    "join": [
+      "it"
+    ],
+    "make": [
+      "building",
+      "bagel"
+    ]
+  },
+  "line": {
+    "get": [
+      "energy"
+    ]
+  },
+  "satellite": {
+    "need": [
+      "fuel"
+    ]
+  },
+  "storm": {
+    "pull": [
+      "person"
+    ]
+  },
+  "scientist": {
+    "look": [
+      "help"
+    ],
+    "try": [
+      "help"
+    ]
+  },
+  "plan": {
+    "bring": [
+      "money"
+    ],
+    "help": [
+      "grow"
+    ],
+    "sell": [
+      "product"
+    ],
+    "go": [
+      "it"
+    ]
+  },
+  "center": {
+    "have": [
+      "place"
+    ],
+    "make": [
+      "learn"
+    ],
+    "need": [
+      "lot"
+    ]
+  },
+  "child": {
+    "know": [
+      "more"
+    ],
+    "connect": [
+      "past"
+    ],
+    "have": [
+      "time",
+      "quality",
+      "take"
+    ],
+    "begin": [
+      "file",
+      "company"
+    ],
+    "see": [
+      "twisting",
+      "side"
+    ],
+    "turn": [
+      "be"
+    ],
+    "go": [
+      "mother"
+    ],
+    "tell": [
+      "mother"
+    ],
+    "swim": [
+      "water"
+    ],
+    "play": [
+      "water"
+    ],
+    "splash": [
+      "water"
+    ],
+    "like": [
+      "it"
+    ],
+    "pay": [
+      "attention"
+    ],
+    "answer": [
+      "cheer"
+    ],
+    "grab": [
+      "other"
+    ]
+  },
+  "soldier": {
+    "steal": [
+      "some"
+    ]
+  },
+  "trainer": {
+    "train": [
+      "rat"
+    ],
+    "teach": [
+      "rat"
+    ]
+  },
+  "rat": {
+    "wear": [
+      "bag"
+    ],
+    "have": [
+      "access",
+      "feast",
+      "moral"
+    ],
+    "roll": [
+      "it"
+    ],
+    "poke": [
+      "head"
+    ],
+    "visit": [
+      "dump"
+    ],
+    "enter": [
+      "barn"
+    ],
+    "begin": [
+      "climb"
+    ],
+    "mumble": [
+      "it"
+    ],
+    "crawl": [
+      "it"
+    ],
+    "eat": [
+      "it"
+    ]
+  },
+  "insect": {
+    "need": [
+      "land"
+    ],
+    "make": [
+      "none"
+    ]
+  },
+  "cow": {
+    "make": [
+      "gas"
+    ],
+    "hate": [
+      "person"
+    ],
+    "stir": [
+      "chain"
+    ],
+    "rattle": [
+      "chain"
+    ]
+  },
+  "government": {
+    "ask": [
+      "stop"
+    ]
+  },
+  "show": {
+    "take": [
+      "place"
+    ],
+    "have": [
+      "winner"
+    ]
+  },
+  "competition": {
+    "have": [
+      "problem"
+    ]
+  },
+  "judge": {
+    "leave": [
+      "show"
+    ],
+    "shake": [
+      "hand"
+    ]
+  },
+  "business": {
+    "use": [
+      "printer"
+    ]
+  },
+  "museum": {
+    "help": [
+      "economy"
+    ]
+  },
+  "magazine": {
+    "show": [
+      "photo"
+    ]
+  },
+  "actor": {
+    "get": [
+      "title"
+    ]
+  },
+  "player": {
+    "replace": [
+      "person"
+    ]
+  },
+  "intestine": {
+    "get": [
+      "water"
+    ]
+  },
+  "fan": {
+    "ask": [
+      "person"
+    ]
+  },
+  "mining": {
+    "use": [
+      "mercury"
+    ]
+  },
+  "baby": {
+    "have": [
+      "problem"
+    ]
+  },
+  "king": {
+    "want": [
+      "make"
+    ],
+    "answer": [
+      "person"
+    ],
+    "hasten": [
+      "assure"
+    ],
+    "make": [
+      "gesture",
+      "answer"
+    ]
+  },
+  "land": {
+    "have": [
+      "corn"
+    ]
+  },
+  "video": {
+    "show": [
+      "wedding"
+    ]
+  },
+  "police": {
+    "take": [
+      "person"
+    ],
+    "hurt": [
+      "person"
+    ]
+  },
+  "robot": {
+    "have": [
+      "arm"
+    ],
+    "turn": [
+      "burger"
+    ],
+    "make": [
+      "fry"
+    ],
+    "do": [
+      "task"
+    ]
+  },
+  "computer": {
+    "control": [
+      "robot"
+    ]
+  },
+  "drawing": {
+    "frighten": [
+      "person"
+    ],
+    "go": [
+      "resemblance"
+    ]
+  },
+  "up": {
+    "discourage": [
+      "person"
+    ],
+    "read": [
+      "it"
+    ]
+  },
+  "man": {
+    "seem": [
+      "stray"
+    ],
+    "direct": [
+      "person"
+    ],
+    "raise": [
+      "hat"
+    ],
+    "occupy": [
+      "place"
+    ],
+    "hunt": [
+      "person"
+    ],
+    "be": [
+      "friend"
+    ],
+    "have": [
+      "star",
+      "friend"
+    ],
+    "tell": [
+      "person"
+    ],
+    "feel": [
+      "kind"
+    ],
+    "pick": [
+      "crate"
+    ],
+    "shove": [
+      "person"
+    ]
+  },
+  "fellow": {
+    "greet": [
+      "it"
+    ]
+  },
+  "which": {
+    "irritate": [
+      "person"
+    ],
+    "last": [
+      "time"
+    ],
+    "disturb": [
+      "person"
+    ],
+    "take": [
+      "planet"
+    ],
+    "have": [
+      "be",
+      "person"
+    ],
+    "contain": [
+      "page"
+    ],
+    "display": [
+      "muscle"
+    ]
+  },
+  "one": {
+    "have": [
+      "time",
+      "person"
+    ],
+    "recognise": [
+      "it"
+    ],
+    "love": [
+      "flower",
+      "sunset"
+    ],
+    "breathe": [
+      "fragrance"
+    ],
+    "require": [
+      "explorer",
+      "duty"
+    ],
+    "wish": [
+      "play"
+    ],
+    "say": [
+      "whatever",
+      "it"
+    ],
+    "see": [
+      "it",
+      "sort"
+    ],
+    "tame": [
+      "it"
+    ],
+    "sit": [
+      "it"
+    ],
+    "hear": [
+      "it"
+    ],
+    "run": [
+      "risk"
+    ],
+    "leave": [
+      "table"
+    ],
+    "get": [
+      "feeling"
+    ],
+    "keep": [
+      "silence"
+    ],
+    "decide": [
+      "regale"
+    ],
+    "put": [
+      "it"
+    ],
+    "tell": [
+      "one"
+    ]
+  },
+  "astronomer": {
+    "discover": [
+      "one"
+    ],
+    "give": [
+      "demonstration"
+    ]
+  },
+  "dictator": {
+    "make": [
+      "law"
+    ]
+  },
+  "brother": {
+    "have": [
+      "person"
+    ],
+    "seize": [
+      "lamp"
+    ],
+    "give": [
+      "wave"
+    ]
+  },
+  "another": {
+    "have": [
+      "resemblance"
+    ]
+  },
+  "sheep": {
+    "eat": [
+      "flower",
+      "bush",
+      "it"
+    ],
+    "get": [
+      "know",
+      "globe"
+    ],
+    "know": [
+      "one"
+    ],
+    "loathe": [
+      "person"
+    ],
+    "walk": [
+      "person"
+    ],
+    "stop": [
+      "person"
+    ],
+    "say": [
+      "what",
+      "person"
+    ],
+    "hear": [
+      "cricket"
+    ],
+    "gnaw": [
+      "person"
+    ]
+  },
+  "idea": {
+    "make": [
+      "laugh"
+    ]
+  },
+  "seed": {
+    "begin": [
+      "push"
+    ]
+  },
+  "prince": {
+    "describe": [
+      "it"
+    ],
+    "make": [
+      "reply"
+    ],
+    "disturb": [
+      "thought"
+    ],
+    "pull": [
+      "shoot"
+    ],
+    "ask": [
+      "person"
+    ],
+    "look": [
+      "person",
+      "robe"
+    ],
+    "obstruct": [
+      "robe"
+    ],
+    "remind": [
+      "person"
+    ],
+    "say": [
+      "person",
+      "thorn"
+    ],
+    "have": [
+      "idea",
+      "wish"
+    ],
+    "hesitate": [
+      "moment"
+    ],
+    "clap": [
+      "hand"
+    ],
+    "watch": [
+      "person"
+    ],
+    "sit": [
+      "eye"
+    ],
+    "raise": [
+      "eye"
+    ],
+    "take": [
+      "conversation"
+    ],
+    "cross": [
+      "desert"
+    ],
+    "climb": [
+      "mountain"
+    ],
+    "come": [
+      "it"
+    ],
+    "tame": [
+      "fox"
+    ],
+    "shut": [
+      "flower"
+    ]
+  },
+  "twilight": {
+    "fall": [
+      "end"
+    ]
+  },
+  "flower": {
+    "have": [
+      "thorn"
+    ]
+  },
+  "shrub": {
+    "stop": [
+      "grow"
+    ],
+    "begin": [
+      "get"
+    ]
+  },
+  "horror": {
+    "remark": [
+      "prince"
+    ]
+  },
+  "mine": {
+    "perfume": [
+      "planet"
+    ]
+  },
+  "my": {
+    "ask": [
+      "question"
+    ]
+  },
+  "star": {
+    "obey": [
+      "person"
+    ],
+    "begin": [
+      "come"
+    ]
+  },
+  "tippler": {
+    "bring": [
+      "speech"
+    ],
+    "shut": [
+      "person"
+    ]
+  },
+  "five": {
+    "make": [
+      "twelve"
+    ]
+  },
+  "fifteen": {
+    "make": [
+      "two"
+    ]
+  },
+  "two": {
+    "make": [
+      "eight",
+      "seven"
+    ],
+    "start": [
+      "wander"
+    ],
+    "walk": [
+      "company"
+    ],
+    "stay": [
+      "housekeeping",
+      "sit"
+    ],
+    "set": [
+      "housekeeping",
+      "walk"
+    ]
+  },
+  "six": {
+    "make": [
+      "one"
+    ]
+  },
+  "what": {
+    "repeat": [
+      "prince"
+    ],
+    "ask": [
+      "prince"
+    ],
+    "give": [
+      "beauty"
+    ],
+    "bring": [
+      "person"
+    ],
+    "seem": [
+      "be"
+    ]
+  },
+  "businessman": {
+    "raise": [
+      "head"
+    ],
+    "open": [
+      "mouth"
+    ]
+  },
+  "work": {
+    "have": [
+      "meaning"
+    ]
+  },
+  "planet": {
+    "make": [
+      "turn"
+    ]
+  },
+  "day": {
+    "last": [
+      "minute"
+    ]
+  },
+  "geographer": {
+    "order": [
+      "inquiry"
+    ],
+    "sharpen": [
+      "pencil"
+    ]
+  },
+  "mountain": {
+    "change": [
+      "position"
+    ]
+  },
+  "ocean": {
+    "empty": [
+      "it"
+    ]
+  },
+  "wind": {
+    "blow": [
+      "person"
+    ],
+    "shake": [
+      "person"
+    ],
+    "take": [
+      "person"
+    ]
+  },
+  "morning": {
+    "answer": [
+      "echo"
+    ]
+  },
+  "step": {
+    "send": [
+      "person"
+    ]
+  },
+  "field": {
+    "have": [
+      "it"
+    ]
+  },
+  "train": {
+    "shake": [
+      "cabin"
+    ]
+  },
+  "darkness": {
+    "fall": [
+      "come"
+    ]
+  },
+  "legend": {
+    "tell": [
+      "person"
+    ]
+  },
+  "time": {
+    "soothe": [
+      "sorrow"
+    ]
+  },
+  "teacher": {
+    "suffer": [
+      "deal"
+    ],
+    "call": [
+      "person"
+    ],
+    "keep": [
+      "eye"
+    ]
+  },
+  "grasshopper": {
+    "have": [
+      "hearingorgan"
+    ]
+  },
+  "daughter": {
+    "have": [
+      "organ"
+    ]
+  },
+  "cicada": {
+    "spend": [
+      "year"
+    ]
+  },
+  "walk": {
+    "take": [
+      "minute"
+    ]
+  },
+  ":o": {
+    "cross": [
+      "floor"
+    ]
+  },
+  "mother": {
+    "take": [
+      "person"
+    ],
+    "grab": [
+      "poker"
+    ],
+    "tell": [
+      "person"
+    ],
+    "dial": [
+      "number"
+    ],
+    "find": [
+      "person"
+    ],
+    "wash": [
+      "person"
+    ],
+    "dust": [
+      "room"
+    ]
+  },
+  "t": {
+    "mooch": [
+      "telly"
+    ],
+    "watch": [
+      "telly"
+    ]
+  },
+  "bedroom": {
+    "become": [
+      "afternoon"
+    ],
+    "read": [
+      "afternoon"
+    ]
+  },
+  "book": {
+    "transport": [
+      "person"
+    ],
+    "introduce": [
+      "person"
+    ]
+  },
+  "answer": {
+    "hit": [
+      "person"
+    ]
+  },
+  "son": {
+    "ask": [
+      "person",
+      "goggle"
+    ],
+    "leave": [
+      "room"
+    ]
+  },
+  "car": {
+    "do": [
+      "thousand"
+    ],
+    "get": [
+      "treatment"
+    ]
+  },
+  "flesh": {
+    "appear": [
+      "be"
+    ]
+  },
+  "anger": {
+    "go": [
+      "decision"
+    ]
+  },
+  "wife": {
+    "do": [
+      "get"
+    ],
+    "tell": [
+      "person"
+    ],
+    "be": [
+      "signal"
+    ],
+    "recognize": [
+      "sign"
+    ]
+  },
+  "father": {
+    "keep": [
+      "go",
+      "box"
+    ],
+    "say": [
+      "tear",
+      "what"
+    ],
+    "take": [
+      "club"
+    ],
+    "have": [
+      "have",
+      "crop",
+      "day"
+    ],
+    "make": [
+      "money"
+    ]
+  },
+  "cry": {
+    "get": [
+      "person"
+    ]
+  },
+  "husband": {
+    "wipe": [
+      "lip"
+    ]
+  },
+  "four": {
+    "creep": [
+      "knife"
+    ]
+  },
+  "other": {
+    "follow": [
+      "person"
+    ]
+  },
+  "affair": {
+    "cool": [
+      "parent"
+    ]
+  },
+  "check": {
+    "blind": [
+      "onlooker"
+    ]
+  },
+  "boy": {
+    "write": [
+      "amount"
+    ],
+    "pick": [
+      "knife"
+    ],
+    "begin": [
+      "cut",
+      "eat"
+    ],
+    "cut": [
+      "person",
+      "slice"
+    ],
+    "keep": [
+      "go"
+    ],
+    "start": [
+      "eat"
+    ],
+    "let": [
+      "belch"
+    ],
+    "spin": [
+      "head"
+    ],
+    "shriek": [
+      "head"
+    ],
+    "shoot": [
+      "somersault"
+    ],
+    "turn": [
+      "somersault"
+    ],
+    "hang": [
+      "store"
+    ]
+  },
+  "afternoon": {
+    "leave": [
+      "person"
+    ]
+  },
+  "late": {
+    "deserve": [
+      "punishment"
+    ]
+  },
+  "bottle": {
+    "stand": [
+      "place"
+    ]
+  },
+  "massage": {
+    "take": [
+      "place"
+    ]
+  },
+  "think": {
+    "go": [
+      "see"
+    ]
+  },
+  "gawd": {
+    "yell": [
+      "father"
+    ]
+  },
+  "goodness": {
+    "know": [
+      "person"
+    ]
+  },
+  "any": {
+    "happen": [
+      "learn"
+    ],
+    "have": [
+      "dust"
+    ]
+  },
+  "dining": {
+    "find": [
+      "mouse"
+    ]
+  },
+  "rest": {
+    "cry": [
+      "waiter"
+    ],
+    "wave": [
+      "it"
+    ],
+    "buy": [
+      "paraffin"
+    ]
+  },
+  "whole": {
+    "blush": [
+      "scarlet"
+    ]
+  },
+  "face": {
+    "turn": [
+      "swell"
+    ]
+  },
+  "body": {
+    "seem": [
+      "swell"
+    ]
+  },
+  "word": {
+    "shout": [
+      "person"
+    ],
+    "go": [
+      "person"
+    ],
+    "give": [
+      "courage"
+    ]
+  },
+  "hope": {
+    "begin": [
+      "expand"
+    ]
+  },
+  "woman": {
+    "say": [
+      "look"
+    ],
+    "seem": [
+      "lose"
+    ]
+  },
+  "tale": {
+    "begin": [
+      "filter"
+    ]
+  },
+  "fistful": {
+    "go": [
+      "crumb"
+    ],
+    "spray": [
+      "crumb"
+    ]
+  },
+  "door": {
+    "get": [
+      "thousand"
+    ]
+  },
+  "label": {
+    "say": [
+      "raise"
+    ]
+  },
+  "thrower": {
+    "whisk": [
+      "it"
+    ]
+  },
+  "hair": {
+    "grow": [
+      "it"
+    ]
+  },
+  "pigtail": {
+    "have": [
+      "bow"
+    ]
+  },
+  "m": {
+    "like": [
+      "person"
+    ]
+  },
+  "mummy": {
+    "think": [
+      "what"
+    ]
+  },
+  "cook": {
+    "see": [
+      "person"
+    ],
+    "place": [
+      "cake"
+    ]
+  },
+  "many": {
+    "begin": [
+      "giggle"
+    ]
+  },
+  "piece": {
+    "fly": [
+      "it"
+    ]
+  },
+  "class": {
+    "have": [
+      "day"
+    ]
+  },
+  "germ": {
+    "hit": [
+      "person"
+    ]
+  },
+  "secrecy": {
+    "observe": [
+      "person"
+    ]
+  },
+  "lavender": {
+    "fill": [
+      "it"
+    ],
+    "carry": [
+      "it"
+    ],
+    "set": [
+      "it"
+    ]
+  },
+  "prefect": {
+    "chase": [
+      "person"
+    ]
+  },
+  "kind": {
+    "seem": [
+      "gather"
+    ]
+  },
+  "wave": {
+    "seem": [
+      "flash"
+    ]
+  },
+  "glass": {
+    "begin": [
+      "lean"
+    ]
+  },
+  "splash": {
+    "make": [
+      "patch"
+    ]
+  },
+  "butcher": {
+    "hang": [
+      "greengrocer"
+    ]
+  },
+  "eye": {
+    "get": [
+      "person"
+    ],
+    "become": [
+      "push"
+    ],
+    "meet": [
+      "eye"
+    ],
+    "have": [
+      "look"
+    ]
+  },
+  "whatever": {
+    "happen": [
+      "it"
+    ]
+  },
+  "berry": {
+    "be": [
+      "scarlet"
+    ]
+  },
+  "tree": {
+    "stand": [
+      "overshadow"
+    ],
+    "hear": [
+      "song"
+    ]
+  },
+  "branch": {
+    "seem": [
+      "enfold"
+    ],
+    "hide": [
+      "it"
+    ]
+  },
+  "poet": {
+    "write": [
+      "line"
+    ]
+  },
+  "well": {
+    "have": [
+      "roof"
+    ]
+  },
+  "rope": {
+    "go": [
+      "splash"
+    ]
+  },
+  "powder": {
+    "come": [
+      "palm"
+    ]
+  },
+  "house": {
+    "clean": [
+      "lot"
+    ]
+  },
+  "mind": {
+    "seem": [
+      "be"
+    ]
+  },
+  "aunt": {
+    "kill": [
+      "person"
+    ],
+    "tell": [
+      "person"
+    ],
+    "produce": [
+      "piece"
+    ]
+  },
+  "snippet": {
+    "seem": [
+      "take"
+    ]
+  },
+  "electricity": {
+    "begin": [
+      "flow"
+    ]
+  },
+  "million": {
+    "begin": [
+      "push"
+    ]
+  },
+  "cigar": {
+    "start": [
+      "roll"
+    ]
+  },
+  "end": {
+    "lift": [
+      "inch"
+    ]
+  },
+  "lot": {
+    "have": [
+      "piece"
+    ],
+    "mutter": [
+      "rat"
+    ]
+  },
+  "chalk": {
+    "continue": [
+      "write"
+    ],
+    "stop": [
+      "write"
+    ]
+  },
+  "snow": {
+    "shut": [
+      "series"
+    ],
+    "give": [
+      "series"
+    ]
+  },
+  "evening": {
+    "begin": [
+      "develop",
+      "fall"
+    ]
+  },
+  "neither": {
+    "say": [
+      "word"
+    ]
+  },
+  "weakling": {
+    "make": [
+      "trouble"
+    ]
+  },
+  "pop": {
+    "ask": [
+      "company"
+    ]
+  },
+  "pig": {
+    "have": [
+      "appetite",
+      "friend"
+    ],
+    "need": [
+      "warmth"
+    ],
+    "mutter": [
+      "city"
+    ]
+  },
+  "bus": {
+    "reach": [
+      "school"
+    ]
+  },
+  "farmer": {
+    "call": [
+      "what"
+    ]
+  },
+  "fun": {
+    "raise": [
+      "pig"
+    ]
+  },
+  "animal": {
+    "spend": [
+      "most"
+    ],
+    "trust": [
+      "person"
+    ],
+    "stir": [
+      "head"
+    ],
+    "lift": [
+      "head"
+    ],
+    "treat": [
+      "person"
+    ],
+    "sniff": [
+      "smell"
+    ],
+    "continue": [
+      "speaker"
+    ]
+  },
+  "barn": {
+    "have": [
+      "stall"
+    ]
+  },
+  "board": {
+    "give": [
+      "way"
+    ]
+  },
+  "goose": {
+    "hear": [
+      "racket",
+      "it"
+    ],
+    "start": [
+      "holler"
+    ],
+    "take": [
+      "command"
+    ],
+    "begin": [
+      "give"
+    ],
+    "turn": [
+      "nest"
+    ],
+    "raise": [
+      "person"
+    ],
+    "poke": [
+      "egg"
+    ],
+    "know": [
+      "day",
+      "it"
+    ],
+    "push": [
+      "egg"
+    ],
+    "lead": [
+      "gosling"
+    ],
+    "tell": [
+      "person"
+    ],
+    "do": [
+      "what"
+    ],
+    "give": [
+      "welcome"
+    ],
+    "gnaw": [
+      "person"
+    ],
+    "hang": [
+      "com"
+    ]
+  },
+  "spaniel": {
+    "hear": [
+      "commotion"
+    ]
+  },
+  "horse": {
+    "prick": [
+      "ear"
+    ],
+    "detest": [
+      "person"
+    ]
+  },
+  "rain": {
+    "upset": [
+      "plan"
+    ]
+  },
+  "milk": {
+    "stick": [
+      "skin"
+    ]
+  },
+  "drop": {
+    "strike": [
+      "face"
+    ]
+  },
+  "trough": {
+    "have": [
+      "inch"
+    ]
+  },
+  "tunnel": {
+    "enable": [
+      "person"
+    ]
+  },
+  "loneliness": {
+    "give": [
+      "spoonful"
+    ]
+  },
+  "tooth": {
+    "scrape": [
+      "racket"
+    ],
+    "make": [
+      "racket"
+    ]
+  },
+  "spider": {
+    "have": [
+      "pick",
+      "eat"
+    ],
+    "happen": [
+      "think"
+    ],
+    "wait": [
+      "moment"
+    ],
+    "learn": [
+      "spin"
+    ],
+    "know": [
+      "spin"
+    ],
+    "wave": [
+      "foreleg"
+    ],
+    "feel": [
+      "updraft"
+    ],
+    "stand": [
+      "balloon",
+      "spinneret"
+    ],
+    "point": [
+      "spinneret"
+    ],
+    "let": [
+      "go",
+      "cloud"
+    ],
+    "crawl": [
+      "balloon"
+    ],
+    "make": [
+      "balloon"
+    ],
+    "take": [
+      "time"
+    ]
+  },
+  "bug": {
+    "multiply": [
+      "it"
+    ],
+    "get": [
+      "it"
+    ],
+    "wipe": [
+      "it"
+    ]
+  },
+  "breeze": {
+    "bring": [
+      "smell"
+    ]
+  },
+  "school": {
+    "end": [
+      "time"
+    ]
+  },
+  "phoebe": {
+    "teeter": [
+      "tail"
+    ],
+    "wag": [
+      "tail"
+    ]
+  },
+  "ball": {
+    "have": [
+      "worm"
+    ]
+  },
+  "egg": {
+    "hatch": [
+      "it"
+    ],
+    "be": [
+      "person"
+    ]
+  },
+  "gosling": {
+    "poke": [
+      "head"
+    ],
+    "stick": [
+      "head"
+    ],
+    "whistle": [
+      "song"
+    ],
+    "parade": [
+      "mother"
+    ],
+    "round": [
+      "mother"
+    ]
+  },
+  "gander": {
+    "open": [
+      "wing"
+    ],
+    "beat": [
+      "air"
+    ],
+    "discover": [
+      "hole"
+    ],
+    "lead": [
+      "family"
+    ],
+    "eat": [
+      "apple"
+    ]
+  },
+  "fly": {
+    "spend": [
+      "time"
+    ]
+  },
+  "leg": {
+    "have": [
+      "section"
+    ],
+    "encircle": [
+      "sac"
+    ],
+    "embrace": [
+      "sac"
+    ]
+  },
+  "web": {
+    "begin": [
+      "sway"
+    ],
+    "glisten": [
+      "pattern"
+    ],
+    "make": [
+      "pattern"
+    ]
+  },
+  "pen": {
+    "attract": [
+      "fly"
+    ]
+  },
+  "bird": {
+    "sing": [
+      "whippoorwill"
+    ]
+  },
+  "thought": {
+    "come": [
+      "tremble"
+    ]
+  },
+  "crisis": {
+    "groan": [
+      "person"
+    ]
+  },
+  "smell": {
+    "drive": [
+      "person"
+    ]
+  },
+  "niece": {
+    "call": [
+      "person"
+    ]
+  },
+  "blackberry": {
+    "get": [
+      "put"
+    ]
+  },
+  "corn": {
+    "need": [
+      "hoeing"
+    ]
+  },
+  "tube": {
+    "go": [
+      "thread"
+    ]
+  },
+  "tail": {
+    "have": [
+      "curl"
+    ]
+  },
+  "cousin": {
+    "dare": [
+      "tackle"
+    ],
+    "wrap": [
+      "it"
+    ],
+    "keep": [
+      "fish",
+      "slip"
+    ],
+    "build": [
+      "web"
+    ]
+  },
+  "fish": {
+    "lose": [
+      "fight"
+    ]
+  },
+  "frog": {
+    "praise": [
+      "world"
+    ]
+  },
+  "curiosity": {
+    "begin": [
+      "get"
+    ]
+  },
+  "cricket": {
+    "spread": [
+      "rumor"
+    ]
+  },
+  "sadness": {
+    "come": [
+      "cricket"
+    ]
+  },
+  "creature": {
+    "plan": [
+      "person"
+    ]
+  },
+  "grandmother": {
+    "use": [
+      "bathe"
+    ]
+  },
+  "buttermilk": {
+    "run": [
+      "mouth"
+    ]
+  },
+  "seven": {
+    "begin": [
+      "tease"
+    ]
+  },
+  "crystal": {
+    "gnaw": [
+      "cone"
+    ]
+  },
+  "fair": {
+    "have": [
+      "food"
+    ]
+  },
+  "crate": {
+    "contain": [
+      "rat"
+    ]
+  },
+  "foot": {
+    "touch": [
+      "city"
+    ]
+  },
+  "geese": {
+    "see": [
+      "company"
+    ]
+  },
+  "truck": {
+    "begin": [
+      "move"
+    ]
+  },
+  "money": {
+    "have": [
+      "last"
+    ]
+  },
+  "crowd": {
+    "gather": [
+      "watch"
+    ],
+    "surround": [
+      "it"
+    ],
+    "begin": [
+      "cheer"
+    ],
+    "love": [
+      "it"
+    ]
+  },
+  "tear": {
+    "begin": [
+      "come"
+    ]
+  },
+  "thing": {
+    "tire": [
+      "person"
+    ]
+  },
+  "dozen": {
+    "stop": [
+      "stare"
+    ]
+  },
+  "shadow": {
+    "darken": [
+      "building"
+    ]
+  },
+  "nose": {
+    "detect": [
+      "smell"
+    ]
+  },
+  "firework": {
+    "begin": [
+      "go"
+    ]
+  },
+  "rooster": {
+    "crow": [
+      "chain"
+    ]
+  },
+  "building": {
+    "explain": [
+      "person"
+    ]
+  },
+  "strand": {
+    "hold": [
+      "dozen"
+    ]
+  },
+  "light": {
+    "strike": [
+      "it"
+    ]
+  },
+  "grownup": {
+    "join": [
+      "hand"
+    ]
+  },
+  "passersby": {
+    "stop": [
+      "watch"
+    ]
+  },
+  "management": {
+    "take": [
+      "pleasure"
+    ]
+  },
+  "pain": {
+    "revive": [
+      "person"
+    ]
+  },
+  "photographer": {
+    "take": [
+      "picture"
+    ]
+  },
+  "sob": {
+    "rack": [
+      "body"
+    ]
+  },
+  "maple": {
+    "turn": [
+      "color"
+    ]
+  },
+  "fox": {
+    "meet": [
+      "boy"
+    ]
+  },
+  "lamb": {
+    "follow": [
+      "person"
+    ]
+  },
+  "silk": {
+    "form": [
+      "balloon"
+    ]
+  }
 }

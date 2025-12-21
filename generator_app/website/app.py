@@ -1,5 +1,7 @@
 import json
 from flask import render_template, Blueprint, request, redirect, url_for, session, flash
+
+from generator_app.website.services.choose_random_word import objects_for_subject_verb
 from generator_app.website.services.generate_subject import *
 from generator_app.website.services.generate_verb import generate_verb
 
@@ -7,12 +9,10 @@ views = Blueprint('views', __name__)
 
 @views.route('/', methods=['GET', 'POST'])
 def index():
-    # GET: pokaż stronę wyboru poziomu
-    # POST: zapisz wybór w session i przejdź do kroku subject (jeżeli nazywasz trasę inaczej, popraw url_for)
     if request.method == 'POST':
         level = request.form.get('level')
         if not level:
-            flash('Proszę wybrać poziom')  # komunikat po polsku
+            flash('Proszę wybrać poziom')
             return redirect(url_for('views.index'))
         session.clear()
         session['level'] = level
@@ -28,12 +28,14 @@ def restart():
     return redirect(url_for('views.index'))
 
 
-@views.route('/subject', methods=["GET", "POST"])
+@views.route('/subject', methods=['GET', 'POST'])
 def subject():
+    level = session.get("level", "A2_B1")
     if request.method == 'POST':
+        # przygotowujemy słownik argumentów zgodny z innymi widokami
         arguments = get_noun_phrase(request.form)
+        # przekazujemy arguments jako JSON do trasy predicate (parametr na ścieżce)
         return redirect(url_for('views.predicate', arguments=json.dumps(arguments)))
-
     return render_template('subject.html')
 
 
@@ -74,18 +76,65 @@ def complement(arguments):
     return render_template('complement.html')
 
 
+
 @views.route('/sentence/<arguments>')
 def sentence(arguments):
-    arguments = json.loads(arguments)
-    print(arguments)
+    # Musimy załadować arguments z powrotem do słownika (json), bo przychodzi jako string
+    args_dict = json.loads(arguments)
+    print(args_dict)
 
-    subject = generate_subject(arguments)
-    complement = generate_subject(arguments["complement"])
-    sentence = generate_verb(subject, arguments["tense"], arguments["number"], arguments["mood"], arguments["question"],
-                             arguments["pronoun_or_article"], arguments["noun"], complement)
+    level = session.get("level", "A2_B1")
 
-    return render_template('display.html', sentence=sentence)
+    # 1. Generowanie podmiotu
+    subject_tuple = generate_subject(args_dict, level)
+    subject_key = subject_tuple[0]
+    subject_phrase = subject_tuple[1]
 
+    # 2. Losowanie czasownika bazowego
+    from generator_app.website.services.choose_random_word import random_verb
+    try:
+        verb_base = random_verb(subject_key, level)
+    except ValueError as e:
+        flash(f'Błąd: {e}')
+        return redirect(url_for('views.complement', arguments=arguments))
+
+    # 3. Generowanie dopełnienia
+    complement_args = args_dict.get("complement")
+    if not complement_args:
+         complement_key = ""
+         complement_phrase = ""
+    else:
+         try:
+             complement_tuple = generate_complement(
+                 complement_args,
+                 level,
+                 subject_key=subject_key,
+                 verb=verb_base
+             )
+             complement_key = complement_tuple[0]
+             complement_phrase = complement_tuple[1]
+         except ValueError as e:
+             flash(f'Błąd: {e}')
+             return redirect(url_for('views.complement', arguments=arguments))
+
+
+    # 4. Generowanie całego zdania
+    # ZMIANA TUTAJ: Przypisujemy wynik do 'sentence_str'
+    sentence_str = generate_verb(
+        subject_phrase,
+        verb_base,
+        complement_phrase,
+        args_dict["tense"],
+        args_dict["number"],
+        args_dict["mood"],
+        args_dict["question"],
+        args_dict["pronoun_or_article"],
+        args_dict["noun"],
+        level
+    )
+
+    # Teraz zmienna sentence_str istnieje i kod zadziała
+    return render_template('display.html', sentence=sentence_str, arguments=arguments)
 
 def get_noun_phrase(form):
     pronoun = form.get("pronoun_or_article")

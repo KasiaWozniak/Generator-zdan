@@ -1,26 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Generated sentence</title>
+    <title>Wygenerowane zdanie</title>
     <style>
-        div {
-            width: 100%;
-            text-align: center;
-        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; margin-top: 50px; }
+        .home-icon { position: absolute; left: 15px; top: 15px; font-size: 30px; text-decoration: none; }
+        .sentence-box { margin: 40px auto; padding: 20px; border: 2px solid #333; width: 60%; font-size: 24px; font-weight: bold; border-radius: 10px; background-color: #f9f9f9; }
+        button { padding: 15px 30px; font-size: 16px; margin: 10px; cursor: pointer; border-radius: 5px; border: 1px solid #333; background-color: #eee; transition: 0.3s; }
+        button:hover { background-color: #ddd; }
+
+        /* DODANA LINIJKA PONIŻEJ: usuwa podkreślenie ze wszystkich linków */
+        a { text-decoration: none; }
     </style>
 </head>
 <body>
-    <a href="{{ url_for('views.restart') }}" class="home" title="Strona główna" style="position:absolute; left:10px; top:10px; font-size:20px; text-decoration:none;">
-        🏠
-    </a>
+    <a href="{{ url_for('views.restart') }}" class="home-icon" title="Strona główna">🏠</a>
+
+    <h1>Generator zdań w języku angielskim</h1>
+
     <div>
         <h3>Twoje wygenerowane zdanie:</h3>
-        {{sentence}}
+        <div class="sentence-box">
+            {{ sentence }}
+        </div>
         <br>
-        <button style="margin-top: 20px;">
-            <a href="{{ url_for('views.index') }}" style="text-decoration: none; color: black">Wygeneruj kolejne zdanie</a>
-        </button>
+
+        <a href="{{ url_for('views.sentence', arguments=arguments) }}">
+            <button>Wygeneruj kolejne zdanie</button>
+        </a>
+
+        <a href="{{ url_for('views.subject') }}">
+            <button>Wybierz inne opcje</button>
+        </a>
     </div>
 
 </body>
