@@ -7,12 +7,10 @@
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; margin-top: 20px; padding-bottom: 50px; }
         .home-icon { position: absolute; left: 15px; top: 15px; font-size: 30px; text-decoration: none; }
 
-        /* Kontenery sekcji */
         .section-container {
             margin: 20px auto;
             max-width: 800px;
             padding: 10px;
-            /* Domyślnie ukryte, chyba że mają klasę visible */
             display: none;
             opacity: 0;
             transition: opacity 0.5s ease-in;
@@ -23,7 +21,6 @@
             opacity: 1;
         }
 
-        /* Styl przycisków */
         .btn {
             background-color: #f8f9fa;
             border: 2px solid #333;
@@ -39,7 +36,6 @@
 
         .btn:hover { background-color: #e2e6ea; transform: translateY(-2px); }
 
-        /* Styl wybranego przycisku (aktywnego) */
         .btn.selected {
             background-color: #333;
             color: #fff;
@@ -49,19 +45,14 @@
         h2 { border-bottom: 1px solid #ccc; padding-bottom: 10px; margin-bottom: 20px; color: #555; }
     </style>
     <script>
-        // Funkcja obsługująca Krok 1 (Forma)
         function handleStep1(type, btn) {
-            // 1. Zapisz wartość
             document.getElementById('noun_phrase_input').value = type === 'noun_phrase' ? 'true' : 'false';
 
-            // 2. Obsługa wizualna przycisków (podświetlenie)
             resetButtons('step-1-btns');
             btn.classList.add('selected');
 
-            // 3. Ukryj wszystkie sekcje pod spodem (reset widoku)
             hideAllNextSteps();
 
-            // 4. Pokaż odpowiedni Krok 2
             if (type === 'pronoun') {
                 document.getElementById('step-2-pronoun').classList.add('visible');
             } else {
@@ -69,23 +60,18 @@
             }
         }
 
-        // Funkcja obsługująca Krok 2 (Liczba)
         function handleStep2(number, btn, context) {
-            // 1. Zapisz wartość
             document.getElementById('number_input').value = number;
 
-            // 2. Obsługa wizualna przycisków
-            // context to ID kontenera przycisków (np. 'btns-pronoun-number')
+
             resetButtons(context);
             btn.classList.add('selected');
 
-            // 3. Ukryj wszystkie sekcje Kroku 3
             document.getElementById('step-3-pronoun-sg').classList.remove('visible');
             document.getElementById('step-3-pronoun-pl').classList.remove('visible');
             document.getElementById('step-3-noun-sg').classList.remove('visible');
             document.getElementById('step-3-noun-pl').classList.remove('visible');
 
-            // 4. Pokaż odpowiedni Krok 3 na podstawie poprzednich wyborów
             const isNounPhrase = document.getElementById('noun_phrase_input').value === 'true';
 
             let targetId = '';
@@ -96,12 +82,10 @@
 
             if (targetId) {
                 document.getElementById(targetId).classList.add('visible');
-                // Opcjonalnie: Scroll do nowej sekcji
                 document.getElementById(targetId).scrollIntoView({behavior: "smooth", block: "start"});
             }
         }
 
-        // Helpery
         function resetButtons(containerId) {
             const container = document.getElementById(containerId);
             const buttons = container.getElementsByClassName('btn');
@@ -111,7 +95,6 @@
         }
 
         function hideAllNextSteps() {
-            // Ukryj wszystko od kroku 2 w dół
             const sections = document.querySelectorAll('.sub-step');
             sections.forEach(s => s.classList.remove('visible'));
         }
@@ -135,7 +118,7 @@
         </div>
 
         <div id="step-2-pronoun" class="section-container sub-step">
-            <h2>2. Wybierz liczbę (Zaimek)</h2>
+            <h2>2. Wybierz liczbę</h2>
             <div id="btns-pronoun-number">
                 <button type="button" class="btn" onclick="handleStep2('singular', this, 'btns-pronoun-number')">Liczba Pojedyncza</button>
                 <button type="button" class="btn" onclick="handleStep2('plural', this, 'btns-pronoun-number')">Liczba Mnoga</button>
@@ -143,7 +126,7 @@
         </div>
 
         <div id="step-2-noun" class="section-container sub-step">
-            <h2>2. Wybierz liczbę (Fraza)</h2>
+            <h2>2. Wybierz liczbę</h2>
             <div id="btns-noun-number">
                 <button type="button" class="btn" onclick="handleStep2('singular', this, 'btns-noun-number')">Liczba Pojedyncza</button>
                 <button type="button" class="btn" onclick="handleStep2('plural', this, 'btns-noun-number')">Liczba Mnoga</button>
@@ -151,32 +134,32 @@
         </div>
 
         <div id="step-3-pronoun-sg" class="section-container sub-step">
-            <h2>3. Zatwierdź rodzaj zaimka</h2>
-            <button type="submit" class="btn" name="pronoun_or_article" value="personal">Osobowy (I, you...)</button>
-            <button type="submit" class="btn" name="pronoun_or_article" value="demonstrative">Wskazujący (this...)</button>
-            <button type="submit" class="btn" name="pronoun_or_article" value="possessive">Dzierżawczy (mine...)</button>
-            <button type="submit" class="btn" name="pronoun_or_article" value="indefinite">Nieokreślony (someone...)</button>
+            <h2>3. Wybierz rodzaj zaimka</h2>
+            <button type="submit" class="btn" name="pronoun_or_article" value="personal">Osobowy</button>
+            <button type="submit" class="btn" name="pronoun_or_article" value="demonstrative">Wskazujący</button>
+            <button type="submit" class="btn" name="pronoun_or_article" value="possessive">Dzierżawczy</button>
+            <button type="submit" class="btn" name="pronoun_or_article" value="indefinite">Nieokreślony</button>
         </div>
 
         <div id="step-3-pronoun-pl" class="section-container sub-step">
-            <h2>3. Zatwierdź rodzaj zaimka</h2>
-            <button type="submit" class="btn" name="pronoun_or_article" value="personal">Osobowy (we, they...)</button>
-            <button type="submit" class="btn" name="pronoun_or_article" value="demonstrative">Wskazujący (these...)</button>
-            <button type="submit" class="btn" name="pronoun_or_article" value="possessive">Dzierżawczy (ours...)</button>
+            <h2>3. Wybierz rodzaj zaimka</h2>
+            <button type="submit" class="btn" name="pronoun_or_article" value="personal">Osobowy</button>
+            <button type="submit" class="btn" name="pronoun_or_article" value="demonstrative">Wskazujący</button>
+            <button type="submit" class="btn" name="pronoun_or_article" value="possessive">Dzierżawczy</button>
         </div>
 
         <div id="step-3-noun-sg" class="section-container sub-step">
-            <h2>3. Zatwierdź określenie</h2>
-            <button type="submit" class="btn" name="pronoun_or_article" value="possessive_det">Z okr. dzierżawczym (my...)</button>
-            <button type="submit" class="btn" name="pronoun_or_article" value="demonstrative_det">Z okr. wskazującym (this...)</button>
-            <button type="submit" class="btn" name="pronoun_or_article" value="article">Z rodzajnikiem (the...)</button>
+            <h2>3. Wybierz określenie rzeczownika</h2>
+            <button type="submit" class="btn" name="pronoun_or_article" value="possessive_det">Z określnikiem dzierżawczym</button>
+            <button type="submit" class="btn" name="pronoun_or_article" value="demonstrative_det">Z określnikiem wskazującym</button>
+            <button type="submit" class="btn" name="pronoun_or_article" value="article">Z rodzajnikiem</button>
         </div>
 
         <div id="step-3-noun-pl" class="section-container sub-step">
-            <h2>3. Zatwierdź określenie</h2>
-            <button type="submit" class="btn" name="pronoun_or_article" value="possessive_det">Z okr. dzierżawczym (my...)</button>
-            <button type="submit" class="btn" name="pronoun_or_article" value="demonstrative_det">Z okr. wskazującym (these...)</button>
-            <button type="submit" class="btn" name="pronoun_or_article" value="article">Z rodzajnikiem (the...)</button>
+            <h2>3. Wybierz określenie rzeczownika</h2>
+            <button type="submit" class="btn" name="pronoun_or_article" value="possessive_det">Z określnikiem dzierżawczym</button>
+            <button type="submit" class="btn" name="pronoun_or_article" value="demonstrative_det">Z określnikiem wskazującym</button>
+            <button type="submit" class="btn" name="pronoun_or_article" value="article">Z rodzajnikiem</button>
         </div>
 
     </form>

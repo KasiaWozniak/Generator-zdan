@@ -1,31 +1,5 @@
 from pathlib import Path
 import json
-from collections import defaultdict
-
-
-def replace_strings_in_file(file_path: str, old: str, new: str):
-    """
-    Zamień wszystkie wystąpienia `old` na `new` w pliku `file_path`.
-    Zwraca liczbę dokonanych zamian.
-    """
-
-    p = Path(file_path)
-    if not p.exists():
-        raise FileNotFoundError(p)
-
-    text = p.read_text(encoding="utf8")
-    count = text.count(old)
-
-    print(f"Replaced {count} strings.")
-
-    new_text = text.replace(old, new)
-
-    temp = p.with_suffix(p.suffix + ".tmp")
-    temp.write_text(new_text, encoding="utf8")
-    temp.replace(p)
-
-    return
-
 
 # --- KONFIGURACJA MAPOWANIA ---
 MAPOWANIE_ZAIMKOW = {
@@ -152,18 +126,3 @@ pliki = [
 
 for plik in pliki:
     napraw_i_zamien_w_pliku(plik)
-
-
-# replace_strings_in_file("A2_B1_knowledge_base.json", "ﬁ", "fi")
-# replace_strings_in_file("A2_B1_knowledge_base.json", "ﬀ", "ff")
-# replace_strings_in_file("A2_B1_knowledge_base.json", "ﬂ", "fl")
-#
-#
-# replace_strings_in_file("B1_B2_knowledge_base.json", "ﬁ", "fi")
-# replace_strings_in_file("B1_B2_knowledge_base.json", "ﬀ", "ff")
-# replace_strings_in_file("B1_B2_knowledge_base.json", "ﬂ", "fl")
-#
-#
-# replace_strings_in_file("B2_C1_knowledge_base.json", "ﬁ", "fi")
-# replace_strings_in_file("B2_C1_knowledge_base.json", "ﬀ", "ff")
-# replace_strings_in_file("B2_C1_knowledge_base.json", "ﬂ", "fl")

@@ -11,7 +11,7 @@
             margin: 20px auto;
             max-width: 900px;
             padding: 10px;
-            display: none; /* Domyślnie ukryte */
+            display: none;
             opacity: 0;
             transition: opacity 0.5s ease-in;
         }
@@ -41,24 +41,20 @@
             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
 
-        /* Specjalny grid dla czasów */
         .grid-tenses {
             display: grid;
-            grid-template-columns: repeat(3, 1fr); /* 3 kolumny */
+            grid-template-columns: repeat(3, 1fr);
             gap: 10px;
         }
     </style>
     <script>
         function selectTense(tenseValue, btn) {
-            // Ustaw wartość
             document.getElementById('tense_input').value = tenseValue;
 
-            // Stylizacja
             const buttons = document.getElementById('grid-tenses').getElementsByClassName('btn');
             for (let b of buttons) b.classList.remove('selected');
             btn.classList.add('selected');
 
-            // Pokaż kolejną sekcję
             const nextSection = document.getElementById('step-2-mood');
             nextSection.classList.add('visible');
             nextSection.scrollIntoView({behavior: "smooth", block: "start"});
@@ -108,19 +104,17 @@
                 <button type="button" class="btn" onclick="selectTense('future_simple', this)">Future Simple</button>
                 <button type="button" class="btn" onclick="selectTense('future_continuous', this)">Future Continuous</button>
                 <button type="button" class="btn" onclick="selectTense('future_perfect', this)">Future Perfect</button>
-            </div>
-            <div style="margin-top: 10px;">
-                <button type="button" class="btn" onclick="selectTense('present_perfect_continuous', this)">Pres. Perf. Cont.</button>
-                <button type="button" class="btn" onclick="selectTense('past_perfect_continuous', this)">Past Perf. Cont.</button>
-                <button type="button" class="btn" onclick="selectTense('future_perfect_continuous', this)">Fut. Perf. Cont.</button>
+                                <button type="button" class="btn" onclick="selectTense('present_perfect_continuous', this)">Present Perfect Continuous</button>
+                <button type="button" class="btn" onclick="selectTense('past_perfect_continuous', this)">Past Perfect Continuous</button>
+                <button type="button" class="btn" onclick="selectTense('future_perfect_continuous', this)">Future Perfect Continuous</button>
             </div>
         </div>
 
         <div id="step-2-mood" class="section-container">
-            <h2>2. Wybierz rodzaj zdania (Zatwierdź)</h2>
-            <button type="button" class="btn" style="width: 200px;" onclick="submitSentenceType('affirmative')">Twierdzące (+)</button>
-            <button type="button" class="btn" style="width: 200px;" onclick="submitSentenceType('negative')">Przeczące (-)</button>
-            <button type="button" class="btn" style="width: 200px;" onclick="submitSentenceType('interrogative')">Pytające (?)</button>
+            <h2>2. Wybierz rodzaj zdania </h2>
+            <button type="button" class="btn" style="width: 200px;" onclick="submitSentenceType('affirmative')">Twierdzące</button>
+            <button type="button" class="btn" style="width: 200px;" onclick="submitSentenceType('negative')">Przeczące</button>
+            <button type="button" class="btn" style="width: 200px;" onclick="submitSentenceType('interrogative')">Pytające</button>
         </div>
 
     </form>

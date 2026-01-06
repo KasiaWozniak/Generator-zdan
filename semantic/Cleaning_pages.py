@@ -124,6 +124,15 @@ def replace_strings_in_file(file_path: str, old: str, new: str):
 #remove_lines_of_page("A2_B1/Matilda.txt")
 #remove_lines_containing("A2_B1/Matilda.txt", "ROALD DAHL - Matilda")
 #remove_lines_containing("A2_B1/Matilda.txt", "The Reader of Books")
+#replace_strings_in_file("A2_B1_knowledge_base.json", "ﬁ", "fi")
+#replace_strings_in_file("A2_B1_knowledge_base.json", "ﬀ", "ff")
+#replace_strings_in_file("A2_B1_knowledge_base.json", "ﬂ", "fl")
+#replace_strings_in_file("B1_B2_knowledge_base.json", "ﬁ", "fi")
+#replace_strings_in_file("B1_B2_knowledge_base.json", "ﬀ", "ff")
+#replace_strings_in_file("B1_B2_knowledge_base.json", "ﬂ", "fl")
+#replace_strings_in_file("B2_C1_knowledge_base.json", "ﬁ", "fi")
+#replace_strings_in_file("B2_C1_knowledge_base.json", "ﬀ", "ff")
+#replace_strings_in_file("B2_C1_knowledge_base.json", "ﬂ", "fl")
 
 
 files_A2_B1 = [

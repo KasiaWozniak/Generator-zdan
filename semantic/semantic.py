@@ -39,7 +39,7 @@ def get_generalized_text(tokens):
         if t.head.i not in token_indices:
             root_token = t
             break
-    # Jeśli nie znaleziono nazwy własnej, zwracamy połączone lematy (np. "the", "snail")
+    # Jeśli nie znaleziono nazwy własnej, zwracamy połączone lemat
     return root_token.lemma_
 
 
@@ -64,7 +64,7 @@ def extract_svo_relations(files):
             obj_text = get_generalized_text(obj)
             if subj_text is None or obj_text is None:
                 continue
-            if len(verb_text.split()) == 1 and subj_text.islower():
+            if len(verb_text.split()) == 1 and subj_text.islower() and obj_text.islower():
                 knowledge_base[subj_text][verb_text].add(obj_text)
 
     final_data = {}

@@ -1,4 +1,4 @@
-from website import create_app
+from generator_app.website import create_app
 import os
 
 app = create_app()
